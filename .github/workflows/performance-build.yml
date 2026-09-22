@@ -10,10 +10,8 @@ permissions:
 
 jobs:
   validate-and-package:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 90
-    container:
-      image: thrive/godot-ci:v37
 
     steps:
       - name: Check out repository
@@ -23,8 +21,31 @@ jobs:
           lfs: true
           submodules: recursive
 
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Install packaging tools
+        run: sudo apt-get update && sudo apt-get install -y p7zip-full zip unzip
+
+      - name: Install Godot .NET
+        shell: bash
+        run: |
+          wget -q https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_mono_linux_x86_64.zip -O /tmp/godot.zip
+          mkdir -p "$HOME/godot" "$HOME/bin"
+          unzip -q /tmp/godot.zip -d "$HOME/godot"
+          GODOT_BIN="$(find "$HOME/godot" -type f -name 'Godot_v4.7.2-stable_mono_linux*' | head -n 1)"
+          test -n "$GODOT_BIN"
+          chmod +x "$GODOT_BIN"
+          ln -sf "$GODOT_BIN" "$HOME/bin/godot-mono"
+          echo "$HOME/bin" >> "$GITHUB_PATH"
+
       - name: Restore dependencies
         run: dotnet restore Thrive.sln
+
+      - name: Install Godot export templates
+        run: dotnet run --project Scripts -- godot-templates
 
       - name: Compile with project checks
         run: dotnet run --project Scripts -- check compile
