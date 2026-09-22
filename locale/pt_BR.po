@@ -8410,7 +8410,7 @@ msgid "WIKI_PAGE_COMPOUNDS"
 msgstr "Compostos"
 
 msgid "WIKI_PAGE_COMPOUND_SYSTEM_DEVELOPMENT"
-msgstr ""
+msgstr "Desenvolvimento do Sistema de Compostos"
 
 msgid "WIKI_PAGE_CYTOPLASM"
 msgstr "Citoplasma"
@@ -8418,9 +8418,8 @@ msgstr "Citoplasma"
 msgid "WIKI_PAGE_DEVELOPMENT_ROOT"
 msgstr "Desenvolvimento"
 
-#, fuzzy
 msgid "WIKI_PAGE_EDITORS_AND_MUTATIONS"
-msgstr "Mitocôndria"
+msgstr "Editores e Mutações"
 
 msgid "WIKI_PAGE_ENVIRONMENTAL_CONDITIONS"
 msgstr "Condições Ambientais"
@@ -8449,9 +8448,8 @@ msgstr "Lisossomo"
 msgid "WIKI_PAGE_MACROSCOPIC_STAGE"
 msgstr "Estágio Macroscópico"
 
-#, fuzzy
 msgid "WIKI_PAGE_MECHANICS_ROOT"
-msgstr "Colocar organela"
+msgstr "Mecânicas"
 
 msgid "WIKI_PAGE_MELANOSOME"
 msgstr "Melanossomo"
@@ -8468,7 +8466,6 @@ msgstr "Mitocôndria"
 msgid "WIKI_PAGE_MULTICELLULAR_STAGE"
 msgstr "Estágio Multicelular"
 
-#, fuzzy
 msgid "WIKI_PAGE_MYOFIBRIL"
 msgstr "Miofibrila"
 
@@ -8502,13 +8499,11 @@ msgstr "Agente de Sinalização"
 msgid "WIKI_PAGE_SLIME_JET"
 msgstr "Jato de Slime"
 
-#, fuzzy
 msgid "WIKI_PAGE_SOCIETY_STAGE"
-msgstr "Estágio Social"
+msgstr "Estágio de Sociedade"
 
-#, fuzzy
 msgid "WIKI_PAGE_SPACE_STAGE"
-msgstr "Jato de Slime"
+msgstr "Estágio Espacial"
 
 msgid "WIKI_PAGE_STAGES_ROOT"
 msgstr "Estágios"
@@ -8532,10 +8527,10 @@ msgid "WIKI_PAGE_VACUOLE"
 msgstr "Vacúolo"
 
 msgid "WIKI_PERFORATOR_PILUS_EFFECTS"
-msgstr ""
+msgstr "Se uma célula possuir um [b]Pilus Perfurador[/b], células de outras espécies sofrerão dano significativo ao entrar em contato com ele. Se ambas as células possuírem [b]Pili Perfuradores[/b], os ataques podem ser bloqueados mutuamente.\\n\\nOs [b]Pili Perfuradores[/b] também bloqueiam projéteis tóxicos. Consulte [b][color=#3796e1][url=thriveopedia:oxytoxyProteins]Oxitoxissomo[/url][/color][/b] e [b][color=#3796e1][url=thriveopedia:oxytoxy]Vacúolo de Toxina[/url][/color][/b]."
 
 msgid "WIKI_PERFORATOR_PILUS_INTRO"
-msgstr ""
+msgstr "Organela de combate usada para perfurar outras células. Células atingidas por um [b]Pilus Perfurador[/b] perdem uma quantidade significativa de vida.\\n\\nTambém protege contra toxinas ao aparar projéteis tóxicos."
 
 msgid "WIKI_PERFORATOR_PILUS_MODIFICATIONS"
 msgstr "Sem modificações."
@@ -8543,40 +8538,32 @@ msgstr "Sem modificações."
 msgid "WIKI_PERFORATOR_PILUS_PROCESSES"
 msgstr "Sem processos."
 
-#, fuzzy
 msgid "WIKI_PERFORATOR_PILUS_REQUIREMENTS"
-msgstr ""
-"Se melhorias de organela estiverem ativadas nas configurações do jogo, [i]pelo menos uma[/i] das condições seguintes também deve ser verdadeira [i]para a célula do jogador[/i]:\n"
-"\n"
-"[indent]—   Fagocitou no mínimo [b]5[/b] células ao longo de todas as gerações.[/indent]\n"
-"[indent]—   Morreu no mínimo [b]5[/b] vezes ao longo de todas as gerações.[/indent]"
+msgstr "Se as melhorias de organelas estiverem ativadas nas configurações do jogo, [i]pelo menos uma[/i] das seguintes condições deve ser verdadeira [i]para a célula do jogador[/i]:\\n\\n[ul]Ter engolfado pelo menos [b]5[/b] células ao longo de todas as gerações.\\nTer morrido pelo menos [b]5[/b] vezes ao longo de todas as gerações.[/ul]"
 
 msgid "WIKI_PERFORATOR_PILUS_SCIENTIFIC_BACKGROUND"
-msgstr ""
+msgstr "Os [color=#3796e1][url=https://en.wikipedia.org/wiki/Pilus]pili[/url][/color] (singular [i]pilus[/i]; também conhecidos como [i]fímbrias[/i]) são estruturas rígidas, ocas e semelhantes a pelos encontradas na superfície de muitos microrganismos reais.\\n\\nDe dezenas a centenas de pili podem estar presentes na superfície de uma célula microbiana, onde desempenham várias funções, incluindo papéis na predação. Microrganismos patogênicos usam pili como fatores de virulência, seja para aderir e se ligar aos tecidos do hospedeiro, seja para penetrar a membrana externa de uma célula hospedeira e alcançar o citoplasma.\\n\\nOs pili também podem facilitar a [color=#3796e1][url=https://en.wikipedia.org/wiki/Horizontal_gene_transfer]transferência horizontal de genes[/url][/color], na qual dois microrganismos se conectam por seus pili e os utilizam para trocar pequenos fragmentos circulares de DNA chamados plasmídeos em um processo denominado [b]Conjugação[/b]. Esse fenômeno é extremamente comum em procariontes de todos os tipos e pode exercer um papel importante na evolução microbiana. Uma manifestação bastante conhecida — e problemática — é a disseminação da [color=#3796e1][url=https://en.wikipedia.org/wiki/Antimicrobial_resistance]resistência a antimicrobianos[/url][/color] entre diferentes linhagens de bactérias patogênicas: uma bactéria que evoluiu resistência a um antibiótico pode transmitir os genes dessa resistência a outra bactéria, tornando a segunda também resistente àquele antibiótico.\\n\\nExistem muitos tipos de pili, mas nem todos são evolutivamente relacionados e, em vários casos, surgiram por evolução convergente. Um único organismo pode ser capaz de expressar diversos tipos de pili, e aqueles presentes na superfície são constantemente alterados e substituídos."
 
 msgid "WIKI_PERFORATOR_PILUS_STRATEGY"
-msgstr ""
+msgstr "Células equipadas com [b]Pili Perfuradores[/b] tornam-se predadores eficientes e podem causar dano a qualquer célula, inclusive àquelas resistentes a toxinas ou com membranas resistentes ao engolfamento. Porém, os pili precisam ser posicionados com cuidado e exigem habilidade para serem usados em combate.\\n\\nOs [b]Pili Perfuradores[/b] também podem funcionar como um forte elemento de intimidação para presas. Uma bola coberta de espinhos dificilmente será vista como uma refeição fácil."
 
 msgid "WIKI_PERFORATOR_PILUS_UPGRADES"
-msgstr ""
+msgstr "[b]Pilus Injetossomo[/b]\\n\\nPor [b]25[/b] pontos de mutação, modifique [b]Pili Perfuradores[/b] já posicionados para transformá-los em [b]Pili Injetossomos[/b]. Quando atingem células inimigas, eles também causam dano de toxina. Tipos de membrana que reduzem dano de toxinas também reduzem o dano causado pelos [b]Pili Injetossomos[/b]."
 
-#, fuzzy
 msgid "WIKI_PROTEIN_RESPIRATION"
-msgstr "Respiração Aeróbica"
+msgstr "Respiração Proteica"
 
-#, fuzzy
 msgid "WIKI_PULLING_CILIA"
-msgstr "Cílios"
+msgstr "Cílios de Tração"
 
 msgid "WIKI_REPRODUCTION_BUTTON"
 msgstr "Reprodução"
 
-#, fuzzy
 msgid "WIKI_REPRODUCTION_INTRO"
-msgstr "Protoplasma"
+msgstr "Para progredir no Thrive, você precisa evoluir sua espécie nos [b]editores[/b] e evitar a extinção. Para isso, é necessário [b]se reproduzir[/b]."
 
 msgid "WIKI_REPRODUCTION_REPRODUCTION_IN_THE_MICROBE_STAGE"
-msgstr ""
+msgstr "Para se reproduzir no [color=#3796e1][url=thriveopedia:microbe_stage]Estágio Microbiano[/url][/color], é preciso coletar determinada quantidade de [color=#3796e1][url=thriveopedia:Compounds]compostos[/url][/color] de reprodução, especificamente [thrive:compound type=\"ammonia\"][/thrive:compound] e [thrive:compound type=\"phosphates\"][/thrive:compound]. Sua célula absorve esses compostos passivamente, em uma taxa que depende da membrana.\\n\\n[b][u]Multiplicação das organelas[/u][/b]\\n\\nConforme a célula cresce, parte dos compostos é reservada para reprodução. Depois que uma quantidade suficiente é acumulada, suas organelas começam a [b]se duplicar[/b]. A quantidade necessária de [thrive:compound type=\"ammonia\"][/thrive:compound] e [thrive:compound type=\"phosphates\"][/thrive:compound] depende de cada organela. Cada uma possui um [b]custo de reprodução[/b] que determina quantos compostos são necessários para [b]duplicá-la[/b]. Quando todas as organelas tiverem se duplicado, você poderá [b]se reproduzir[/b] e entrar no editor."
 
 msgid "WIKI_ROOT_BODY"
 msgstr ""
@@ -8589,42 +8576,35 @@ msgstr ""
 msgid "WIKI_ROOT_HEADING"
 msgstr "Wiki Interna do Thrive"
 
-#, fuzzy
 msgid "WIKI_RUSTICYANIN_EFFECTS"
-msgstr "Rusticianina é uma proteína que consegue usar o gás carbônico e oxigênio para oxidar ferro de um estado físico para outro. O processo, chamado Quimiossíntese litoautotrófica, libera energia que a célula pode coletar."
+msgstr "Evoluir [b]Rusticianina[/b] equipa a célula com a enzima de mesmo nome. Isso permite que a célula digira pedaços de [thrive:compound type=\"iron\"][/thrive:compound] presentes no ambiente."
 
-#, fuzzy
 msgid "WIKI_RUSTICYANIN_INTRO"
-msgstr "Rusticianina é uma proteína que consegue usar o gás carbônico e oxigênio para oxidar ferro de um estado físico para outro. O processo, chamado Quimiossíntese litoautotrófica, libera energia que a célula pode coletar."
+msgstr "Usa [thrive:compound type=\"iron\"][/thrive:compound] para produzir [thrive:compound type=\"atp\"][/thrive:compound] por meio do processo de [b]Oxidação do Ferro[/b]."
 
 msgid "WIKI_RUSTICYANIN_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_RUSTICYANIN_PROCESSES"
-msgstr "Transforma [thrive:compound type=\"iron\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound] e [thrive:compound type=\"oxygen\"][/thrive:compound]."
+msgstr "[b]Oxidação do Ferro[/b]: [thrive:compound type=\"iron\"][/thrive:compound] → [thrive:compound type=\"atp\"][/thrive:compound]\\n\\nUm método de geração de energia que não utiliza [thrive:compound type=\"glucose\"][/thrive:compound]. Consome [thrive:compound type=\"iron\"][/thrive:compound]."
 
 msgid "WIKI_RUSTICYANIN_REQUIREMENTS"
 msgstr "Sem requisitos."
 
-#, fuzzy
 msgid "WIKI_RUSTICYANIN_SCIENTIFIC_BACKGROUND"
-msgstr "Rusticianina é uma proteína que consegue usar o gás carbônico e oxigênio para oxidar ferro de um estado físico para outro. O processo, chamado Quimiossíntese litoautotrófica, libera energia que a célula pode coletar."
+msgstr "As [b]Rusticianinas[/b] são proteínas encontradas nas membranas de algumas bactérias e arqueias. Elas oxidam [b]Ferro[/b] em contato com a membrana, transferindo elétrons como parte de uma cadeia de transporte de elétrons. A carga criada na superfície da membrana é então usada para atrair íons positivos de [b]Hidrogênio[/b] para dentro da célula. Os elétrons e íons adicionais ajudam a converter moléculas de [b]ADP[/b] já utilizadas em novas moléculas de [b]ATP[/b] e a restaurar as diferentes proteínas envolvidas, permitindo que o processo recomece.\\n\\n[color=#3796e1][url=https://en.wikipedia.org/wiki/Rusticyanin]https://en.wikipedia.org/wiki/Rusticyanin[/url][/color]"
 
-#, fuzzy
 msgid "WIKI_RUSTICYANIN_STRATEGY"
-msgstr "Rusticianina é uma proteína que consegue usar o gás carbônico e oxigênio para oxidar ferro de um estado físico para outro. O processo, chamado Quimiossíntese litoautotrófica, libera energia que a célula pode coletar."
+msgstr "O [thrive:compound type=\"iron\"][/thrive:compound] é um recurso alternativo valioso à [thrive:compound type=\"glucose\"][/thrive:compound], pois permanece disponível no ambiente até muito mais tarde no jogo. O [thrive:compound type=\"iron\"][/thrive:compound] também é convertido diretamente em ATP, tornando-se uma forma relativamente barata de criar um organismo energético no início do Estágio Microbiano. Porém, como o [thrive:compound type=\"iron\"][/thrive:compound] é consumido rapidamente, o jogador precisa permanecer próximo de pedaços maiores que liberam nuvens e administrar esse recurso com cuidado, especialmente ao jogar com um organismo mais móvel.\\n\\nCapacidade de armazenamento é muito útil para organismos oxidadores de ferro, pois permite guardar uma quantidade maior desse composto de consumo rápido. O tamanho também ajuda: organismos grandes conseguem engolfar pedaços menores de [thrive:compound type=\"iron\"][/thrive:compound] que flutuam pelo ambiente. Isso dá mais liberdade de movimento, já que você pode carregar consigo uma fonte de [thrive:compound type=\"iron\"][/thrive:compound] enquanto explora. O [b]Citoplasma[/b] é particularmente útil para organismos oxidadores de ferro porque permite aumentar tamanho e armazenamento por um custo baixo. [b]Vacúolos[/b] também são muito úteis depois que você se torna eucarionte.\\n\\nO [thrive:compound type=\"iron\"][/thrive:compound] é consumido ainda mais depressa quando o organismo adiciona partes de alto consumo. Ele também começa a desaparecer com o aumento do [b]Oxigênio[/b]. Por isso, jogadores que utilizam [thrive:compound type=\"iron\"][/thrive:compound] devem ficar atentos quando o oxigênio começa a dominar a atmosfera e considerar a respiração aeróbica caso queiram criar eucariontes altamente eficientes."
 
 msgid "WIKI_RUSTICYANIN_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_SIGNALING_AGENT_EFFECTS"
-msgstr "Agente de Sinalização"
+msgstr "Se a célula do jogador possuir [b]Agentes de Sinalização[/b], o jogador pode pressionar uma tecla de atalho — por padrão, [b]V[/b] — para abrir o painel de comandos de sinalização e enviar uma ordem a todos os membros da própria espécie. Cada comando permanece ativo até que outro seja escolhido. As opções são:\\n\\n[ul]Nenhum comando.\\nMover-se até mim. Células da espécie do jogador não controladas por ele se agrupam ao redor da célula do jogador.\\nSeguir-me. Células da espécie do jogador não controladas por ele se aproximam, mas mantêm certa distância.\\nFugir de mim. Células da espécie do jogador não controladas por ele se afastam.\\nTornar-se agressivo. Células da espécie do jogador não controladas por ele ficam muito mais propensas a atacar e perseguir outras células próximas.[/ul]\\n\\nNo momento em que este texto foi escrito, células não controladas pelo jogador que possuem [b]Agentes de Sinalização[/b] não os utilizam."
 
-#, fuzzy
 msgid "WIKI_SIGNALING_AGENT_INTRO"
-msgstr "Agente de Sinalização"
+msgstr "Permite enviar comandos simples a outros membros da espécie por meio de sinais químicos na água."
 
 msgid "WIKI_SIGNALING_AGENT_MODIFICATIONS"
 msgstr "Sem processos."
@@ -8635,23 +8615,17 @@ msgstr "Sem processos."
 msgid "WIKI_SIGNALING_AGENT_REQUIREMENTS"
 msgstr "Uma célula precisa ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Agentes de Sinalização[/b]."
 
-#, fuzzy
 msgid "WIKI_SIGNALING_AGENT_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "Praticamente todas as células, procarióticas ou eucarióticas, sejam organismos unicelulares de vida livre ou partes de um organismo multicelular maior, possuem mecanismos que permitem a comunicação com outras células por sinais químicos. Moléculas sinalizadoras podem ser secretadas no ambiente ao redor, onde se deslocam por difusão passiva até alcançar uma proteína receptora compatível na superfície de outra célula, que então transmite a informação para outras partes da célula.\\n\\nUm exemplo importante de sinalização entre células em bactérias e outros procariontes é a [color=#3796e1][url=https://en.wikipedia.org/wiki/Quorum_sensing]detecção de quórum[/url][/color], na qual bactérias liberam sinais químicos que induzem outras bactérias a expressar determinados genes especialmente vantajosos quando a densidade de células bacterianas em uma região é alta. Conforme a população aumenta, a concentração das moléculas sinalizadoras também aumenta, fazendo com que as bactérias passem a expressar os genes correspondentes."
 
-#, fuzzy
 msgid "WIKI_SIGNALING_AGENT_STRATEGY"
-msgstr "Agente de Sinalização"
+msgstr "Embora não sejam essenciais, os [b]Agentes de Sinalização[/b] são uma boa opção se você pretende se tornar um organismo multicelular e entrar no Estágio Multicelular. Ao usar o comando “mover-se até mim”, é possível reunir rapidamente outras células para se ligar a elas, desde que você também possua [b][color=#3796e1][url=thriveopedia:bindingAgent]Agentes de Ligação[/url][/color][/b].\\n\\nOu, alternando entre os comandos “seguir-me” e “tornar-se agressivo”, você pode formar um pequeno exército pessoal para se defender de predadores."
 
 msgid "WIKI_SIGNALING_AGENT_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_SLIME_JET_EFFECTS"
-msgstr ""
-"Permite a uma célula ejetar [thrive:compound type=\"mucilage\"][/thrive:compound] para se impelir. Ejetar [thrive:compound type=\"mucilage\"][/thrive:compound] gera uma grande quantidade de velocidade por um período curto de tempo. A ejeção pode ser sustentada por mais tempo dependendo da quantidade disponível de [thrive:compound type=\"mucilage\"][/thrive:compound].\n"
-"\n"
-"Qualquer célula que não tenha [b]Jatos de Gosma[/b] que entre a região de [thrive:compound type=\"mucilage\"][/thrive:compound] resultante terá sua velocidade reduzida."
+msgstr "Permite que uma célula expulse [thrive:compound type=\"mucilage\"][/thrive:compound] para se impulsionar. Expelir [thrive:compound type=\"mucilage\"][/thrive:compound] fornece um grande aumento de velocidade por pouco tempo. O impulso pode ser mantido por mais tempo de acordo com a quantidade de [thrive:compound type=\"mucilage\"][/thrive:compound] disponível.\\n\\nQualquer célula sem [b]Jatos de Muco[/b] que entrar na área de [thrive:compound type=\"mucilage\"][/thrive:compound] deixada para trás ficará mais lenta.\\n\\nAumenta em 1% a [b]Resistência[/b] à [thrive:compound type=\"sunlight\"][/thrive:compound]."
 
 msgid "WIKI_SLIME_JET_INTRO"
 msgstr ""
@@ -8662,16 +8636,14 @@ msgstr ""
 msgid "WIKI_SLIME_JET_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_SLIME_JET_PROCESSES"
-msgstr "Transforma [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"mucilage\"][/thrive:compound]. Aperte [thrive:input]g_secrete_slime[/thrive:input] para expelir a [thrive:compound type=\"mucilage\"][/thrive:compound], aumentando a velocidade da célula e diminuindo a de predadores."
+msgstr "[b]Síntese de Mucilagem[/b]: [thrive:compound type=\"glucose\"][/thrive:compound] → [thrive:compound type=\"mucilage\"][/thrive:compound]\\n\\nProduz [thrive:compound type=\"mucilage\"][/thrive:compound] para ser expelida e usada como propulsão."
 
 msgid "WIKI_SLIME_JET_REQUIREMENTS"
 msgstr "Sem requisitos."
 
-#, fuzzy
 msgid "WIKI_SLIME_JET_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "Bactérias e outros microrganismos podem produzir jatos de \\\"muco\\\" polissacarídico como uma das várias formas de [color=#3796e1][url=https://en.wikipedia.org/wiki/Gliding_motility]motilidade por deslizamento[/url][/color], empurrando a célula na direção oposta ao jato e deixando um rastro de [b]Mucilagem[/b] para trás."
 
 msgid "WIKI_SLIME_JET_STRATEGY"
 msgstr ""
