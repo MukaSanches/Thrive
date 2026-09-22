@@ -6732,7 +6732,7 @@ msgid "TOXISOME"
 msgstr "Toxissomo"
 
 msgid "TOXISOME_DESCRIPTION"
-msgstr "Um metabolossomo modificado responsável pela prodição de uma forma primitiva do agente tóxico [thrive:compound type=\"oxytoxy\"][/thrive:compound]. Pode ser modificado para trocar o tipo de toxina gerada para outros efeitos, para os quais [thrive:compound type=\"oxygen\"][/thrive:compound] pode ser necessário."
+msgstr "Um metabolossomo modificado responsável pela produção de uma forma primitiva do agente tóxico [thrive:compound type=\"oxytoxy\"][/thrive:compound]. Pode ser modificado para trocar o tipo de toxina gerada para outros efeitos, para os quais [thrive:compound type=\"oxygen\"][/thrive:compound] pode ser necessário."
 
 msgid "TRANSLATORS"
 msgstr "Tradutores"
