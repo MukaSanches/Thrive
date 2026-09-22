@@ -208,8 +208,6 @@ public static class GraphicsPresets
                 return false;
             if (settings.AnisotropicFilterLevel.Value != AnisotropicFilterLevel)
                 return false;
-            if (settings.MeshLodThreshold.Value != MeshLodThreshold)
-                return false;
             if (settings.PositionalShadowAtlasSize.Value != PositionalShadowAtlasSize)
                 return false;
             if (settings.UpscalingMethod.Value != UpscalingMethod)
@@ -240,6 +238,9 @@ public static class GraphicsPresets
             }
 
             if (Math.Abs(settings.RenderScale.Value - RenderScale) > 0.01)
+                return false;
+
+            if (Math.Abs(settings.MeshLodThreshold.Value - MeshLodThreshold) > 0.01)
                 return false;
 
             if (settings.MicrobeDistortionStrength.Value < MicrobeDistortionStrength - 0.01f)
