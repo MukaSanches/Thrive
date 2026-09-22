@@ -19,6 +19,8 @@ public static class GraphicsPresets
         {
             AntiAliasingMode = Settings.AntiAliasingMode.Disabled,
             AnisotropicFilterLevel = Viewport.AnisotropicFiltering.Disabled,
+            MeshLodThreshold = 4.0f,
+            PositionalShadowAtlasSize = 0,
             RenderScale = 0.5f,
             UpscalingMethod = Settings.UpscalingMode.Bilinear,
             ChromaticEnabled = false,
@@ -38,6 +40,8 @@ public static class GraphicsPresets
         {
             AntiAliasingMode = Settings.AntiAliasingMode.Disabled,
             AnisotropicFilterLevel = Viewport.AnisotropicFiltering.Anisotropy2X,
+            MeshLodThreshold = 2.5f,
+            PositionalShadowAtlasSize = 1024,
             RenderScale = 0.75f,
 
             // TODO: this is a key question whether this should be fsr1 or bilinear
@@ -60,6 +64,8 @@ public static class GraphicsPresets
         {
             AntiAliasingMode = Settings.AntiAliasingMode.ScreenSpaceFx,
             AnisotropicFilterLevel = Viewport.AnisotropicFiltering.Anisotropy4X,
+            MeshLodThreshold = 1.5f,
+            PositionalShadowAtlasSize = 2048,
             RenderScale = 1,
             UpscalingMethod = Settings.UpscalingMode.Fsr1,
             ChromaticEnabled = true,
@@ -80,6 +86,8 @@ public static class GraphicsPresets
             AntiAliasingMode = Settings.AntiAliasingMode.MSAA,
             MSAAResolution = Viewport.Msaa.Msaa4X,
             AnisotropicFilterLevel = Viewport.AnisotropicFiltering.Anisotropy8X,
+            MeshLodThreshold = 1.0f,
+            PositionalShadowAtlasSize = 2048,
             RenderScale = 1,
             UpscalingMethod = Settings.UpscalingMode.Fsr2,
             ChromaticEnabled = true,
@@ -100,6 +108,8 @@ public static class GraphicsPresets
             AntiAliasingMode = Settings.AntiAliasingMode.MSAA,
             MSAAResolution = Viewport.Msaa.Msaa8X,
             AnisotropicFilterLevel = Viewport.AnisotropicFiltering.Anisotropy16X,
+            MeshLodThreshold = 0.75f,
+            PositionalShadowAtlasSize = 4096,
             RenderScale = 1,
             UpscalingMethod = Settings.UpscalingMode.Fsr2,
             ChromaticEnabled = true,
@@ -177,6 +187,8 @@ public static class GraphicsPresets
         public Settings.AntiAliasingMode AntiAliasingMode { get; init; }
         public Viewport.Msaa MSAAResolution { get; init; }
         public Viewport.AnisotropicFiltering AnisotropicFilterLevel { get; init; }
+        public float MeshLodThreshold { get; init; }
+        public int PositionalShadowAtlasSize { get; init; }
         public float RenderScale { get; init; }
         public Settings.UpscalingMode UpscalingMethod { get; init; }
         public bool ChromaticEnabled { get; init; }
@@ -195,6 +207,10 @@ public static class GraphicsPresets
             if (settings.AntiAliasing.Value != AntiAliasingMode)
                 return false;
             if (settings.AnisotropicFilterLevel.Value != AnisotropicFilterLevel)
+                return false;
+            if (settings.MeshLodThreshold.Value != MeshLodThreshold)
+                return false;
+            if (settings.PositionalShadowAtlasSize.Value != PositionalShadowAtlasSize)
                 return false;
             if (settings.UpscalingMethod.Value != UpscalingMethod)
                 return false;
@@ -244,6 +260,8 @@ public static class GraphicsPresets
                 settings.MSAAResolution.Value = MSAAResolution;
 
             settings.AnisotropicFilterLevel.Value = AnisotropicFilterLevel;
+            settings.MeshLodThreshold.Value = MeshLodThreshold;
+            settings.PositionalShadowAtlasSize.Value = PositionalShadowAtlasSize;
             settings.RenderScale.Value = RenderScale;
             settings.UpscalingMethod.Value = UpscalingMethod;
             settings.ChromaticEnabled.Value = ChromaticEnabled;
