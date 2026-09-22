@@ -4852,9 +4852,8 @@ msgstr "(algumas organelas terão condições de desbloqueio para poderem ser co
 msgid "ORGANISM_STATISTICS"
 msgstr "Estatísticas do Organismo"
 
-#, fuzzy
 msgid "ORGANISM_STATISTICS_MICROBE"
-msgstr "Estatísticas do Organismo"
+msgstr "Estatísticas da Célula"
 
 msgid "OR_UNLOCK_CONDITION"
 msgstr "ou"
@@ -4903,9 +4902,8 @@ msgstr "Síntese de Inibidor de Oxigênio"
 msgid "OXYGEN_RESISTANCE"
 msgstr "Resistência a Oxigênio"
 
-#, fuzzy
 msgid "OXYGEN_RESISTANCE_NEEDS_ORGANELLES"
-msgstr "Resistência a Oxigênio"
+msgstr "Uma alta resistência ao oxigênio exige adicionar organelas que forneçam essa resistência, pois o controle de tolerância ao oxigênio possui um alcance limitado."
 
 msgid "OXYGEN_TOLERANCE_TOOLTIP"
 msgstr "Quanto dano causado por oxigênio a sua espécie pode mitigar antes de sofrer efeitos nocivos. Se você está em uma região com oxigênio demais comparado à sua resistência, você vai sofrer efeitos negativos."
@@ -4931,9 +4929,8 @@ msgstr "Voltar"
 msgid "PAGE_FORWARD"
 msgstr "Avançar"
 
-#, fuzzy
 msgid "PAGE_PINNED"
-msgstr "Título da página"
+msgstr "Fixada"
 
 msgid "PAGE_TITLE"
 msgstr "Título da página"
@@ -4985,9 +4982,8 @@ msgstr "A última versão de Thrive que você jogou foi {0} e, desde então, hou
 msgid "PATCH_NOTES_LAST_PLAYED_INFO_PLURAL"
 msgstr "A última versão de Thrive que você jogou foi {0} e, desde estão, houve {1} novos lançamentos"
 
-#, fuzzy
 msgid "PATCH_NOTES_RECENT_BOUNDARY"
-msgstr "— {0}"
+msgstr "Você já viu todas as versões recentes."
 
 msgid "PATCH_NOTES_TITLE"
 msgstr "Notas de Atualização"
@@ -5031,9 +5027,8 @@ msgstr "Pacífico"
 msgid "PENDING_ENDOSYMBIOSIS_EXPLANATION"
 msgstr "Existe um processo completo de endossimbiose que pode ser finalizado posicionando a célula como uma organela. É recomendado fazer isso assim que possível já que não é possível fazer mais progresso na endossimbiose até que isso seja feito. Ver o progresso da endossimbiose agora?"
 
-#, fuzzy
 msgid "PENDING_ENDOSYMBIOSIS_EXPLANATION_MULTICELLULAR"
-msgstr "Existe um processo completo de endossimbiose que pode ser finalizado posicionando a célula como uma organela. É recomendado fazer isso assim que possível já que não é possível fazer mais progresso na endossimbiose até que isso seja feito. Ver o progresso da endossimbiose agora?"
+msgstr "Há um processo de endossimbiose concluído que pode ser finalizado posicionando-o como uma organela. É recomendável fazer isso o quanto antes, pois nenhum progresso adicional de endossimbiose pode ser feito até que isso aconteça. A organela precisa ser posicionada em um tipo celular na aba do editor de células. Ver o status da endossimbiose agora?"
 
 msgid "PENDING_ENDOSYMBIOSIS_TITLE"
 msgstr "Esperando a Finalização do Processo de Endossimbiose"
@@ -5062,9 +5057,8 @@ msgstr "Fosfato"
 msgid "PHOSPHATES_COST"
 msgstr "Custo dos Fosfatos:"
 
-#, fuzzy
 msgid "PHOSPHATES_LEVELS"
-msgstr "Custo dos Fosfatos:"
+msgstr "Nível de fosfatos"
 
 msgid "PHOTOSYNTHESIS"
 msgstr "Fotossíntese"
@@ -5075,12 +5069,11 @@ msgstr "Condições Físicas"
 msgid "PHYSICAL_RESISTANCE"
 msgstr "Resistência Física"
 
-#, fuzzy
 msgid "PIN_BUTTON_TOOLTIP"
-msgstr "Muda as configurações do jogo"
+msgstr "Fixe esta página para mantê-la disponível em vez de ela ser removida ao navegar para outra página"
 
 msgid "PLACEMENT_BLOCKED_BECAUSE_INCOMPATIBLE_MEMBRANE"
-msgstr ""
+msgstr "Posicionamento bloqueado porque a membrana atual é incompatível com esta organela"
 
 msgid "PLACE_ORGANELLE"
 msgstr "Colocar organela"
@@ -5102,9 +5095,8 @@ msgstr ""
 msgid "PLANET_RANDOM_SEED"
 msgstr "Seed aleatória do planeta"
 
-#, fuzzy
 msgid "PLANET_STATISTICS"
-msgstr "Estatísticas"
+msgstr "Estatísticas do Planeta"
 
 msgid "PLAYER"
 msgstr "Jogador"
@@ -5180,29 +5172,23 @@ msgstr "Predação de {0}"
 msgid "PREDICTION_DETAILS_OPEN_TOOLTIP"
 msgstr "Ver informações detalhadas sobre a previsão"
 
-#, fuzzy
 msgid "PRESET_CUSTOM"
 msgstr "Personalizado"
 
-#, fuzzy
 msgid "PRESET_HIGH"
-msgstr "Redefinir"
+msgstr "Alto"
 
-#, fuzzy
 msgid "PRESET_LOW"
-msgstr "Redefinir"
+msgstr "Baixo"
 
-#, fuzzy
 msgid "PRESET_MEDIUM"
 msgstr "Médio"
 
-#, fuzzy
 msgid "PRESET_VERY_HIGH"
-msgstr "Muito alto"
+msgstr "Muito Alto"
 
-#, fuzzy
 msgid "PRESET_VERY_LOW"
-msgstr "Manter Todos"
+msgstr "Muito Baixo"
 
 msgid "PRESSURE"
 msgstr "Pressão"
@@ -5210,9 +5196,8 @@ msgstr "Pressão"
 msgid "PRESSURE_SHORT"
 msgstr "Pressão"
 
-#, fuzzy
 msgid "PRESSURE_TOLERANCE"
-msgstr "A pressão preferida pela sua espécie e a faixa de flexibilidade ao redor dela. Quando em condições fora dessa faixa, haverá diversos efeitos negativos na sua espécie. Mude a pressão preferida e a flexibilidade com os sliders."
+msgstr "Tolerância à Pressão"
 
 msgid "PRESSURE_TOLERANCE_TOOLTIP"
 msgstr "A pressão preferida pela sua espécie e a faixa de flexibilidade ao redor dela. Quando em condições fora dessa faixa, haverá diversos efeitos negativos na sua espécie. Mude a pressão preferida e a flexibilidade com os sliders."
@@ -5232,25 +5217,20 @@ msgstr "anterior:"
 msgid "PROCESSING_LOADED_OBJECTS"
 msgstr "Processando objetos carregados"
 
-#, fuzzy
 msgid "PROCESS_ENVIRONMENT_SEPARATOR"
-msgstr "@"
+msgstr "Em"
 
-#, fuzzy
 msgid "PROCESS_INACTIVE"
-msgstr "Processos"
+msgstr "INATIVO"
 
-#, fuzzy
 msgid "PROCESS_PANEL_EXPLANATION_TITLE"
-msgstr "Processos"
+msgstr "Explicação do Painel de Processos do Organismo"
 
-#, fuzzy
 msgid "PROCESS_PANEL_TITLE"
-msgstr "Processos"
+msgstr "Processos do Organismo"
 
-#, fuzzy
 msgid "PROCESS_PANEL_TITLE_MICROBE"
-msgstr "Processos"
+msgstr "Processos da Célula"
 
 msgid "PROCESS_SPEED_MODIFIER"
 msgstr "Velocidade dos Bioprocessos"
@@ -5290,16 +5270,14 @@ msgstr ""
 msgid "RADIATION"
 msgstr "Radiação"
 
-#, fuzzy
 msgid "RADIATION_LEVELS"
-msgstr "Radiação"
+msgstr "Nível de radiação"
 
 msgid "RADIOACTIVE_CHUNK"
 msgstr "Pedaço de Pedra Radioativa"
 
-#, fuzzy
 msgid "RADIOACTIVE_CHUNK_BANANA"
-msgstr "Pedaço de Pedra Radioativa"
+msgstr "Pedaço Radioativo em Forma de Banana"
 
 msgid "RADIOSYNTHESIS"
 msgstr "Radiossíntese"
@@ -5349,13 +5327,11 @@ msgstr "Atualizar"
 msgid "REGENERATE_BUTTON"
 msgstr "Gerar Outro Mundo"
 
-#, fuzzy
 msgid "REGIONS_NUMBER"
-msgstr "Número de ID"
+msgstr "Número de regiões:"
 
-#, fuzzy
 msgid "RENDER_SCALE"
-msgstr "Renderizador usado:"
+msgstr "Escala de resolução"
 
 msgid "REPORT"
 msgstr "Relatório"
@@ -5363,9 +5339,8 @@ msgstr "Relatório"
 msgid "REPORT_BUG"
 msgstr "Informar um Problema"
 
-#, fuzzy
 msgid "REPRODUCE"
-msgstr "reproduziu"
+msgstr "Reproduzir"
 
 msgid "REPRODUCED"
 msgstr "reproduziu"
@@ -5393,28 +5368,23 @@ msgstr ""
 "Sempre completar enche quaisquer compostos até a quantidade com que a célula inicialmente é gerada.\n"
 "Completar na mudança de região completa os compostos iniciais mas apenas se a região foi mudada."
 
-#, fuzzy
 msgid "REPRODUCTION_MASS_BUDDING"
-msgstr "Gemulação"
+msgstr "Brotamento em Massa"
 
 msgid "REPRODUCTION_METHOD"
 msgstr "Reprodução:"
 
-#, fuzzy
 msgid "REPRODUCTION_SEXUAL"
-msgstr "Assexual"
+msgstr "Sexuada"
 
-#, fuzzy
 msgid "REPRODUCTION_SEXUAL_ANISOGAMY"
-msgstr "Assexual"
+msgstr "Anisogamia Sexuada"
 
-#, fuzzy
 msgid "REPRODUCTION_SEXUAL_ISOGAMY"
-msgstr "Assexual"
+msgstr "Isogamia Sexuada"
 
-#, fuzzy
 msgid "REPRODUCTION_SPORE"
-msgstr "Reprodução"
+msgstr "Esporulação"
 
 msgid "REQUIRES_NUCLEUS"
 msgstr "Requer um núcleo"
@@ -5511,17 +5481,14 @@ msgstr ""
 msgid "REVEAL_ALL_PATCHES"
 msgstr "Mostrar Todas as Regiões"
 
-#, fuzzy
 msgid "REVERT_TO_EDITOR"
-msgstr "Sair do Editor"
+msgstr "Voltar ao Editor"
 
-#, fuzzy
 msgid "REVERT_TO_EDITOR_EXPLANATION"
-msgstr "Esta aba permite definir a ordem em que as organelas crescem. Isso pode ser importante para células que têm produção instável de ATP enquanto crescem. A ordem das organelas também impacta a ordem de execução dos bio processos. Recomenda-se editar essa aba apenas após terminar de editar a estrutura, já que a edição de estruturas pode reverter mudanças feitas aqui."
+msgstr "Se o seu micróbio atual não for adequado para sobreviver neste ambiente, você pode voltar à última vez em que esteve no editor e tentar algo diferente."
 
-#, fuzzy
 msgid "REVERT_TO_EDITOR_PROMPT"
-msgstr "Aperte [thrive:input]help[/thrive:input] para ver mais informações na Thrivepédia."
+msgstr "Voltar ao Editor?"
 
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
 msgstr "Visite os sites oficiais do Revolutionary Games"
@@ -5547,9 +5514,8 @@ msgstr "Girar à direita"
 msgid "ROTATION_COLON"
 msgstr "Rotação:"
 
-#, fuzzy
 msgid "ROTATION_FORCE"
-msgstr "Rotação:"
+msgstr "Força de Rotação"
 
 msgid "RUNOFF_EVENT"
 msgstr "Evento de escoamento"
@@ -5557,9 +5523,8 @@ msgstr "Evento de escoamento"
 msgid "RUN_AUTO_EVO_DURING_GAMEPLAY"
 msgstr "Usar a auto-evo durante o jogo"
 
-#, fuzzy
 msgid "RUN_AUTO_EVO_DURING_GAMEPLAY_TOOLTIP"
-msgstr "Usar a auto-evo durante o jogo"
+msgstr "Quando ativado, a Auto-Evo começa durante o jogo para reduzir o tempo necessário nas telas de carregamento.\\nIsso pode causar travamentos adicionais em sistemas com poucos núcleos de CPU.\\nQuando desativado, a Auto-Evo começa apenas durante as telas de carregamento, mas ainda será executada.\\nNão há como desativar completamente a Auto-Evo, pois ela é uma parte essencial do jogo."
 
 msgid "RUN_ONE_STEP"
 msgstr "Executar Um Passo"
@@ -5620,9 +5585,8 @@ msgstr "Salvar e continuar"
 msgid "SAVE_AUTOSAVE"
 msgstr "Salvamento automático"
 
-#, fuzzy
 msgid "SAVE_CHEATS_USED"
-msgstr "Espaço usado:"
+msgstr "Trapaças Usadas"
 
 msgid "SAVE_DELETE_WARNING"
 msgstr "Apagar o jogo salvo é irreversível, deseja apagar {0} permanentemente?"
@@ -5651,7 +5615,7 @@ msgid "SAVE_INVALID"
 msgstr "Inválido"
 
 msgid "SAVE_IS_CORRUPT_WHILE_LOADING"
-msgstr ""
+msgstr "Não foi possível carregar o salvamento porque o arquivo está corrompido.\\nHash esperado: {0}\\nHash calculado: {1}"
 
 msgid "SAVE_IS_INVALID"
 msgstr "O jogo salvo é inválido"
@@ -5819,25 +5783,20 @@ msgstr "Séssil"
 msgid "SETTING_ONLY_APPLIES_TO_NEW_GAMES"
 msgstr "Esse valor só é aplicado à novos jogos, criados após alterar esta opção"
 
-#, fuzzy
 msgid "SEXUAL_REPRODUCTION_ANISOGAMY_METHOD_EXPLANATION"
-msgstr "(ganhar os compostos necessários para a reprodução do ambiente sem ter que fazer nada)"
+msgstr "Com anisogamia sexuada, é possível ter diferentes tipos de gameta. Por exemplo, um gameta pode ser muito móvel e outro muito maior. Gametas só podem se fundir com gametas de um tipo diferente."
 
-#, fuzzy
 msgid "SEXUAL_REPRODUCTION_BENEFITS_EXPLANATION"
-msgstr "(ganhar os compostos necessários para a reprodução do ambiente sem ter que fazer nada)"
+msgstr "Usar reprodução sexuada concede um desconto de {0}% em todo uso de PM. Esse bônus passa a valer a partir da próxima geração."
 
-#, fuzzy
 msgid "SEXUAL_REPRODUCTION_BENEFITS_EXPLANATION_ACTIVE"
-msgstr "(ganhar os compostos necessários para a reprodução do ambiente sem ter que fazer nada)"
+msgstr "Todo uso de PM recebe um desconto de {0}% devido ao uso de reprodução sexuada."
 
-#, fuzzy
 msgid "SEXUAL_REPRODUCTION_METHOD_EXPLANATION"
-msgstr "(ganhar os compostos necessários para a reprodução do ambiente sem ter que fazer nada)"
+msgstr "Produz células gaméticas em vez de descendentes diretos. Os gametas precisam se fundir com um gameta compatível de outra colônia celular para gerar um descendente. Um agente de sinalização pode ser usado para enviar sinais a outras células."
 
-#, fuzzy
 msgid "SEXUAL_REPRODUCTION_UPGRADE_ANISOGAMY"
-msgstr "Ganhar compostos para a reprodução passivamente"
+msgstr "Melhorar para Anisogamia ({0} PM)"
 
 msgid "SFX_VOLUME"
 msgstr "Volume dos efeitos sonoros"
@@ -5845,13 +5804,11 @@ msgstr "Volume dos efeitos sonoros"
 msgid "SHIFT"
 msgstr "Shift"
 
-#, fuzzy
 msgid "SHOW_ALL_TUTORIALS"
-msgstr "Mostrar todos os tutoriais"
+msgstr "Mostrar todos os tutoriais (novamente)"
 
-#, fuzzy
 msgid "SHOW_ALL_TUTORIALS_TOOLTIP"
-msgstr "Exportar os dados de todos os mundos no formato CSV (comma-separated values)"
+msgstr "Escolha entre sempre mostrar todos os tutoriais ou mostrar apenas os que ainda não foram concluídos em nenhuma partida"
 
 msgid "SHOW_DAMAGE_EFFECT"
 msgstr "Mostrar efeito do dano na tela"
@@ -5862,17 +5819,14 @@ msgstr "Mostrar ajuda"
 msgid "SHOW_ITEM_COORDINATES"
 msgstr "Mostrar coordenadas"
 
-#, fuzzy
 msgid "SHOW_MAP"
-msgstr "Mostrar ajuda"
+msgstr "Mostrar Mapa"
 
-#, fuzzy
 msgid "SHOW_MATE_POSITION"
-msgstr "Mostrar ajuda"
+msgstr "Mostrar posição do parceiro"
 
-#, fuzzy
 msgid "SHOW_MATE_POSITION_EXPLANATION"
-msgstr "Diferentes tipos de toxina têm efeitos variados que são mais efetivos contra certos tipos de células. Células que têm muitos tipos diferentes de toxina os disparam em sequência ao invés de todos ao mesmo tempo."
+msgstr "(mostrar visualmente onde existe um parceiro compatível para o jogador quando ele for chamado)"
 
 msgid "SHOW_NEW_PATCH_NOTES"
 msgstr "Mostrar novas notas de atualização automaticamente"
@@ -5886,9 +5840,8 @@ msgstr "Mostrar tutoriais (no jogo atual)"
 msgid "SHOW_TUTORIALS_IN_NEW_GAMES_OPTION"
 msgstr "Mostrar tutoriais (em novos jogos)"
 
-#, fuzzy
 msgid "SHOW_TUTORIALS_OPTION_TOOLTIP"
-msgstr "Exportar os dados de todos os mundos no formato CSV (comma-separated values)"
+msgstr "Mostra os tutoriais ou os desativa completamente. Não é recomendável desativá-los.\\nEm vez disso, desativar a opção de mostrar todos os tutoriais ao iniciar um novo jogo faz com que apenas os tutoriais que você ainda não viu apareçam.\\nIsso é altamente recomendado, pois novos tutoriais são adicionados regularmente e, de outra forma, jogadores que já jogaram Thrive no passado poderiam não vê-los."
 
 msgid "SHOW_UNSAVED_PROGRESS_WARNING"
 msgstr "Mostrar aviso de progresso não salvo"
@@ -5917,9 +5870,8 @@ msgstr "Segure [thrive:input]g_pack_commands[/thrive:input] para abrir um menu p
 msgid "SIGNAL_COMMAND_AGGRESSION"
 msgstr "Tornar-se Agressivo"
 
-#, fuzzy
 msgid "SIGNAL_COMMAND_CALL_MATE"
-msgstr "Venham A Mim"
+msgstr "Chamar Parceiro"
 
 #, fuzzy
 msgid "SIGNAL_COMMAND_FIRE_GAMETES"
