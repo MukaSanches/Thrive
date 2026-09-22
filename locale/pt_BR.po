@@ -8646,62 +8646,55 @@ msgid "WIKI_SLIME_JET_SCIENTIFIC_BACKGROUND"
 msgstr "Bactérias e outros microrganismos podem produzir jatos de \\\"muco\\\" polissacarídico como uma das várias formas de [color=#3796e1][url=https://en.wikipedia.org/wiki/Gliding_motility]motilidade por deslizamento[/url][/color], empurrando a célula na direção oposta ao jato e deixando um rastro de [b]Mucilagem[/b] para trás."
 
 msgid "WIKI_SLIME_JET_STRATEGY"
-msgstr ""
+msgstr "A capacidade de obter um aumento momentâneo de velocidade é útil tanto para alcançar presas quanto para fugir de predadores, ainda mais porque a [thrive:compound type=\"mucilage\"][/thrive:compound] expelida pode desacelerar predadores que se aproximam. Tanto o impulso total quanto o armazenamento de [thrive:compound type=\"mucilage\"][/thrive:compound] — e, portanto, a duração máxima da expulsão — são proporcionais ao número de [b]Jatos de Slime[/b] na célula.\n\nTambém é importante observar que essa organela consome [thrive:compound type=\"glucose\"][/thrive:compound], e não [thrive:compound type=\"atp\"][/thrive:compound]. Portanto, confira o balanço de compostos da sua célula ao adicionar essa organela."
 
-#, fuzzy
 msgid "WIKI_SLIME_JET_UPGRADES"
-msgstr "Sem melhoras."
+msgstr "[b]Mucocisto[/b]\n\nPor [b]40[/b] pontos de mutação, é possível modificar [b]Jatos de Slime[/b] já posicionados para transformá-los em [b]Mucocistos[/b]. Quando ativados, eles criam uma camada protetora de muco ao redor da célula, concedendo imunidade temporária a todas as fontes de dano."
 
 msgid "WIKI_SOCIETY_STAGE_CURRENT_DEVELOPMENT"
-msgstr ""
+msgstr "O desenvolvimento deste estágio ainda não começou. Discussões teóricas e de jogabilidade sobre ele foram pouco frequentes nos últimos anos. Essas discussões precisarão ser retomadas quando o desenvolvimento oficial realmente chegar ao Estágio Social."
 
 msgid "WIKI_SOCIETY_STAGE_FEATURES"
 msgstr "Em breve."
 
 msgid "WIKI_SOCIETY_STAGE_INTRO"
-msgstr ""
+msgstr "Em resumo: neste estágio, você desenvolve e expande seu primeiro assentamento e constrói outros. Ele lembra a Idade Média e termina quando sua tecnologia avança o suficiente."
 
-#, fuzzy
 msgid "WIKI_SOCIETY_STAGE_OVERVIEW"
-msgstr "Estágio Social"
+msgstr "O sexto dos nove estágios de jogabilidade de Thrive, o Estágio Social começa depois que sua espécie sapiente — desenvolvida no [color=#3796e1][url=thriveopedia:awakening_stage]Estágio do Despertar[/url][/color] — passa a formar grupos maiores, ou sociedades. Nesse ponto, o Modo Estratégia se torna o principal foco do jogo, em vez do Modo Organismo (embora o jogador ainda possa acessá-lo a qualquer momento; implementar isso, porém, é de baixa prioridade). O Editor de Nação também é desbloqueado. Por fim, a espécie do jogador pode começar a criar Centros Sociais para formar assentamentos.\n\nAo longo do Estágio Social, um dos principais objetivos é desenvolver tecnologias cada vez mais avançadas. Por isso, o Estágio Social termina quando sua espécie desenvolve tecnologia avançada o suficiente para entrar no [color=#3796e1][url=thriveopedia:industrial_stage]Estágio Industrial[/url][/color].\n\nO Estágio Social marca a transição da espécie do jogador de uma tribo simples para uma civilização em desenvolvimento. O estágio é marcado por tecnologias que permitem visualizar e investir na Rede de Pesquisa, habilitar políticas governamentais, acompanhar o surgimento de religiões e iniciar conflitos em escala maior. O Editor de Nação se torna cada vez mais importante ao longo desse estágio, assim como o Editor de Tecnologia e o Editor de Esquadrão. Embora o jogador possa voltar a controlar organismos individuais de sua espécie, todos os acontecimentos e decisões importantes passam a ocorrer em grande escala, tornando essencial administrar números cada vez maiores de indivíduos. O jogador precisará equilibrar as necessidades de seu povo e os interesses de sua nação para conduzir sua civilização adiante.\n\nComo manter o Modo Organismo funcionando nos estágios posteriores exigirá uma quantidade enorme de trabalho, isso não é uma prioridade. Afinal, o Modo Estratégia é a maneira principal e planejada de jogar esse estágio e é necessário para progredir. Também já foi apontado que o impacto de um único indivíduo será pequeno nessa fase; portanto, permitir o Modo Organismo apenas para caminhar pelo mundo seria interessante, mas exigiria muito esforço para pouco impacto na jogabilidade."
 
-#, fuzzy
 msgid "WIKI_SOCIETY_STAGE_TRANSITIONS"
-msgstr "Estágio Social"
+msgstr "O Estágio Social começa quando seu primeiro Centro Social (assentamento) é construído. A tecnologia Residência Coletiva permite formar Centros Sociais. O edifício do Centro Social funciona como o núcleo de um assentamento, que é um grupo de construções que atua coletivamente e recebe um nome gerado proceduralmente. Novos atributos também apareceriam para esse assentamento, como felicidade, saúde e estabilidade. O controle do jogo passará para o Modo Estratégia, e o Editor de Nação será desbloqueado. Isso finalmente permite ao jogador separar sua perspectiva daquele indivíduo específico que estava controlando e afastar a câmera para acessar a espécie em uma perspectiva de estratégia em tempo real. O jogador poderá dar ordens às diferentes unidades de suas tribos e controlar várias ao mesmo tempo. Membros da espécie poderão então ser designados para povoar esses assentamentos; ao fazer isso, deixam de existir como unidades controláveis e passam a fazer parte do número da população (Pop) do assentamento. Por padrão, os Pops serão designados como Trabalhadores. Embora transformar unidades em população retire muitas das capacidades que elas tinham em campo, isso abre uma nova gama de possibilidades e reduz o peso de controlar unidades demais simultaneamente. A partir daí, a classificação de Trabalhador, Artesão ou qualquer outro tipo de Pop passa a ser importante, pois o computador trata todos os integrantes daquele Pop como um conjunto. Por exemplo, Trabalhadores realizam os trabalhos manuais disponíveis no assentamento, enquanto Artesãos executam tarefas de fabricação selecionadas. Impostos podem ser cobrados dos Pops, eles estão sujeitos ao crescimento populacional e podem trabalhar em construções que exigem operadores. Na prática, tornam-se números na tela. Seus modelos deixam de ser importantes, exceto para caminhar pelo assentamento e fazê-lo parecer movimentado. Essa é uma das razões pelas quais o Modo Organismo deixa de ser importante (embora esteja planejado que continue disponível, como recurso de baixa prioridade). Para entrar no Modo Organismo, o jogador poderá selecionar um membro da tribo e passar a controlá-lo, com acesso às mesmas habilidades de antes.\n\nAinda assim, integrantes dos Pops que habitam esses assentamentos poderão sempre ser mobilizados, retirando-os do assentamento e transformando-os novamente em unidades no jogo. A fundação de novos assentamentos funcionará dessa maneira. Unidades, especificamente Trabalhadores, precisariam ser mobilizadas a partir de um assentamento, viajar até um novo destino e construir um novo Centro Social e edifícios de apoio para iniciar o novo assentamento. Depois, os Trabalhadores usados na construção poderiam ser destinados a povoá-lo e colocá-lo em funcionamento. Vale observar que somente Trabalhadores podem construir edifícios.\n\nA Tradição Social desbloqueia a Geração Procedural de Cultura, levando ao surgimento de artes em sua nação. O avanço da sociedade desbloqueará gradualmente mais recursos do Editor de Nação.\n\nAo mesmo tempo, durante todo esse período de avanço, outras tribos da espécie do jogador também começariam a surgir. Cada tribo originada da espécie do jogador levaria consigo parte da população da espécie, limitando a quantidade de tribos que poderiam se formar a partir da mesma espécie. Outras espécies também podem alcançar a senciência e começar a formar tribos. A frequência com que isso acontece precisará ser ajustada para manter o realismo, pois as escalas de tempo significam que várias espécies teriam, essencialmente, de se tornar sapientes quase ao mesmo tempo quando comparadas à escala geral da evolução no planeta do jogador. Se uma espécie avançar muito mais rápido, poderá eliminar rapidamente os concorrentes com sua tecnologia — em apenas algumas dezenas de milhares de anos. Somente a tribo e, posteriormente, a nação formada pelo jogador poderão ser controladas por ele. As demais serão nações controladas pela IA e representarão a concorrência do jogador durante a longa história que virá. Elas continuarão pertencendo à mesma espécie do jogador, mas não serão controláveis e poderão até se tornar hostis. Descobrirão suas próprias tecnologias, formarão seus próprios Centros Sociais e seguirão seus próprios caminhos rumo à civilização.\n\nO estágio termina quando o jogador desbloqueia e constrói a primeira máquina industrial."
 
 msgid "WIKI_SOCIETY_STAGE_UI"
 msgstr "Em breve."
 
 msgid "WIKI_SPACE_STAGE_CURRENT_DEVELOPMENT"
-msgstr ""
+msgstr "O desenvolvimento do Estágio Espacial ainda não começou."
 
 msgid "WIKI_SPACE_STAGE_FEATURES"
 msgstr "Em breve."
 
 msgid "WIKI_SPACE_STAGE_INTRO"
-msgstr ""
+msgstr "Em resumo: neste estágio, o jogador explora o cosmos e alcança grandes avanços tecnológicos.\n\nO Estágio Espacial é o penúltimo estágio de Thrive. Depois que uma nação do [color=#3796e1][url=thriveopedia:industrial_stage]Estágio Industrial[/url][/color] avança o suficiente para construir naves espaciais, ela pode começar a se expandir pelas estrelas. Nesse momento, o jogador entra no Estágio Espacial.\n\nA espécie do jogador já terá pesquisado muitas tecnologias diferentes, mas é aqui que tecnologias de ficção científica começam a entrar em cena. A espécie poderá encontrar e interagir com vida em outros planetas e se expandir pelo cosmos. A busca por avanços tecnológicos ainda maiores acabará desbloqueando a combinação das Ferramentas Divinas com a [color=#3796e1][url=thriveopedia:ascension_stage]Ascensão[/url][/color]. Alguns jogadores podem não gostar de ficção científica em um jogo baseado em ciência; por isso, planejamos adicionar um ponto de corte em que seja possível optar por não avançar para tecnologias de ficção científica, ao custo de não poder alcançar a [color=#3796e1][url=thriveopedia:ascension_stage]Ascensão[/url][/color]. Isso limitará o jogador, essencialmente, ao início do Estágio Espacial."
 
-#, fuzzy
 msgid "WIKI_SPACE_STAGE_OVERVIEW"
-msgstr "Estágio Espacial"
+msgstr "O início do Estágio Espacial começa com os primeiros voos espaciais da espécie do jogador. Essa parte se concentra no desenvolvimento da exploração espacial e na descoberta do próprio sistema solar. Os primeiros lançamentos de satélites e as primeiras tentativas de alcançar luas do planeta natal marcam a jogabilidade inicial do Estágio Espacial. Fora isso, nesse momento a jogabilidade ainda é muito semelhante à do Estágio Industrial, mas o jogador pode afastar a câmera até visualizar todo o próprio sistema solar e comandar suas naves espaciais, além de continuar administrando o desenvolvimento de seu planeta.\n\nOutro ponto central do início do Estágio Espacial é a unificação do mundo do jogador, porque, se ele não estiver unificado, as outras nações do planeta poderão continuar interferindo e atacando. Será muito mais difícil — e talvez decidamos tornar impossível — manter um império espacial quando o planeta natal corre constantemente o risco de mergulhar em um caos de escala planetária.\n\nA fase posterior do Estágio Espacial começa quando o jogador desenvolve a capacidade de explorar outros sistemas solares. É nesse ponto que Thrive se torna um jogo de ficção científica — ou especulação científica — com a invenção de um método de viagem mais rápida que a luz (FTL). Uma possibilidade é oferecer uma opção para desativar os elementos de ficção científica; nesse caso, explorar apenas os poucos sistemas estelares próximos ao sistema natal do jogador representará o fim do jogo. Com a ficção científica ativada, o jogador poderá colonizar muitos sistemas estelares e estabelecer um império espacial interestelar, entrando na última parte do Estágio Espacial. Nesse momento, o jogador interagirá com outros impérios espaciais, desenvolverá tecnologias extremamente avançadas e criará frotas espaciais. A administração dos planetas será simplificada para não sobrecarregar o jogador com a microgestão de dezenas deles. O estágio culminará na construção de diversos megaprojetos, como Esferas de Dyson, sendo o último deles o Portal da Ascensão, que exigirá enormes quantidades de energia e muito tempo para ser utilizado. Como o processo de Ascensão concede poder ilimitado ao primeiro império que o alcança, o jogador precisará conter todos os outros impérios enquanto constrói seu Portal da Ascensão.\n\nComo Thrive é um jogo baseado em ciência, os elementos de ficção científica incluídos serão escolhidos pensando em utilidade e em algum grau de realismo, baseando-os em tecnologias atualmente consideradas plausíveis em especulações científicas. O objetivo será incluir somente as tecnologias de ficção científica realmente necessárias para viabilizar a segunda metade do Estágio Espacial. A viagem FTL será essencial, mas armas exóticas, fontes de energia ou materiais atualmente considerados impossíveis podem ser excluídos sem inviabilizar o restante dos planos do jogo envolvendo impérios galácticos. Isso reduzirá a quantidade de explicações puramente fictícias que precisarão ser introduzidas no jogo."
 
-#, fuzzy
 msgid "WIKI_SPACE_STAGE_TRANSITIONS"
-msgstr "Nitrogenase"
+msgstr "O estágio começa quando o jogador alcança o espaço pela primeira vez com um foguete primitivo.\n\nO estágio termina quando o jogador constrói o Portal da Ascensão e o alimenta com enormes quantidades de recursos e pesquisa."
 
 msgid "WIKI_SPACE_STAGE_UI"
 msgstr "Em breve."
 
-#, fuzzy
 msgid "WIKI_STAGES_ROOT_INTRO"
-msgstr "Axônio"
+msgstr "Estes são todos os estágios do jogo. Ao todo, existem 9 estágios, cada um com uma jogabilidade um pouco diferente.\n\nÀ medida que você progride em Thrive, passa pelos vários estágios até finalmente poder alcançar a Ascensão.\n\nVocê começa o jogo como um organismo unicelular, depois desenvolve órgãos e tecidos, torna-se sapiente e constrói uma sociedade que, por fim, avança para a conquista do espaço."
 
 msgid "WIKI_TBA"
 msgstr "A ser adicionado"
 
-#, fuzzy
 msgid "WIKI_TECH_EDITOR_COMMA_NATION_EDITOR_COMMA_SQUAD_EDITOR"
-msgstr "Editor do Plano Corporal, Editor de Célula"
+msgstr "Editor de Tecnologia, Editor de Nação, Editor de Esquadrão"
 
 #, fuzzy
 msgid "WIKI_THERMOPLAST_EFFECTS"
@@ -9925,3 +9918,4 @@ msgstr "Diminuir o zoom"
 
 #~ msgid "DOT_RATE_SCALES"
 #~ msgstr ". Proporção aumenta"
+
