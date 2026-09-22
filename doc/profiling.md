@@ -4,6 +4,25 @@ Profiling
 There's two ways to profile the game to figure out what is causing
 a slowdown: mono and native.
 
+Rendering Profiling
+===================
+
+For rendering performance, first enable the in-game debug panel and its
+performance metrics. This shows frame time, video memory usage, rendered
+objects, draw calls, and rendered primitives without requiring a special
+build.
+
+Godot's debugger monitors should be used when investigating rendering
+stutters. In particular, check the pipeline compilation monitors while
+reproducing the problem. Pipeline compilations needed for drawing should
+not keep increasing during ordinary gameplay after the relevant scene and
+effects have been loaded.
+
+Rendering performance comparisons should use the same scene, save, camera
+position, window resolution, renderer, and graphics preset. Record the GPU
+and renderer shown in the options menu as these can make results from two
+systems significantly different.
+
 Mono Profiling
 ==============
 
