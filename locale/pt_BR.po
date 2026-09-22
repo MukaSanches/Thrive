@@ -8696,89 +8696,65 @@ msgstr "A ser adicionado"
 msgid "WIKI_TECH_EDITOR_COMMA_NATION_EDITOR_COMMA_SQUAD_EDITOR"
 msgstr "Editor de Tecnologia, Editor de Nação, Editor de Esquadrão"
 
-#, fuzzy
 msgid "WIKI_THERMOPLAST_EFFECTS"
-msgstr "Sem efeitos."
+msgstr "Ativa a [i]visão térmica[/i], que pode ser ligada ou desligada. Ela sobrepõe à tela a temperatura relativa da água, fazendo as áreas mais quentes aparecerem mais avermelhadas.\n\nAumenta a [b]Faixa de Tolerância[/b] à [thrive:compound type=\"temperature\"][/thrive:compound] em 5 graus para cada direção."
 
-#, fuzzy
 msgid "WIKI_THERMOPLAST_INTRO"
-msgstr "O termoplasto é uma estrutura de membrana dupla contendo pigmentos termossensíveis. É um procarionte que foi assimilado para uso do seu hospedeiro eucariótico. Os pigmentos nos termoplastos conseguem usar a energia das diferenças de calor no ambiente para produzir glicose da água e gás carbônico em um processo chamado Termossíntese. A proporção da sua produção de glicose aumenta com a concentração de dióxido de carbono e temperatura."
+msgstr "Produz [thrive:compound type=\"glucose\"][/thrive:compound] utilizando gradientes de [thrive:compound type=\"temperature\"][/thrive:compound] do ambiente. É a forma eucariótica da menos eficiente [b][color=#3796e1][url=thriveopedia:thermosynthase]Termossintase[/url][/color][/b].\n\nÉ uma organela especulativa, inexistente na vida real. Não está disponível em partidas com [i]LAWK[/i] (vida como a conhecemos) ativada.\n\nÉ uma organela delimitada por membrana que contém enzimas termossensíveis em compartimentos membranosos. Trata-se de um procarionte assimilado pelo hospedeiro eucariótico. As enzimas conseguem utilizar a energia do aumento da [thrive:compound type=\"temperature\"][/thrive:compound] ao redor para produzir [thrive:compound type=\"glucose\"][/thrive:compound] em um processo chamado [i]termossíntese[/i]."
 
 msgid "WIKI_THERMOPLAST_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_THERMOPLAST_PROCESSES"
-msgstr "Produz [thrive:compound type=\"glucose\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound] e temperatura."
+msgstr "[b]Termossíntese[/b]: [i]aumento[/i] de [thrive:compound type=\"temperature\"][/thrive:compound] → [thrive:compound type=\"glucose\"][/thrive:compound]\n\nGera energia a partir do aumento da [thrive:compound type=\"temperature\"][/thrive:compound]. As enzimas termossensíveis mudam de forma conforme a [thrive:compound type=\"temperature\"][/thrive:compound] aumenta, permitindo converter diversos compostos em [thrive:compound type=\"glucose\"][/thrive:compound]. Quando a célula esfria, as enzimas retornam à forma anterior, permitindo que o processo se repita. É uma forma mais eficiente da [i]Termossíntese Bacteriana[/i] presente na [b][color=#3796e1][url=thriveopedia:thermosynthase]Termossintase[/url][/color][/b]. A taxa de produção de [thrive:compound type=\"glucose\"][/thrive:compound] varia de acordo com a [i]variação[/i] de [thrive:compound type=\"temperature\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_THERMOPLAST_REQUIREMENTS"
-msgstr ""
-"[b]Termoplastos[/b] aparecem apenas em jogos com Somente Vida Baseada na Realidade desativada nas configurações do jogo.\n"
-"\n"
-"Se melhorias de organela estiverem ativadas nas configurações do jogo, a condição seguinte também deve ser verdadeira [i]para a célula do jogador[/i]:\n"
-"\n"
-"[indent]—   Contém no mínimo [b]3[/b] hexágonos de [b][color=#3796e1][url=thriveopedia:thermosynthase]Termossintase[/url][/color][/b] há no mínimo [b]5[/b] gerações seguidas.[/indent]"
+msgstr "[b]Termoplastos[/b] aparecem somente em partidas com [i]LAWK[/i] desativada nas configurações do jogo.\n\nSe o [i]desbloqueio de organelas[/i] estiver ativado nas configurações, a organela poderá ser desbloqueada sem [i]endossimbiose[/i] quando a seguinte condição for cumprida [i]pela célula do jogador[/i]:\n\n[ul]Conter pelo menos [b]3[/b] hexágonos de [b][color=#3796e1][url=thriveopedia:thermosynthase]Termossintase[/url][/color][/b] por pelo menos [b]5[/b] gerações consecutivas.[/ul]"
 
-#, fuzzy
 msgid "WIKI_THERMOPLAST_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "A termossíntese foi proposta pela primeira vez por Anthonie Muller em um artigo de 1983 (\"Thermoelectric Energy Conversion Could Be An Energy Source Of Living Organisms\", em Physics Letters A, vol. 96, edição 6, pp. 319–321). Ela forneceria apenas uma pequena fração da energia total produzida pela respiração (\"A Search For Thermosynthesis: Starvation Survival In Thermally Cycled Bacteria\").\n\nMuller chegou a sugerir que a termossíntese poderia ter sido precursora das formas mais antigas de fotossíntese, baseadas em enxofre (\"Photosystem 0, A Proposed Ancestral Photosystem Without Reducing Power That Synthesized ATP During Light-Dark Cycling\").\n\nEm versões anteriores de Thrive, esta organela produzia ATP diretamente. Por motivos de balanceamento, agora ela produz glicose, mas não há uma explicação para a origem do carbono necessário para isso. Portanto, esse é mais um dos pecados de Thrive contra o realismo. Isso talvez seja corrigido em um futuro distante caso alguém se voluntarie para implementar uma organela que converta ATP em glicose para armazenamento de energia por períodos mais longos.\n\n[color=#3796e1][url=https://en.wikipedia.org/wiki/Thermosynthesis]Termossíntese na Wikipédia[/url][/color]"
 
-#, fuzzy
 msgid "WIKI_THERMOPLAST_STRATEGY"
-msgstr "O termoplasto é uma estrutura de membrana dupla contendo pigmentos termossensíveis. É um procarionte que foi assimilado para uso do seu hospedeiro eucariótico. Os pigmentos nos termoplastos conseguem usar a energia das diferenças de calor no ambiente para produzir glicose da água e gás carbônico em um processo chamado Termossíntese. A proporção da sua produção de glicose aumenta com a concentração de dióxido de carbono e temperatura."
+msgstr "Provavelmente a forma mais móvel de autotrofia, a [b]Termossíntese[/b] exige movimento quase constante. É necessário ir de áreas mais frias para áreas mais quentes e voltar. Quando a temperatura da célula para de aumentar, a produção de [thrive:compound type=\"glucose\"][/thrive:compound] cai para zero. É recomendável ativar a [i]visão térmica[/i] para enxergar as áreas quentes e frias ao redor da célula e navegar entre elas com mais eficiência. Termoplastos são muito mais eficientes em regiões mais quentes e, portanto, funcionam melhor nas Fontes Hidrotermais.\n\nCom o desbloqueio de organelas ativado, a exigência de se reproduzir várias vezes com [b][color=#3796e1][url=thriveopedia:thermosynthase]Termossintase[/url][/color][/b] na célula significa que um jogador que evolui [b]Termoplastos[/b] provavelmente já terá se especializado bastante em [b]Termossíntese[/b] quando finalmente os obtiver."
 
 msgid "WIKI_THERMOPLAST_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_THERMOSYNTHASE_EFFECTS"
-msgstr "Sem efeitos."
+msgstr "Ativa a [i]visão térmica[/i], que pode ser ligada ou desligada. Ela sobrepõe à tela a temperatura relativa da água, fazendo as áreas mais quentes aparecerem mais avermelhadas.\n\nAumenta a [b]Faixa de Tolerância[/b] à [thrive:compound type=\"temperature\"][/thrive:compound] em 2 graus para cada direção."
 
-#, fuzzy
 msgid "WIKI_THERMOSYNTHASE_INTRO"
-msgstr "Termossintase"
+msgstr "Produz [thrive:compound type=\"glucose\"][/thrive:compound] utilizando gradientes de [thrive:compound type=\"temperature\"][/thrive:compound] do ambiente. É a forma procariótica do mais eficiente [b][color=#3796e1][url=thriveopedia:thermoplast]Termoplasto[/url][/color][/b].\n\nÉ uma organela especulativa, inexistente na vida real. Não está disponível em partidas com [i]LAWK[/i] (vida como a conhecemos) ativada.\n\nÉ um conjunto de compartimentos membranosos contendo enzimas termossensíveis. Essas enzimas conseguem utilizar a energia do aumento da [thrive:compound type=\"temperature\"][/thrive:compound] ao redor para produzir [thrive:compound type=\"glucose\"][/thrive:compound] em um processo chamado [i]termossíntese[/i]."
 
 msgid "WIKI_THERMOSYNTHASE_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_THERMOSYNTHASE_PROCESSES"
-msgstr "Produz [thrive:compound type=\"atp\"][/thrive:compound]. Quantidade aumenta com a [thrive:compound type=\"temperature\"][/thrive:compound]."
+msgstr "[b]Termossíntese Bacteriana[/b]: [i]aumento[/i] de [thrive:compound type=\"temperature\"][/thrive:compound] → [thrive:compound type=\"glucose\"][/thrive:compound]\n\nGera energia a partir do aumento da [thrive:compound type=\"temperature\"][/thrive:compound]. As enzimas termossensíveis mudam de forma conforme a [thrive:compound type=\"temperature\"][/thrive:compound] aumenta, permitindo converter diversos compostos em [thrive:compound type=\"glucose\"][/thrive:compound]. Quando a célula esfria, as enzimas retornam à forma anterior, permitindo que o processo se repita. É uma forma menos eficiente da [i]Termossíntese[/i] presente nos [b][color=#3796e1][url=thriveopedia:thermoplast]Termoplastos[/url][/color][/b]. A taxa de produção de [thrive:compound type=\"glucose\"][/thrive:compound] varia de acordo com a [i]variação[/i] de [thrive:compound type=\"temperature\"][/thrive:compound].\n\n[b]Glicólise:[/b] [thrive:compound type=\"glucose\"][/thrive:compound] → [thrive:compound type=\"atp\"][/thrive:compound]\n\nComo as proteínas da [b]Termossintase[/b] ficam suspensas diretamente no [b][color=#3796e1][url=thriveopedia:cytoplasm]Citoplasma[/url][/color][/b], o fluido ao redor realiza [b]Glicólise[/b]."
 
-#, fuzzy
 msgid "WIKI_THERMOSYNTHASE_REQUIREMENTS"
-msgstr ""
-"[b]Termossintase[/b] aparece apenas em jogos com LAWK desativada nas configurações do jogo.\n"
-"\n"
-"Se desbloqueio de organela estiver ativado nas configurações do jogo, a condição seguinte deve ser verdadeira [i]para a célula do jogador[/i]:\n"
-"\n"
-"[indent]—   Está em uma região com [thrive:compound type=\"temperature\"][/thrive:compound] de no mínimo [b]+50 °C[/b].[/indent]"
+msgstr "A [b]Termossintase[/b] aparece somente em partidas com \"LAWK\" desativada nas configurações do jogo. Se o [i]desbloqueio de organelas[/i] estiver ativado nas configurações, a organela será desbloqueada quando a seguinte condição for cumprida [i]pela célula do jogador[/i]:\n\n[ul]Estar em uma região com [thrive:compound type=\"temperature\"][/thrive:compound] de pelo menos [b]50 °C[/b].[/ul]"
 
-#, fuzzy
 msgid "WIKI_THERMOSYNTHASE_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "A [b]Termossintase[/b] é uma enzima fictícia, mas o processo de [color=#3796e1][url=https://en.wikipedia.org/wiki/Thermosynthesis]termossíntese[/url][/color], embora teórico, é geralmente considerado biologicamente plausível.\n\nA termossíntese foi proposta pela primeira vez por Anthonie Muller em um artigo de 1983, \"Thermoelectric energy conversion could be an energy source of living organisms\" (Physics Letters A, vol. 96, edição 6, pp. 319–321). Muller chegou a sugerir que a termossíntese poderia ter sido precursora das formas mais antigas de fotossíntese, baseadas em enxofre (consulte \"A Search For Thermosynthesis: Starvation Survival In Thermally Cycled Bacteria\").\n\nEm versões anteriores de Thrive, esta organela produzia ATP diretamente. Por motivos de balanceamento, agora ela produz glicose, mas não há uma explicação para a origem do carbono necessário para isso. Portanto, esse é mais um dos pecados de Thrive contra o realismo. Isso talvez seja corrigido em um futuro distante caso alguém se voluntarie para implementar uma organela que converta ATP em glicose para armazenamento de energia por períodos mais longos."
 
-#, fuzzy
 msgid "WIKI_THERMOSYNTHASE_STRATEGY"
-msgstr "A termossintase é uma proteína que muda de forma usando a convecção térmica. Quando exposta ao calor, ela se dobra ligando-se ao ADP. Quando resfriada, ela se desdobra e é reciclada em ATP em um processo chamado termossíntese. A taxa de produção de ATP aumenta com a temperatura ambiente."
+msgstr "Provavelmente a forma mais móvel de autotrofia, a [i]Termossíntese[/i] exige movimento quase constante. É necessário ir de áreas mais frias para áreas mais quentes e voltar. Quando a temperatura da célula para de aumentar, a produção de [thrive:compound type=\"glucose\"][/thrive:compound] cai para zero. É recomendável ativar a [i]visão térmica[/i] para enxergar as áreas quentes e frias ao redor da célula e navegar entre elas com mais eficiência. A Termossintase é muito mais eficiente em regiões bastante quentes e, portanto, funciona melhor nas Fontes Hidrotermais.\n\nAinda mais eficiente é o [b][color=#3796e1][url=thriveopedia:thermoplast]Termoplasto[/url][/color][/b], disponível quando a célula evolui um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b]. Assim como acontece com outras organelas procarióticas que possuem equivalentes eucarióticos, recomendamos substituir a [b]Termossintase[/b] por [b][color=#3796e1][url=thriveopedia:thermoplast]Termoplastos[/url][/color][/b] sempre que possível."
 
 msgid "WIKI_THERMOSYNTHASE_UPGRADES"
 msgstr "Sem melhoras."
 
 msgid "WIKI_THE_PATCH_MAP_FOG_OF_WAR"
-msgstr ""
+msgstr "A Névoa de Guerra é uma configuração do jogo que pode ser ativada para limitar quais regiões o jogador pode visualizar antecipadamente.\n\nQuando definida como [b]normal[/b], ficam visíveis apenas as regiões que o jogador já visitou e as regiões diretamente adjacentes a elas. As regiões adjacentes a [i]essas[/i] também aparecem no mapa, mas seu tipo, as [color=#3796e1][url=thriveopedia:Compounds]informações de compostos[/url][/color] e as [color=#3796e1][url=thriveopedia:EnvironmentalConditions]Condições Ambientais[/url][/color] ficam ocultos.\n\nQuando definida como [b]intensa[/b], [b]somente[/b] as regiões já visitadas pelo jogador ficam totalmente visíveis. Regiões adjacentes aparecem no mapa, mas seu tipo e suas informações de compostos permanecem ocultos."
 
-#, fuzzy
 msgid "WIKI_THE_PATCH_MAP_INTRO"
-msgstr "O termoplasto é uma estrutura de membrana dupla contendo pigmentos termossensíveis. É um procarionte que foi assimilado para uso do seu hospedeiro eucariótico. Os pigmentos nos termoplastos conseguem usar a energia das diferenças de calor no ambiente para produzir glicose da água e gás carbônico em um processo chamado Termossíntese. A proporção da sua produção de glicose aumenta com a concentração de dióxido de carbono e temperatura."
+msgstr "O planeta onde sua espécie vive é um lugar vasto, com muitos ambientes e biomas diferentes. No [color=#3796e1][url=thriveopedia:microbe_stage]Estágio Microbial[/url][/color], isso é representado pelas [b]Regiões[/b] e pelos agrupamentos de regiões no [b]Mapa de Regiões[/b]."
 
-#, fuzzy
 msgid "WIKI_THE_PATCH_MAP_PATCHES"
-msgstr "O termoplasto é uma estrutura de membrana dupla contendo pigmentos termossensíveis. É um procarionte que foi assimilado para uso do seu hospedeiro eucariótico. Os pigmentos nos termoplastos conseguem usar a energia das diferenças de calor no ambiente para produzir glicose da água e gás carbônico em um processo chamado Termossíntese. A proporção da sua produção de glicose aumenta com a concentração de dióxido de carbono e temperatura."
+msgstr "As [b]Regiões[/b] representam biomas distintos com ambientes diferentes. Cada região possui [color=#3796e1][url=thriveopedia:EnvironmentalConditions]Condições Ambientais[/url][/color] e [color=#3796e1][url=thriveopedia:Compounds]Compostos[/url][/color] próprios, que podem determinar quais [b]processos[/b] conseguem ocorrer e com qual eficiência. Durante cada [color=#3796e1][url=thriveopedia:EditorsAndMutations]Sessão do Editor[/url][/color], você pode se mover para qualquer região adjacente ou para qualquer região em que sua espécie esteja presente.\n\nAs regiões também contêm populações de outras espécies, que podem migrar entre elas e competir com o jogador. Verifique a presença de predadores e presas antes de se deslocar entre regiões."
 
 msgid "WIKI_THE_PATCH_MAP_THE_PATCH_MAP"
-msgstr ""
+msgstr "O [b]Mapa de Regiões[/b] é uma representação do seu planeta. Ele é composto por [b]Regiões[/b] e por agrupamentos de regiões (explicados abaixo). Cada agrupamento contém várias regiões conectadas, ou adjacentes, e também se conecta a outros agrupamentos."
 
 #, fuzzy
 msgid "WIKI_THYLAKOIDS_EFFECTS"
@@ -9918,4 +9894,5 @@ msgstr "Diminuir o zoom"
 
 #~ msgid "DOT_RATE_SCALES"
 #~ msgstr ". Proporção aumenta"
+
 
