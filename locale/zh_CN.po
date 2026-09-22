@@ -1656,13 +1656,11 @@ msgstr "减小物体"
 msgid "DEFAULT_AUDIO_OUTPUT_DEVICE"
 msgstr "默认输出设备"
 
-#, fuzzy
 msgid "DEFAULT_GAMETE_B_CELL_TYPE_NAME"
-msgstr "孢子"
+msgstr "配子 B"
 
-#, fuzzy
 msgid "DEFAULT_GAMETE_CELL_TYPE_NAME"
-msgstr "孢子"
+msgstr "配子"
 
 msgid "DEFAULT_SPORE_CELL_TYPE_NAME"
 msgstr "孢子"
@@ -4684,13 +4682,11 @@ msgstr "无事件记录"
 msgid "NO_FOSSIL_DIRECTORY"
 msgstr "找不到化石目录"
 
-#, fuzzy
 msgid "NO_GAMETE_CELL_TYPE_SET"
-msgstr "配子类型A"
+msgstr "使用有性生殖的生物必须设置一种配子细胞类型。"
 
-#, fuzzy
 msgid "NO_GAMETE_CELL_TYPE_SET_TITLE"
-msgstr "未设置孢子细胞类型"
+msgstr "未设置配子细胞类型"
 
 msgid "NO_LONGER_ELIGIBLE_FOR_ACHIEVEMENTS"
 msgstr "无法在当前游戏中获得成就"
@@ -6076,9 +6072,8 @@ msgstr "生成磷酸盐"
 msgid "SPECIALIZATION_COLON"
 msgstr "专业化："
 
-#, fuzzy
 msgid "SPECIAL_CELL_TYPE_ORIGIN_CELL_TYPE_SELECTION_POPUP_TITLE"
-msgstr "选择从何种细胞开始繁殖周期"
+msgstr "选择要复制的细胞类型"
 
 msgid "SPECIAL_MOUSE_1"
 msgstr "鼠标侧键1"
@@ -10989,3 +10984,4 @@ msgstr "缩小"
 
 #~ msgid "DOT_RATE_SCALES"
 #~ msgstr ". 产出速率取决于"
+
