@@ -18,8 +18,16 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
         with:
-          lfs: true
+          lfs: false
           submodules: recursive
+
+      - name: Fetch upstream LFS assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git lfs install --local
+          git config lfs.url https://github.com/Revolutionary-Games/Thrive.git/info/lfs
+          git lfs pull
 
       - name: Set up .NET
         uses: actions/setup-dotnet@v4
