@@ -957,6 +957,8 @@ public class Settings
         viewport.FsrSharpness = UpscalingSharpening;
 
         var effectiveMode = UpscalingMethod.Value;
+        var effectiveAntiAliasing = AntiAliasing.Value;
+        var videoDriver = FeatureInformation.GetVideoDriver();
 
         bool allowTemporal = true;
 
@@ -966,6 +968,30 @@ public class Settings
         if (RenderScale.Value >= 1)
         {
             effectiveMode = UpscalingMode.Bilinear;
+        }
+
+        // The Compatibility renderer does not support the temporal upscaler or TAA. Keep old settings usable when
+        // switching renderer by applying the closest supported modes without modifying the saved options.
+        if (videoDriver == OS.RenderingDriver.Opengl3)
+        {
+            if (effectiveMode != UpscalingMode.Bilinear)
+            {
+                GD.Print("Using bilinear upscaling as the selected method is not supported by the Compatibility " +
+                    "renderer");
+                effectiveMode = UpscalingMode.Bilinear;
+            }
+
+            switch (effectiveAntiAliasing)
+            {
+                case AntiAliasingMode.TemporalAntiAliasing:
+                    effectiveAntiAliasing = AntiAliasingMode.ScreenSpaceFx;
+                    break;
+                case AntiAliasingMode.MSAAAndTemporal:
+                    effectiveAntiAliasing = AntiAliasingMode.MSAA;
+                    break;
+            }
+
+            allowTemporal = false;
         }
 
         // Disable TemporalAntiAliasing automatically to prevent a warning
@@ -993,7 +1019,7 @@ public class Settings
                 break;
         }
 
-        switch (AntiAliasing.Value)
+        switch (effectiveAntiAliasing)
         {
             case AntiAliasingMode.MSAA:
                 viewport.UseTaa = false;
@@ -1471,33 +1497,13 @@ public class Settings
 
         GD.Print("Detected system RAM (MiB) as: ", availableRam / GlobalConstants.MEBIBYTE);
 
-        var preset = GraphicsPresets.Preset.High;
+        var videoDriver = FeatureInformation.GetVideoDriver();
+        var deviceType = RenderingServer.GetVideoAdapterType();
 
-        // Automatic preset adjustment based on some conditions
-        if (FeatureInformation.GetVideoDriver() == OS.RenderingDriver.Opengl3 ||
-            availableRam < (long)GlobalConstants.GIBIBYTE * 3)
-        {
-            preset = GraphicsPresets.Preset.Low;
+        GD.Print("Detected graphics device type as: ", deviceType, " renderer: ", videoDriver);
 
-            // Apparently on Linux with a dedicated GPU this detection is not correct, so we have some safety
-            // handling here
-            bool hasDedicatedGpu = RenderingServer.GetVideoAdapterType() is RenderingDevice.DeviceType.DiscreteGpu
-                or RenderingDevice.DeviceType.Other;
-
-            // Additionally, if integrated graphics and system memory is not very high set to very low
-
-            if ((!hasDedicatedGpu && availableRam < (long)GlobalConstants.GIBIBYTE * 11) ||
-                (availableRam < (long)GlobalConstants.GIBIBYTE * 3))
-            {
-                GD.Print("Detected integrated graphics and low system memory (or very low memory)");
-                preset = GraphicsPresets.Preset.VeryLow;
-            }
-        }
-        else if (Environment.ProcessorCount <= 4 || availableRam < (long)GlobalConstants.GIBIBYTE * 6)
-        {
-            // Assume 2 CPU cores have hyperthreading so this is probably a laptop system, so pick medium
-            preset = GraphicsPresets.Preset.Medium;
-        }
+        var preset = GraphicsPresets.GetRecommendedPreset(videoDriver, deviceType, availableRam,
+            Environment.ProcessorCount);
 
         GD.Print("Picked graphics preset: ", preset);
 

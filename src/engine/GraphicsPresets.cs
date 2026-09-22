@@ -149,6 +149,45 @@ public static class GraphicsPresets
         return Preset.Custom;
     }
 
+    /// <summary>
+    ///   Picks a safe default graphics preset for the detected hardware.
+    /// </summary>
+    /// <remarks>
+    ///   <para>
+    ///     This is intentionally conservative for integrated graphics. Players can always select a higher preset,
+    ///     while selecting too high a default can make the first launch unnecessarily difficult to use.
+    ///   </para>
+    /// </remarks>
+    public static Preset GetRecommendedPreset(OS.RenderingDriver renderer, RenderingDevice.DeviceType deviceType,
+        long availableRam, int logicalProcessorCount)
+    {
+        bool hasDedicatedGpu = deviceType is RenderingDevice.DeviceType.DiscreteGpu or RenderingDevice.DeviceType.Other;
+
+        if (renderer == OS.RenderingDriver.Opengl3 || availableRam < (long)GlobalConstants.GIBIBYTE * 3)
+        {
+            if ((!hasDedicatedGpu && availableRam < (long)GlobalConstants.GIBIBYTE * 11) ||
+                availableRam < (long)GlobalConstants.GIBIBYTE * 3)
+            {
+                return Preset.VeryLow;
+            }
+
+            return Preset.Low;
+        }
+
+        if (!hasDedicatedGpu)
+        {
+            if (availableRam < (long)GlobalConstants.GIBIBYTE * 8 || logicalProcessorCount <= 4)
+                return Preset.Low;
+
+            return Preset.Medium;
+        }
+
+        if (logicalProcessorCount <= 4 || availableRam < (long)GlobalConstants.GIBIBYTE * 6)
+            return Preset.Medium;
+
+        return Preset.High;
+    }
+
     public static void ApplyPreset(Preset preset, Settings settings)
     {
         if (preset == Preset.Custom)
