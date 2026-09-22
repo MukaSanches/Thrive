@@ -7562,9 +7562,8 @@ msgstr "Para cada [b]Quimiorreceptor[/b] ligado à célula do jogador:\\n\\n[ul]
 msgid "WIKI_CHEMORECEPTOR_INTRO"
 msgstr "[color=#3796e1][url=thriveopedia:OrganellesRoot]Organela[/url][/color] externa que representa a capacidade de uma célula detectar compostos no ambiente. Os [b]Quimiorreceptores[/b] podem ser personalizados para detectar um composto específico ou até mesmo células de uma espécie específica."
 
-#, fuzzy
 msgid "WIKI_CHEMORECEPTOR_MODIFICATIONS"
-msgstr "A “visão” das células é, na verdade, a quimiorrecepção. É assim que elas obtêm informações do ambiente. Adicionar essa organela representa evoluir uma quimiorrecepção melhor. Como o jogador já consegue ver o que está ao redor da célula, a quimiorrecepção é representada por uma linha apontando para compostos fora da tela."
+msgstr "Modifique o [b]Quimiorreceptor[/b] para selecionar o composto a ser procurado ou, alternativamente, a espécie a ser detectada. Defina o raio de busca, a cor da linha e, ao procurar compostos, a densidade mínima necessária para detecção."
 
 msgid "WIKI_CHEMORECEPTOR_PROCESSES"
 msgstr "Sem processos."
@@ -7572,13 +7571,11 @@ msgstr "Sem processos."
 msgid "WIKI_CHEMORECEPTOR_REQUIREMENTS"
 msgstr "Sem requisitos"
 
-#, fuzzy
 msgid "WIKI_CHEMORECEPTOR_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "Os [color=#3796e1][url=https://en.wikipedia.org/wiki/Chemoreceptor]quimiorreceptores[/url][/color] são uma classe de estruturas sensoriais localizadas na superfície das células. Em procariontes, geralmente consistem em proteínas helicoidais alongadas; em eucariontes, podem envolver cílios mais complexos. Em termos gerais, eles alertam a célula para a presença de compostos químicos no ambiente e permitem que ela se mova em direção a eles ou se afaste conforme necessário."
 
-#, fuzzy
 msgid "WIKI_CHEMORECEPTOR_STRATEGY"
-msgstr "A “visão” das células é, na verdade, a quimiorrecepção. É assim que elas obtêm informações do ambiente. Adicionar essa organela representa evoluir uma quimiorrecepção melhor. Como o jogador já consegue ver o que está ao redor da célula, a quimiorrecepção é representada por uma linha apontando para compostos fora da tela."
+msgstr "Os [b]Quimiorreceptores[/b] são valiosos no início do jogo para encontrar [thrive:compound type=\"glucose\"][/thrive:compound]. Mais tarde, podem ser especialmente úteis para localizar [thrive:compound type=\"phosphates\"][/thrive:compound], pois esse é o único composto que as células não conseguem produzir por conta própria.\\n\\nRecomendamos definir o raio de busca no máximo e a densidade mínima aproximadamente no meio do intervalo. Assim, as nuvens encontradas tendem a ser maiores e valem melhor o gasto de energia necessário para alcançá-las.\\n\\nPreste atenção aos [b]Quimiorreceptores[/b] de outras células, tanto da sua espécie quanto de outras. Células não controladas pelo jogador que possuem [b]Quimiorreceptores[/b] procuram o composto-alvo, e muitas delas no ambiente podem causar uma escassez repentina desse composto. Se sua própria espécie desenvolver [b]Quimiorreceptores[/b] e crescer muito em população, talvez seja necessário equilibrar a facilidade de busca com o risco de esgotar um composto do ambiente."
 
 msgid "WIKI_CHEMORECEPTOR_UPGRADES"
 msgstr "Sem melhoras."
@@ -7586,62 +7583,47 @@ msgstr "Sem melhoras."
 msgid "WIKI_CHEMOSYNTHESIZING_PROTEINS_EFFECTS"
 msgstr "Sem efeitos especiais."
 
-#, fuzzy
 msgid "WIKI_CHEMOSYNTHESIZING_PROTEINS_INTRO"
-msgstr "Proteínas Quimiossintetizantes"
+msgstr "Pequenos agrupamentos de proteínas no [b][color=#3796e1][url=thriveopedia:cytoplasm]Citoplasma[/url][/color][/b] que convertem [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], [thrive:compound type=\"carbondioxide\"][/thrive:compound] gasoso e água em [thrive:compound type=\"glucose\"][/thrive:compound] por meio de um processo chamado [b]Quimiossíntese Bacteriana[/b]. A taxa de produção de [thrive:compound type=\"glucose\"][/thrive:compound] aumenta conforme a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
 
 msgid "WIKI_CHEMOSYNTHESIZING_PROTEINS_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_CHEMOSYNTHESIZING_PROTEINS_PROCESSES"
-msgstr "Transforma [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] em [thrive:compound type=\"glucose\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Também transforma [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound]."
+msgstr "[b]Quimiossíntese Bacteriana:[/b] [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] + [thrive:compound type=\"carbondioxide\"][/thrive:compound] → [thrive:compound type=\"glucose\"][/thrive:compound]\\n\\nConverte [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] em [thrive:compound type=\"glucose\"][/thrive:compound]. A taxa aumenta conforme a concentração ambiental de [thrive:compound type=\"carbondioxide\"][/thrive:compound].\\n\\n[b]Glicólise[/b]: [b]Glicose[/b] [thrive:compound type=\"glucose\"][/thrive:compound] → [thrive:compound type=\"atp\"][/thrive:compound]\\n\\nComo as [b]Proteínas Quimiossintéticas[/b] ficam suspensas no [b][color=#3796e1][url=thriveopedia:cytoplasm]Citoplasma[/url][/color][/b], elas também realizam alguma [b]Glicólise[/b]."
 
 msgid "WIKI_CHEMOSYNTHESIZING_PROTEINS_REQUIREMENTS"
 msgstr "Sem requisitos."
 
-#, fuzzy
 msgid "WIKI_CHEMOSYNTHESIZING_PROTEINS_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "A [color=#3796e1][url=https://en.wikipedia.org/wiki/Chemosynthesis]quimiossíntese[/url][/color] é um processo metabólico encontrado em muitos microrganismos reais e funciona, em essência, como uma alternativa à fotossíntese. Enquanto a fotossíntese usa fótons da luz solar para fornecer energia às reações químicas, a quimiossíntese usa a oxidação de compostos inorgânicos, como ferro ou sulfeto de hidrogênio, para fornecer energia.\\n\\nComo exemplo, a quimiossíntese baseada em sulfeto de hidrogênio pode ser resumida pela seguinte equação química:\\n\\n18H<sub>2</sub>S + 6CO<sub>2</sub> + 3O<sub>2</sub> → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> (carboidrato) + 12H<sub>2</sub>O + 18S\\n\\nNa reação acima, o sulfeto de hidrogênio atua como fonte de elétrons ao reagir com dióxido de carbono e oxigênio, resultando na formação de uma molécula de carboidrato, além de água e átomos livres de enxofre. Assim, enquanto a fotossíntese libera oxigênio gasoso, a quimiossíntese baseada em sulfeto de hidrogênio produz enxofre, que normalmente se agrega em glóbulos sólidos."
 
-#, fuzzy
 msgid "WIKI_CHEMOSYNTHESIZING_PROTEINS_STRATEGY"
-msgstr "Proteínas Quimiossintetizantes"
+msgstr "Com [b]Proteínas Quimiossintéticas[/b], as células ganham acesso a uma das fontes de energia mais abundantes e confiáveis das fontes hidrotermais vulcânicas: [thrive:compound type=\"hydrogensulfide\"][/thrive:compound]. Ele pode ser acumulado e processado gradualmente em [thrive:compound type=\"glucose\"][/thrive:compound], permitindo manter uma reserva maior de energia de uma só vez.\\n\\nPara criar uma bactéria quimiossintética eficiente, você precisa apenas de [b]Proteínas Quimiossintéticas[/b] suficientes para gerar um saldo líquido positivo de [thrive:compound type=\"glucose\"][/thrive:compound] na célula. Uma boa forma de começar é colocar duas [b]Proteínas Quimiossintéticas[/b] na primeira geração e, na geração seguinte, adicionar [b][color=#3796e1][url=thriveopedia:metabolosome]Metabolossomos[/url][/color][/b] e a parte que você preferir alimentar. A partir daí, costuma ser seguro adicionar aproximadamente um hexágono de [b]Proteínas Quimiossintéticas[/b] para cada duas outras partes.\\n\\nTenha cuidado: o [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] só está presente em alguns biomas do mundo. Evoluir para depender dele como principal fonte de energia pode impedir que sua célula viaje com segurança para muitos outros ambientes."
 
 msgid "WIKI_CHEMOSYNTHESIZING_PROTEINS_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_CHLOROPLAST_EFFECTS"
-msgstr "Sem efeitos."
+msgstr "Aumenta em 8% a [b]Resistência[/b] à [thrive:compound type=\"sunlight\"][/thrive:compound] e em 3,5% a [b]Resistência[/b] ao [thrive:compound type=\"oxygen\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_CHLOROPLAST_INTRO"
-msgstr "O cloroplasto é uma estrutura de membrana dupla contendo pigmentos fotossensíveis. É um procarionte que foi assimilado pelo seu hospedeiro eucariótico. Os pigmentos no cloroplasto conseguem usar a energia da luz para produzir glicose da água e gás carbônico em um processo chamado Fotossíntese. Esses pigmentos também são o que os dá uma cor característica. A proporção de sua produção de glicose aumenta com a concentração de dióxido de carbono, e intensidade da luz."
+msgstr "Preenchido por um pigmento verde chamado clorofila, o cloroplasto usa a energia obtida da [thrive:compound type=\"sunlight\"][/thrive:compound] para produzir [thrive:compound type=\"glucose\"][/thrive:compound] a partir de água e [thrive:compound type=\"carbondioxide\"][/thrive:compound] gasoso. Esse processo é chamado de [b]Fotossíntese[/b].\\n\\nComo a [b]Fotossíntese[/b] depende de [thrive:compound type=\"sunlight\"][/thrive:compound], ela só é eficiente nas regiões próximas à superfície.\\n\\nEsta organela é a contraparte eucariótica dos [b][color=#3796e1][url=thriveopedia:chromatophore]Tilacoides[/url][/color][/b]."
 
 msgid "WIKI_CHLOROPLAST_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_CHLOROPLAST_PROCESSES"
-msgstr "Produz [thrive:compound type=\"glucose\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound] e intensidade de [thrive:compound type=\"sunlight\"][/thrive:compound]."
+msgstr "[b]Fotossíntese:[/b] [thrive:compound type=\"sunlight\"][/thrive:compound] + [thrive:compound type=\"carbondioxide\"][/thrive:compound] → [thrive:compound type=\"glucose\"][/thrive:compound] + [thrive:compound type=\"oxygen\"][/thrive:compound]\\n\\nUma versão mais potente da [b]Fotossíntese dos Cromatóforos[/b] encontrada nos [b][color=#3796e1][url=thriveopedia:chromatophore]Tilacoides[/url][/color][/b]. Isso permite aproveitar a luz solar com mais eficiência. Assim como sua contraparte procariótica, os [b]Cloroplastos[/b] realizam [b]Fotossíntese[/b] apenas em regiões iluminadas; quanto mais próxima da superfície estiver sua célula, mais eficiente será esse processo."
 
-#, fuzzy
 msgid "WIKI_CHLOROPLAST_REQUIREMENTS"
-msgstr ""
-"Uma célula deve ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Cloroplastos[/b].\n"
-"\n"
-"Se o desbloqueio de organelas estiver ativado nas configurações do jogo, a seguinte condição deve ser verdadeira [i]para a célula do jogador[/i]:\n"
-"\n"
-"[indent]—   Contém no mínimo [b]5[/b] [b][color=#3796e1][url=thriveopedia:chromatophore]Tilacoides[/url][/color][/b] há no mínimo [b]7[/b] gerações seguidas.[/indent]"
+msgstr "Uma célula precisa ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Cloroplastos[/b].\\n\\nSe o desbloqueio de organelas estiver ativado nas configurações do jogo, a condição a seguir deve ser verdadeira [i]para a célula do jogador[/i]:\\n\\n[ul]Conter pelo menos [b]5[/b] [b][color=#3796e1][url=thriveopedia:chromatophore]Tilacoides[/url][/color][/b] por pelo menos [b]7[/b] gerações consecutivas.[/ul]"
 
-#, fuzzy
 msgid "WIKI_CHLOROPLAST_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "Os [color=#3796e1][url=https://en.wikipedia.org/wiki/Chloroplast]cloroplastos[/url][/color] são organelas delimitadas por duas membranas encontradas em células de plantas e algas. Eles se originaram de um antigo evento de endossimbiose no qual uma cianobactéria foi engolfada por uma célula eucariótica primitiva; por causa dessa origem, possuem seu próprio genoma, distinto do genoma da célula hospedeira, de forma semelhante às [b]Mitocôndrias[/b].\\n\\nAlém dos [b][color=#3796e1][url=thriveopedia:chromatophore]Tilacoides[/url][/color][/b], os cloroplastos contêm a enzima ribulose-1,5-bisfosfato carboxilase/oxigenase, normalmente abreviada como RuBisCO. Ela exerce um papel central na fotossíntese ao converter dióxido de carbono atmosférico em [b]Glicose[/b] e outras moléculas ricas em energia. A RuBisCO é uma enzima muito antiga, provavelmente surgida há cerca de quatro bilhões de anos, e atualmente é considerada a enzima mais abundante da Terra. Apesar disso, é notavelmente ineficiente: fixa dióxido de carbono de forma relativamente lenta e também tende a reagir com oxigênio, processo chamado fotorrespiração, que reduz a eficiência fotossintética ao desperdiçar energia e consumir carbono já fixado. Mesmo sob enorme pressão seletiva, a RuBisCO aparentemente não conseguiu superar essa limitação, e biólogos moleculares encontraram grande dificuldade para aumentar sua eficiência artificialmente, sugerindo que essa limitação pode ser uma característica fundamental de sua estrutura e atividade."
 
-#, fuzzy
 msgid "WIKI_CHLOROPLAST_STRATEGY"
-msgstr "O cloroplasto é uma estrutura de membrana dupla contendo pigmentos fotossensíveis. É um procarionte que foi assimilado pelo seu hospedeiro eucariótico. Os pigmentos no cloroplasto conseguem usar a energia da luz para produzir glicose da água e gás carbônico em um processo chamado Fotossíntese. Esses pigmentos também são o que os dá uma cor característica. A proporção de sua produção de glicose aumenta com a concentração de dióxido de carbono, e intensidade da luz."
+msgstr "Os [b]Cloroplastos[/b] são a maior organela depois do [color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color], com alto custo de osmorregulação e grande peso.\\n\\nAo jogar com o ciclo de dia e noite ativado, é necessário armazenar bastante [thrive:compound type=\"glucose\"][/thrive:compound] para sobreviver durante a noite. Isso pode ser feito com [b][color=#3796e1][url=thriveopedia:vacuole]Vacúolos[/url][/color][/b]. Consulte a seção de estratégia dos [b][color=#3796e1][url=thriveopedia:chromatophore]Tilacoides[/url][/color][/b] para mais orientações sobre como sobreviver como organismo fotossintético."
 
 msgid "WIKI_CHLOROPLAST_UPGRADES"
 msgstr "Sem melhoras."
@@ -7684,54 +7666,14 @@ msgstr ""
 msgid "WIKI_COMPOUNDS_BUTTON"
 msgstr "Compostos"
 
-#, fuzzy
 msgid "WIKI_COMPOUNDS_DEVELOPMENT"
-msgstr "Compostos:"
+msgstr "Para informações sobre os conceitos, teoria e funcionamento interno dos Compostos, consulte [color=#3796e1][url=thriveopedia:CompoundSystemDevelopment]Desenvolvimento do Sistema de Compostos[/url][/color]."
 
 msgid "WIKI_COMPOUNDS_INTRO"
 msgstr "Para os primeiros estágios, os principais recursos de Thrive são [b]Compostos[/b]. Compostos são usados em processos para criar outros compostos ou consumidos de outra forma."
 
-#, fuzzy
 msgid "WIKI_COMPOUNDS_TYPES_OF_COMPOUNDS"
-msgstr ""
-"Existem diversos [b]Compostos[/b] diferentes no Thrive.\n"
-"\n"
-"[b][u]Compostos em Nuvem[/u][/b]\n"
-"\n"
-"Estes Compostos surgem em nuvens geradas no [b]ambiente[/b].\n"
-"\n"
-"[indent]—   [thrive:compound type=\"glucose\"][/thrive:compound][/indent]\n"
-"[indent]—   [thrive:compound type=\"iron\"][/thrive:compound] (Também é emitido de [b]Pedaços[/b])[/indent]\n"
-"[indent]—   [thrive:compound type=\"hydrogensulfide\"][/thrive:compound][/indent]\n"
-"[indent]—   [thrive:compound type=\"ammonia\"][/thrive:compound][/indent]\n"
-"[indent]—   [thrive:compound type=\"phosphates\"][/thrive:compound][/indent]\n"
-"\n"
-"[b][u]Gases Ambientais[/u][/b]\n"
-"\n"
-"Estes Compostos não aparecem em nuvens no ambiente, estando presentes por toda a região e afentando alguns processos. A quantidade desses compostos nas regiões sempre totaliza em 100%. Para ler mais sobre os gases, veja [color=#3796e1][url=thriveopedia:EnvironmentalConditions]Condições Ambientais[/url][/color].\n"
-"\n"
-"[indent]—   [thrive:compound type=\"oxygen\"][/thrive:compound][/indent]\n"
-"[indent]—   [thrive:compound type=\"nitrogen\"][/thrive:compound][/indent]\n"
-"[indent]—   [thrive:compound type=\"carbondioxide\"][/thrive:compound][/indent]\n"
-"\n"
-"[b][u]Compostos em Pedaços Flutuantes[/u][/b]\n"
-"\n"
-"Estes Compostos são encontrados em pedaços de mineais flutuando em algumas regiões.\n"
-"\n"
-"[indent]—   [thrive:compound type=\"iron\"][/thrive:compound][/indent]\n"
-"[indent]—   [thrive:compound type=\"hydrogensulfide\"][/thrive:compound][/indent]\n"
-"[indent]—   [thrive:compound type=\"phosphates\"][/thrive:compound][/indent]\n"
-"\n"
-"[b][u]Agentes[/u][/b]\n"
-"\n"
-"Estes Compostos são criados em [color=#3796e1][url=thriveopedia:OrganellesRoot]organelas[/url][/color] especiais e têm usos especiais.\n"
-"\n"
-"[indent]—   [thrive:compound type=\"oxytoxy\"][/thrive:compound][/indent]\n"
-"[indent]—   [thrive:compound type=\"mucilage\"][/thrive:compound][/indent]\n"
-"\n"
-"[b][u]ATP[/u][/b]\n"
-"\n"
-"[indent]—   O [thrive:compound type=\"atp\"][/thrive:compound] é criado pricipalmente por meio da [thrive:compound type=\"glucose\"][/thrive:compound] e é necessário para manter o seu organismo vivo.[/indent]"
+msgstr "Existem vários [b]Compostos[/b] diferentes no Thrive.\\n\\n[b][u]Compostos em Nuvem[/u][/b]\\n\\nEsses compostos aparecem em nuvens geradas no [b]ambiente[/b].\\n\\n[ul][thrive:compound type=\"glucose\"][/thrive:compound]\\n[thrive:compound type=\"iron\"][/thrive:compound] (também é liberado por [b]Pedaços[/b])\\n[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]\\n[thrive:compound type=\"ammonia\"][/thrive:compound]\\n[thrive:compound type=\"phosphates\"][/thrive:compound][/ul]\\n\\n[b][u]Gases Ambientais[/u][/b]\\n\\nEsses compostos não aparecem como nuvens no ambiente, mas estão presentes em toda a região e afetam alguns processos. As proporções desses compostos nas regiões sempre somam 100%. Para saber mais sobre gases, consulte [color=#3796e1][url=thriveopedia:EnvironmentalConditions]Condições Ambientais[/url][/color].\\n\\n[ul][thrive:compound type=\"oxygen\"][/thrive:compound]\\n[thrive:compound type=\"nitrogen\"][/thrive:compound]\\n[thrive:compound type=\"carbondioxide\"][/thrive:compound][/ul]\\n\\n[b][u]Compostos em Pedaços Flutuantes[/u][/b]\\n\\nEsses compostos são encontrados em pedaços de minerais que flutuam em algumas regiões.\\n\\n[ul][thrive:compound type=\"iron\"][/thrive:compound]\\n[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]\\n[thrive:compound type=\"phosphates\"][/thrive:compound][/ul]\\n\\n[b][u]Agentes[/u][/b]\\n\\nEsses compostos são criados em [color=#3796e1][url=thriveopedia:OrganellesRoot]organelas[/url][/color] especiais e possuem usos específicos.\\n\\n[ul][thrive:compound type=\"oxytoxy\"][/thrive:compound]\\n[thrive:compound type=\"mucilage\"][/thrive:compound][/ul]\\n\\n[b][u]ATP[/u][/b]\\n\\n[ul]O [thrive:compound type=\"atp\"][/thrive:compound] é produzido principalmente a partir de [thrive:compound type=\"glucose\"][/thrive:compound] e é necessário para manter seu organismo vivo.[/ul]"
 
 msgid "WIKI_COMPOUND_SYSTEM_DEVELOPMENT_COMPOUNDS_LIST"
 msgstr "Para a lista completa de compostos no Estágio Microbial, veja a tabela de Compostos na página Apêndices do Estágio Microbial."
@@ -7740,14 +7682,13 @@ msgid "WIKI_COMPOUND_SYSTEM_DEVELOPMENT_INTRO"
 msgstr "O sistema de compostos é uma das mecânicas de jogo fundamentais por trás de simulações pelo jogo inteiro, projetado para ser usado em todo lugar, da homeostase até o comércio interestelar."
 
 msgid "WIKI_COMPOUND_SYSTEM_DEVELOPMENT_MICROBE_STAGE"
-msgstr ""
+msgstr "[ul]Compostos são os materiais dos quais o mundo e os organismos são formados. Isso inclui compostos elementares, como carbono, recursos naturais, como sal e água, compostos orgânicos, como aminoácidos, e polímeros orgânicos, como proteínas.\\nMais tarde, existirão materiais compostos, como osso e músculo, formados pela combinação de outros compostos.\\nOs produtos finais incluem coisas como a membrana celular e podem ser tratados da mesma forma que compostos. Outro produto final importante é a energia.\\nOs compostos existem em vários estados no ambiente:[/ul]\\n\\n[ul]Nenhum composto entra ou sai do ecossistema total.\\nOs compostos podem mudar de forma, como ao decompor água em hidrogênio e oxigênio.\\nAs nuvens de compostos são baseadas em uma representação em grade dos recursos ambientais. A concentração pode variar; quanto maior ela for, mais intensa será a cor da nuvem.[/ul]\\n\\n[b][u]Organelas[/u][/b]\\n\\n[ul]É nelas que os processos geralmente ocorrem. Alguns processos exigem organelas específicas. Eles podem variar conforme a qualidade da organela.\\nEm estágios posteriores, o equivalente seriam órgãos, oficinas/fábricas e cidades.[/ul]\\n\\n[b][u]Coleta e Armazenamento[/u][/b]\\n\\n[ul]A quantidade de compostos em um sistema é medida em uma unidade baseada em mols.\\nCada composto possui um peso, que afeta quanto espaço de armazenamento ele ocupa em uma célula.\\nOs micróbios absorvem compostos automaticamente ao nadar através deles, desde que haja espaço para armazená-los. Eles ficam guardados no citoplasma ou em vacúolos.\\nVacúolos podem ser configurados para armazenar apenas compostos específicos.[/ul]\\n\\n[b][u]Sistema de Prioridade[/u][/b]\\n\\nComo o armazenamento é geral, é necessário definir prioridades para quais compostos devem ser armazenados e quais devem ser expelidos primeiro quando o espaço estiver cheio.\\n\\n[b][u]Processos[/u][/b]\\n\\n[ul]Eles controlam como compostos são convertidos uns nos outros e o que é necessário para isso. Se um organismo não for capaz de realizar determinado processo, talvez não tenha acesso aos produtos desse processo e precise obtê-los de outra forma, provavelmente alimentando-se de algo, ou talvez nem consiga obtê-los. Por exemplo, comer um chifre de rinoceronte não permite que você produza um em seu próprio corpo.\\nOs processos que seu organismo consegue realizar, e a eficiência com que os realiza, definem o organismo, a espécie e sua posição na cadeia alimentar.\\nNem todos os processos estarão disponíveis no início; o jogador precisará obter certas organelas para desbloqueá-los.[/ul]\\n\\n[b][u]Agentes[/u][/b]\\n\\n[ul]Agentes são compostos especiais com efeitos poderosos e, por simplicidade, a maioria é produzida a partir dos mesmos componentes básicos. A conversão dos compostos recebidos em agentes é realizada pelo aparelho de Golgi e pelo retículo endoplasmático, que consomem ATP a uma taxa fixa, estejam ou não executando essa tarefa.\\nMais detalhes estão disponíveis na página sobre Agentes.[/ul]\\n\\n[b][u]Organismos[/u][/b]\\n\\n[ul]Organismos são indivíduos de uma espécie, sejam células, plantas ou criaturas.\\nCada um possui organelas ou órgãos específicos, é capaz de determinados processos, pode armazenar certos compostos e considera outros como resíduos.\\nCada organismo executa continuamente os processos de que é capaz para produzir os compostos de que precisa.\\nUm composto pode ser nutriente para uma espécie e não para outra.[/ul]\\n\\n[b][u]Implementação[/u][/b]\\n\\n[b][u]Fase 1: Cálculo dos Preços[/u][/b]\\n\\n[ul]No início do método de atualização, cada processo calcula seu preço. A função de preço depende da demanda, da oferta e do preço anterior do composto.[/ul]\\n\\nNa implementação atual, a função é:\\n\\n[code]P = √(D / (S + 1)) * COMPOUND_PRICE_MOMENTUM + oldP * (1 - COMPOUND_PRICE_MOMENTUM))[/code]\\n\\nOnde:\\n[code]P[/code] é o preço\\n[code]D[/code] é a demanda\\n[code]S[/code] é a oferta\\n[code]oldP[/code] é o preço anterior\\n[code]COMPOUND_PRICE_MOMENTUM[/code] é uma constante entre 0 e 1.\\n\\nA função também verifica se é necessário elevar o valor de 0 para um pequeno número positivo.\\n\\n[ul]Depois disso, se o composto estiver marcado como “útil” — isso é definido na tabela de compostos —, o preço é aumentado em uma quantidade que depende da oferta do composto. Isso é feito para que o sistema de processos saiba quais compostos deve produzir; caso contrário, todos os preços tenderiam a cair para 0 e isso não seria interessante.[/ul]\\n\\nNa implementação atual, a função de aumento de preço é:\\n\\n[code]PI = IMPORTANT_COMPOUND_BIAS / (S + 1)[/code]\\n\\nOnde:\\n[code]PI[/code] é o aumento de preço\\n[code]S[/code] é a oferta\\n[code]IMPORTANT_COMPOUND_BIAS[/code] é uma constante arbitrária\\n\\nÉ importante observar que, na primeira equação de preço, o preço anterior utilizado é o valor antes desse aumento.\\nSe, depois de tudo isso, o preço ficar abaixo de um pequeno limite, ele é arredondado para zero e posteriormente descartado.\\n\\n[b][u]Fase 2: Cálculo da Taxa[/u][/b]\\n\\n[ul]Depois que esses cálculos são feitos para todos os compostos, o sistema de processos precisa decidir a taxa desejada para cada processo.\\nEssa taxa pode, em teoria, ser maior que a capacidade máxima do processo.\\nEla é calculada fazendo uma previsão simples dos preços dos compostos: os cálculos da fase 1 são repetidos para cada composto, mas assumindo que a oferta seja uma unidade maior e que o preço varie linearmente em relação à oferta.\\nSe o preço de um composto foi 0 na fase 1, presume-se que ele continue sempre em 0, independentemente da oferta.\\nPor fim, presume-se que o preço seja 0 para qualquer valor de oferta em que a linearização tornaria o preço negativo; em outras palavras, o valor mínimo da função é 0.\\nAqui está um exemplo de uma dessas funções, feito no equivalente ao MS Paint do Google Drive:[/ul]\\n\\n[ul]Depois, o sistema precisa apenas encontrar a taxa em que a soma dos preços de todos os compostos de entrada seja igual à soma dos preços de todos os compostos de saída. Essa é a taxa desejada.\\nSe todos os compostos de saída tiverem preço 0, a taxa desejada também será 0.\\nUm exemplo de processo seria assim:[/ul]\\n\\n*Para considerar o espaço de armazenamento, é feito um cálculo semelhante, mas multiplicando os preços dos compostos por uma função que retorna um valor entre 0,0 e 1,0 de acordo com o espaço disponível e o tamanho e a quantidade dos compostos processados.\\n\\nNa implementação atual, a função é:\\n\\n[code]M = 2.0 * (1.0 - sigmoid(RS / (AS + 1.0) * STORAGE_SPACE_MULTIPLIER));[/code]\\n\\nOnde:\\n[code]M[/code] é o multiplicador entre 0 e 1.\\n[code]RS[/code] é o espaço necessário para o composto (volume * quantidade produzida/processada).\\n[code]AS[/code] é o espaço de armazenamento disponível.\\n[code]STORAGE_SPACE_MULTIPLIER[/code] é uma constante arbitrária, atualmente 2,0.\\n\\n[ul]Então, as entradas são convertidas nas saídas usando o menor valor entre a taxa desejada considerando o espaço de armazenamento — SOMENTE se essa consideração reduzir a taxa; caso contrário, o espaço não é considerado, para evitar que o sistema de processos destrua compostos apenas para liberar espaço, tarefa que cabe ao código de descarte de compostos — e a capacidade máxima do processo, supondo que existam entradas e espaço de armazenamento suficientes.[/ul]\\n\\n[b][u]Fase 3: Cálculo da Demanda[/u][/b]\\n\\n[ul]Depois de encontrar as taxas desejadas, o processo precisa determinar a demanda pelos compostos.\\nA demanda de um composto é igual à soma de todas as demandas geradas por todos os processos, definida pela equação:[/ul]\\n\\n[code]D = DR * IN * soft(PC * IN)[/code]\\n\\nOnde:\\n[code]D[/code] é a demanda gerada por um processo.\\n[code]DR[/code] é a taxa desejada desse processo, sem considerar limitações de capacidade, entrada ou armazenamento.\\n[code]IN[/code] é a entrada exigida pelo processo, ou seja, a quantidade consumida ao executar o processo a uma taxa de 1.\\n[code]PC[/code] é a capacidade máxima do processo.\\n[code]soft(x)[/code] é uma função contínua e monotonicamente crescente, igual a 0 quando x = 0 e a 1 quando x ⟶ ∞.\\n\\nNa implementação atual:\\n\\n[code]soft(x) = 2 * sigmoid(x * PROCESS_CAPACITY_DEMAND_MULTIPLIER) - 1[/code]\\n\\ncom [code]PROCESS_CAPACITY_DEMAND_MULTIPLIER[/code] sendo uma constante arbitrária.\\n\\n[ul]É importante observar que um processo como A ⟶ B, com taxa 2 * x, é exatamente equivalente ao processo 2 * A ⟶ 2 * B, com taxa x.\\nTambém é importante que processos com capacidade máxima 0 não afetem o sistema de nenhuma forma.\\nÉ isso! :D[/ul]"
 
 msgid "WIKI_COMPOUND_SYSTEM_DEVELOPMENT_OVERVIEW"
-msgstr ""
+msgstr "[ul]No Thrive, as substâncias que compõem as coisas são chamadas de compostos e podem ser entendidas como recursos. Elas não se limitam à definição científica de “composto”, isto é, duas ou mais espécies químicas ligadas entre si. No sentido de recurso, um composto pode ser um elemento, como oxigênio, um composto químico, como amônia, ou outras substâncias, como agentes químicos e toxinas.[/ul]\\n\\n[ul]Praticamente tudo no jogo é formado por algum composto. O sistema de compostos acompanha do que os organismos são feitos, o que um organismo ingeriu, em que transformou essas substâncias e quais resíduos expeliu. Todo o restante faz parte do ambiente e fica disponível para outros organismos.[/ul]"
 
-#, fuzzy
 msgid "WIKI_CREATURE_EDITOR_COMMA_TECH_EDITOR"
-msgstr "Editor do Plano Corporal, Editor de Célula"
+msgstr "Editor de Criatura, Editor de Tecnologia"
 
 msgid "WIKI_CYTOPLASM_EFFECTS"
 msgstr "Qualquer organela pode substituir [b]Citoplasma[/b] sem custo de pontos de mutação (além do custo da organela)."
@@ -7761,18 +7702,17 @@ msgstr ""
 msgid "WIKI_CYTOPLASM_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_CYTOPLASM_PROCESSES"
-msgstr "Transforma [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound]."
+msgstr "[b]Glicólise do Citoplasma[/b]: [thrive:compound type=\"glucose\"][/thrive:compound] → [thrive:compound type=\"atp\"][/thrive:compound]\\n\\nO primeiro método de produção de energia disponível no jogo. Menos eficiente que a [b]Glicólise[/b] realizada em outras organelas, como os [b][color=#3796e1][url=thriveopedia:metabolosome]Metabolossomos[/url][/color][/b], ele exige apenas um fluxo constante de [thrive:compound type=\"glucose\"][/thrive:compound] e não altera sua velocidade em resposta a fatores ambientais."
 
 msgid "WIKI_CYTOPLASM_REQUIREMENTS"
 msgstr "Sem requisitos."
 
 msgid "WIKI_CYTOPLASM_SCIENTIFIC_BACKGROUND"
-msgstr ""
+msgstr "Tecnicamente, o [b]Citoplasma[/b] não é uma organela; ele corresponde ao conjunto de todos os componentes de uma célula, exceto o núcleo e a membrana. No Thrive, transformamos o [b]Citoplasma[/b] em uma organela própria para representar o espaço vazio que ainda contribui para a forma e o tamanho da célula. Em ambos os casos, o [b]Citoplasma[/b] pode ser entendido como o conteúdo que preenche a membrana, o fluido de fundo no qual os demais componentes celulares ficam suspensos.\\n\\nO principal componente do [b]Citoplasma[/b] é o citosol. O citosol contém fluidos que distribuem nutrientes pela célula — de forma aproximadamente análoga ao sangue em organismos macroscópicos — e o citoesqueleto, que mantém a estrutura celular. Muitos processos metabólicos ocorrem no citosol, incluindo os envolvidos na osmorregulação e na comunicação interna por sinais químicos.\\n\\nLeia mais na [color=#3796e1][url=https://en.wikipedia.org/wiki/Cytoplasm]página da Wikipédia[/url][/color] sobre o citoplasma."
 
 msgid "WIKI_CYTOPLASM_STRATEGY"
-msgstr ""
+msgstr "Se você conseguir continuar coletando [thrive:compound type=\"glucose\"][/thrive:compound] das nuvens do ambiente, cada hexágono de [b]Citoplasma[/b] produz um saldo líquido positivo de energia na forma de [thrive:compound type=\"atp\"][/thrive:compound]. Por isso, esta organela é uma escolha confiável para gerar energia facilmente na maioria dos ambientes. De fato, a célula inicial, LUCA, é formada por um único hexágono de [b]Citoplasma[/b].\\n\\nExistem, porém, métodos mais poderosos de geração de [thrive:compound type=\"atp\"][/thrive:compound]. Conforme o jogo avança, recomendamos investir em organelas mais especializadas de acordo com as condições ambientais, especialmente porque a concentração de [thrive:compound type=\"glucose\"][/thrive:compound] diminui com o tempo. Por exemplo, [b][color=#3796e1][url=thriveopedia:metabolosome]Metabolossomos[/url][/color][/b] são eficientes quando a região atual possui bastante [thrive:compound type=\"oxygen\"][/thrive:compound], enquanto a [b][color=#3796e1][url=thriveopedia:thermosynthase]Termossintase[/url][/color][/b] é poderosa em regiões de alta [thrive:compound type=\"temperature\"][/thrive:compound].\\n\\nAdicionar hexágonos de [b]Citoplasma[/b] também é uma das formas mais eficientes de aumentar o tamanho da célula. Um tamanho maior aumenta sua vida e impede que células menores engolfem você, mas reduz a velocidade e a capacidade de manobra."
 
 msgid "WIKI_CYTOPLASM_UPGRADES"
 msgstr "Sem melhoras."
@@ -7789,97 +7729,74 @@ msgstr "Estas são páginas relacionadas com o desenvolvimento de Thrive e cont�
 msgid "WIKI_EDITORS_AND_MUTATIONS_GENERATIONS_AND_EDITOR_SESSIONS"
 msgstr "Cada vez que você entra no [b]Editor[/b] em Thrive você avança uma [b]Geração[/b]. Nesse momento, você pode ver estatísticas, mudar de local ou realizar outras mudanças na sua espécie. Isso é o que se chama de [b]Sessão do Editor[/b]."
 
-#, fuzzy
 msgid "WIKI_EDITORS_AND_MUTATIONS_INTRO"
-msgstr "Mitocôndria"
+msgstr "O ciclo principal de jogabilidade do Thrive gira em torno de [color=#3796e1][url=thriveopedia:Reproduction]reproduzir-se[/url][/color] e editar sua espécie. Cada vez que você se reproduz, ganha acesso a diferentes [b]Editores[/b], dependendo do estágio, e pode fazer alterações — ou [b]Mutações[/b] — na sua espécie."
 
 msgid "WIKI_EDITORS_AND_MUTATIONS_MUTATIONS_AND_MUTATION_POINTS"
-msgstr ""
+msgstr "Toda alteração feita na sua espécie é uma [b]Mutação[/b]. Isso inclui posicionar organelas, melhorá-las e, principalmente, [u]até mesmo removê-las[/u].\\n\\nCada mutação feita na espécie custa [b]Pontos de Mutação[/b] [thrive:icon]MP[/thrive:icon], também chamados de [b]PM[/b]. Você sempre terá apenas [b]100[/b] pontos de mutação por sessão do editor. [u]Eles não são transferidos nem acumulados entre sessões[/u]."
 
 msgid "WIKI_ENVIRONMENTAL_CONDITIONS_ENVIRONMENTAL_GASSES"
-msgstr ""
+msgstr "Esses são [color=#3796e1][url=thriveopedia:Compounds]Compostos[/url][/color] presentes no ambiente apenas na forma de porcentagens. Da mesma maneira, eles alteram a [b]taxa[/b] em que determinados [b]processos[/b] ocorrem e afetam a maioria das organelas."
 
-#, fuzzy
 msgid "WIKI_ENVIRONMENTAL_CONDITIONS_INTRO"
-msgstr "Mitocôndria"
+msgstr "Existem várias [b]condições ambientais[/b] no Thrive. Elas afetam os processos de determinadas organelas, como a [thrive:compound type=\"sunlight\"][/thrive:compound] afetando a [b]Fotossíntese[/b] nos [color=#3796e1][url=thriveopedia:chloroplast]Cloroplastos[/url][/color]."
 
-#, fuzzy
 msgid "WIKI_ENVIRONMENTAL_CONDITIONS_PHYSICAL_CONDITIONS"
-msgstr "(proporção da glicose conservada no ambiente a cada geração)"
+msgstr "Existem três condições principais que afetam os processos das organelas:\\n\\n[ul][thrive:compound type=\"sunlight\"][/thrive:compound]\\n[b]Pressão[/b]\\n[thrive:compound type=\"temperature\"][/thrive:compound][/ul]\\n\\nAtualmente, apenas a [thrive:compound type=\"sunlight\"][/thrive:compound] e a [thrive:compound type=\"temperature\"][/thrive:compound] têm efeito direto:\\n\\n[ul]A [thrive:compound type=\"sunlight\"][/thrive:compound] afeta [color=#3796e1][url=thriveopedia:chloroplast]Cloroplastos[/url][/color] e [color=#3796e1][url=thriveopedia:chromatophore]Tilacoides[/url][/color].\\nA [thrive:compound type=\"temperature\"][/thrive:compound] afeta [color=#3796e1][url=thriveopedia:thermoplast]Termoplastos[/url][/color] e [color=#3796e1][url=thriveopedia:thermosynthase]Termossintase[/url][/color].[/ul]\\n\\nEssas condições são tratadas de forma semelhante aos [color=#3796e1][url=thriveopedia:Compounds]Compostos[/url][/color], mas são mais específicas de cada região e não aparecem como nuvens de compostos."
 
 msgid "WIKI_ENVIRONMENTAL_CONDITIONS_THE_DAY/NIGHT_CYCLE"
-msgstr ""
+msgstr "O [b]ciclo de dia e noite[/b] é uma configuração que pode ser ativada no menu de novo jogo. Quando ele está habilitado, regiões com [thrive:compound type=\"sunlight\"][/thrive:compound] alternam entre [b]0[/b] e [b]100[/b] [b]%[/b] de lux em um período definido, que também pode ser alterado nas configurações.\\n\\nIsso torna a [b]Fotossíntese[/b] muito menos confiável e mais difícil de usar para sobreviver. Autótrofos que dependem de [thrive:compound type=\"sunlight\"][/thrive:compound] precisam evoluir capacidade de [b]armazenamento[/b], por exemplo usando [color=#3796e1][url=thriveopedia:vacuole]Vacúolos[/url][/color], para sobreviver durante a noite."
 
 msgid "WIKI_FERROPLAST_EFFECTS"
 msgstr "Sem efeitos."
 
-#, fuzzy
 msgid "WIKI_FERROPLAST_INTRO"
-msgstr "O termoplasto é uma estrutura de membrana dupla contendo pigmentos termossensíveis. É um procarionte que foi assimilado para uso do seu hospedeiro eucariótico. Os pigmentos nos termoplastos conseguem usar a energia das diferenças de calor no ambiente para produzir glicose da água e gás carbônico em um processo chamado Termossíntese. A proporção da sua produção de glicose aumenta com a concentração de dióxido de carbono e temperatura."
+msgstr "Usa [thrive:compound type=\"iron\"][/thrive:compound] para produzir [thrive:compound type=\"atp\"][/thrive:compound] por meio do processo de [b]Oxidação do Ferro[/b].\\n\\nUm [b]Ferroplasto[/b] é uma estrutura de membrana dupla que contém uma rede de proteínas e enzimas. Trata-se de um procarionte assimilado por seu hospedeiro eucariótico. Ele funciona com eficiência muito maior que a obtida com [b][color=#3796e1][url=thriveopedia:rusticyanin]Rusticianina[/url][/color][/b]."
 
 msgid "WIKI_FERROPLAST_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_FERROPLAST_PROCESSES"
-msgstr "Produz [thrive:compound type=\"glucose\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound] e temperatura."
+msgstr "[b]Oxidação do Ferro[/b]: [thrive:compound type=\"iron\"][/thrive:compound] → [thrive:compound type=\"atp\"][/thrive:compound]\\n\\nUm método de geração de energia que não utiliza [thrive:compound type=\"glucose\"][/thrive:compound]. Consome [thrive:compound type=\"iron\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_FERROPLAST_REQUIREMENTS"
-msgstr ""
-"Uma célula deve ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Ferroplastos[/b].\n"
-"\n"
-"Se melhorias de organelas estiverem ativadas nas configurações do jogo, a seguinte condição deve ser verdadeira [i]para a célula do jogador[/i]:\n"
-"\n"
-"[indent]—   Contém [b][color=#3796e1][url=thriveopedia:rusticyanin]Rusticianina[/url][/color][/b] há no mínimo [b]6[/b] gerações seguidas.[/indent]"
+msgstr "Uma célula precisa ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Ferroplastos[/b].\\n\\nSe as melhorias de organelas estiverem ativadas nas configurações do jogo, a condição a seguir deve ser verdadeira [i]para a célula do jogador[/i]:\\n\\n[ul]Conter [b][color=#3796e1][url=thriveopedia:rusticyanin]Rusticianina[/url][/color][/b] por pelo menos [b]6[/b] gerações consecutivas.[/ul]"
 
-#, fuzzy
 msgid "WIKI_FERROPLAST_SCIENTIFIC_BACKGROUND"
-msgstr "O termoplasto é uma estrutura de membrana dupla contendo pigmentos termossensíveis. É um procarionte que foi assimilado para uso do seu hospedeiro eucariótico. Os pigmentos nos termoplastos conseguem usar a energia das diferenças de calor no ambiente para produzir glicose da água e gás carbônico em um processo chamado Termossíntese. A proporção da sua produção de glicose aumenta com a concentração de dióxido de carbono e temperatura."
+msgstr "[b]Ferroplastos[/b] não foram encontrados em organismos reais, mas são considerados teoricamente possíveis com base na evolução de endossimbiontes, como a [b][color=#3796e1][url=thriveopedia:mitochondrion]Mitocôndria[/url][/color][/b], e na existência de microrganismos oxidadores de ferro, como a bactéria [i]<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Acidithiobacillus_ferrooxidans\">Acidithiobacillus ferrooxidans</a>[/i] e o gênero de arqueias [i]<a rel=\"nofollow\" class=\"external text\" href=\"https://en.wikipedia.org/wiki/Ferroplasma\">Ferroplasma</a>[/i]. Esses microrganismos expressam proteínas conhecidas como [b][color=#3796e1][url=thriveopedia:rusticyanin]Rusticianinas[/url][/color][/b], que oxidam ferro ferroso (Fe<sup>2+</sup>) em ferro férrico (Fe<sup>3+</sup>) para produzir prótons como parte de uma [color=#3796e1][url=https://en.wikipedia.org/wiki/Electron_transport_chain]cadeia de transporte de elétrons[/url][/color]."
 
-#, fuzzy
 msgid "WIKI_FERROPLAST_STRATEGY"
-msgstr "O termoplasto é uma estrutura de membrana dupla contendo pigmentos termossensíveis. É um procarionte que foi assimilado para uso do seu hospedeiro eucariótico. Os pigmentos nos termoplastos conseguem usar a energia das diferenças de calor no ambiente para produzir glicose da água e gás carbônico em um processo chamado Termossíntese. A proporção da sua produção de glicose aumenta com a concentração de dióxido de carbono e temperatura."
+msgstr "Em ambientes com bastante [thrive:compound type=\"iron\"][/thrive:compound], os [b]Ferroplastos[/b] são excelentes fontes primárias ou secundárias de energia. Em muitas regiões, o [thrive:compound type=\"iron\"][/thrive:compound] pode ser encontrado de forma muito mais consistente que a [thrive:compound type=\"glucose\"][/thrive:compound], pois grandes pedaços de minério de [thrive:compound type=\"iron\"][/thrive:compound] podem permanecer perto da célula por tempo indefinido. Porém, as concentrações de [thrive:compound type=\"iron\"][/thrive:compound] podem diminuir à medida que o jogo avança, portanto recomendamos utilizar fontes adicionais de energia antes que sua célula comece a ter dificuldades.\\n\\nTambém recomendamos substituir pares de [b][color=#3796e1][url=thriveopedia:rusticyanin]Rusticianinas[/url][/color][/b] por [b]Ferroplastos[/b] após evoluir um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b], pois eles são muito mais eficientes."
 
 msgid "WIKI_FERROPLAST_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_FLAGELLUM_EFFECTS"
-msgstr "O flagelo é um apêndice de fibras proteicas semelhante a um chicote, estendendo-se da membrana da célula que pode usar ATP para ondular e impulsionar a célula em uma direção. A posição do flagelo determina a direção na qual ele impulsiona a célula. A direção do impulso é oposta à direção que o flagelo aponta, por exemplo, um flagelo que está no lado esquerdo da célula só dá impulso quando ela se move para a direita."
+msgstr "Cada [b]Flagelo[/b] fornece impulso direcional no sentido oposto à sua orientação. Ele também fornece impulso parcial em direções próximas ao sentido exatamente oposto — mais precisamente, nas direções em que o componente desse vetor oposto é positivo. Sempre que um [b]Flagelo[/b] está ativo, ele consome [thrive:compound type=\"atp\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_FLAGELLUM_INTRO"
-msgstr "Filamentos similares a fios de cabelo no exterior de uma célula que usam [thrive:compound type=\"atp\"][/thrive:compound] para aumentar a velocidade de movimento da célula em uma direção. Impulso é aplicado na direção oposta à direção que o [b]Flagelo[/b] aponta."
+msgstr "[b]Flagelos[/b] são filamentos semelhantes a pelos na parte externa da célula que usam [thrive:compound type=\"atp\"][/thrive:compound] para aumentar a velocidade de movimento em uma direção. O impulso é aplicado no sentido oposto ao lado para o qual o flagelo aponta."
 
-#, fuzzy
 msgid "WIKI_FLAGELLUM_MODIFICATIONS"
-msgstr "Sem modificações."
+msgstr "[b]Comprimento do Flagelo[/b]\\n\\nAumente o comprimento do flagelo para gerar mais impulso, mas também consumir mais ATP durante o movimento."
 
 msgid "WIKI_FLAGELLUM_PROCESSES"
 msgstr "Sem processos."
 
-#, fuzzy
 msgid "WIKI_FLAGELLUM_REQUIREMENTS"
-msgstr ""
-"Se melhorias de organela estiverem ativadas nas configurações do jogo, [i]pelo menos uma[/i] das condições seguintes deve ser verdadeira [i]para a célula do jogador[/i]:\n"
-"\n"
-"[indent]—   Tem velocidade abaixo de [b]15[/b].[/indent]\n"
-"[indent]—   Produz pelo menos [b]+15[/b] [thrive:compound type=\"atp\"][/thrive:compound].[/indent]"
+msgstr "Se as melhorias de organelas estiverem ativadas nas configurações do jogo, [i]pelo menos uma[/i] das condições a seguir deve ser verdadeira [i]para a célula do jogador[/i]:\\n\\n[ul]Ter velocidade inferior a [b]15[/b].\\nProduzir pelo menos [b]+15[/b] [thrive:compound type=\"atp\"][/thrive:compound].[/ul]"
 
-#, fuzzy
 msgid "WIKI_FLAGELLUM_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "Os [color=#3796e1][url=https://en.wikipedia.org/wiki/Flagellum]flagelos[/url][/color] são estruturas encontradas em uma grande variedade de células procarióticas e eucarióticas, onde são usados principalmente para propulsão.\\n\\nExistem diferenças importantes entre flagelos eucarióticos e procarióticos, embora em ambos os casos sejam estruturas filamentosas semelhantes a chicotes que realizam movimentos capazes de impulsionar a célula através de um meio fluido. Nos procariontes, esse movimento é rotacional: o flagelo fica encaixado em uma espécie de \\\"soquete\\\" na membrana externa, que permite girar continuamente em qualquer direção e agir como uma hélice helicoidal. Nas células eucarióticas, como espermatozoides humanos, os flagelos são muito maiores e mais complexos e usam um movimento oscilatório, batendo de um lado para o outro e gerando um padrão ondulatório sinusoidal ao longo da estrutura.\\n\\nOs flagelos bacterianos são notáveis por representarem um dos poucos exemplos conhecidos de movimento rotacional completo em organismos biológicos, juntamente com o complexo enzimático [color=#3796e1][url=https://en.wikipedia.org/wiki/ATP_synthase]ATP sintase[/url][/color]."
 
 msgid "WIKI_FLAGELLUM_STRATEGY"
-msgstr ""
+msgstr "Velocidade é importante tanto para predadores quanto para presas, por isso [b]Flagelos[/b] são comuns no ambiente microbiano. A menos que sua célula seja predominantemente séssil, recomendamos adicionar alguns [b]Flagelos[/b] para ajudar a perseguir e escapar de outras células, especialmente para compensar a redução de velocidade causada pela evolução de um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b].\\n\\nFique atento ao balanço de [thrive:compound type=\"atp\"][/thrive:compound] da célula. É possível sobreviver com um balanço geral negativo se você se mover apenas em arrancadas curtas e produzir [thrive:compound type=\"atp\"][/thrive:compound] suficiente para se manter quando o consumo dos [b]Flagelos[/b] não é considerado."
 
 msgid "WIKI_FLAGELLUM_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_GLYCOLYSIS_COMMA_NITROGEN_FIXATION"
-msgstr "Glicólise, Fixação Anaeróbica de Nitrogênio"
+msgstr "Glicólise, Fixação de Nitrogênio"
 
 msgid "WIKI_HEADING_APPENDICES"
 msgstr "Apêndices"
@@ -7917,9 +7834,8 @@ msgstr "Funcionalidades"
 msgid "WIKI_HEADING_FOG_OF_WAR"
 msgstr "Fog Of War"
 
-#, fuzzy
 msgid "WIKI_HEADING_GAMEPLAY"
-msgstr "Estágio Desperto"
+msgstr "Jogabilidade"
 
 msgid "WIKI_HEADING_GDD"
 msgstr "DGD"
@@ -7948,9 +7864,8 @@ msgstr "Mais Informações sobre o Jogo"
 msgid "WIKI_HEADING_MUTATIONS_AND_MUTATION_POINTS"
 msgstr "Mutações e Pontos de Mutação"
 
-#, fuzzy
 msgid "WIKI_HEADING_OVERVIEW"
-msgstr "Processos"
+msgstr "Visão Geral"
 
 msgid "WIKI_HEADING_PATCHES"
 msgstr "Regiões"
@@ -7968,7 +7883,7 @@ msgid "WIKI_HEADING_REQUIREMENTS"
 msgstr "Requisitos"
 
 msgid "WIKI_HEADING_SCIENTIFIC_BACKGROUND"
-msgstr ""
+msgstr "Contexto Científico"
 
 msgid "WIKI_HEADING_STRATEGY"
 msgstr "Estratégia"
@@ -7991,9 +7906,8 @@ msgstr "Interface"
 msgid "WIKI_HEADING_UPGRADES"
 msgstr "Melhorias"
 
-#, fuzzy
 msgid "WIKI_HELP_AND_TIPS_BASIC_GAME_MECHANICS"
-msgstr "Colocar organela"
+msgstr "O jogador controla membros de uma espécie que precisa se espalhar pelo mundo e evoluir para formas de vida mais complexas. Você controla uma única célula da sua espécie: se ela morrer, você assume o controle de outra. Você compete com células de outras espécies e precisa garantir a sobrevivência da sua própria espécie.\\n\\nO mundo é dividido em [b]regiões[/b]. A área em que a célula do jogador vive é sua [b]região atual[/b].\\n\\nNa região atual, você precisa coletar [b]compostos[/b] para se manter vivo e crescer o suficiente para [b]se reproduzir[/b]. Depois que sua célula se reproduz, milhões de anos se passam e você entra no [b]Editor[/b].\\n\\nNo [b]Editor[/b], você pode ver o que aconteceu com todas as espécies existentes ao longo desses milhões de anos como resultado de sua biologia e do seu desempenho na região atual. Você pode ver quais novas espécies [b]evoluíram[/b], quais foram [b]extintas[/b] e como suas [b]populações[/b] totais mudaram.\\n\\nVocê pode alterar sua região atual e mover outros indivíduos da sua espécie para outra região na seção [b]Mapa de Regiões[/b] do [b]Editor[/b]. Também pode determinar como sua espécie evoluiu ao [b]editá-la[/b].\\n\\nVocê [b]edita[/b] sua espécie adicionando, removendo ou ajustando partes da célula, além de alterar o comportamento da espécie.\\n\\nAo sair do [b]Editor[/b], você volta à região atual e inicia o ciclo novamente. As pequenas mudanças feitas em cada ciclo levam a grandes transformações ao longo da história do planeta."
 
 msgid "WIKI_HELP_AND_TIPS_BUTTON"
 msgstr "Ajuda e Dicas"
@@ -8013,36 +7927,31 @@ msgstr ""
 "Vermelho – [thrive:compound type=\"iron\"][/thrive:compound]"
 
 msgid "WIKI_HELP_AND_TIPS_GENERAL_TIPS"
-msgstr ""
+msgstr "Esta seção reúne dicas do jogo aplicáveis a vários estágios e exibidas nas telas de carregamento.\\n\\n\\nPressione o botão [b]Desfazer[/b] no editor para corrigir um erro.\\n\\nCuidado com organismos maiores. Eles vão devorar você, e ser digerido não é nada divertido!\\n\\nTenha cuidado ao caçar repetidamente a mesma espécie, pois você pode levá-la à extinção. Outras espécies também podem fazer isso.\\n\\nÀs vezes, o melhor é simplesmente fugir.\\n\\nQuando a Auto-Evo prevê uma queda na sua população, um bom desempenho ainda pode aumentá-la.\\n\\nNão se esqueça de que você pode usar o painel no canto superior direito da tela para ver o que está sob o cursor.\\n\\nSe sua população chegar a zero, sua espécie será extinta."
 
 msgid "WIKI_HELP_AND_TIPS_INTRO"
 msgstr "Esta página tem informações básicas de jogabilidade e dicas gerais para jogar Thrive."
 
-#, fuzzy
 msgid "WIKI_HELP_AND_TIPS_MICROBE_PARTS"
-msgstr "Processos"
+msgstr "Estas são as partes que podem ser adicionadas às células para aumentar tamanho, armazenamento e produção de alimento ou energia.\\n\\n[b][u]Proteínas Procarióticas[/u][/b]\\n\\n[color=#3796e1][url=thriveopedia:cytoplasm]Citoplasma[/url][/color], [color=#3796e1][url=thriveopedia:hydrogenase]Hidrogenase[/url][/color], [color=#3796e1][url=thriveopedia:metabolosome]Metabolossomos[/url][/color] e [color=#3796e1][url=thriveopedia:rusticyanin]Rusticianina[/url][/color] — assim como [color=#3796e1][url=thriveopedia:chromatophore]Tilacoides[/url][/color] e [color=#3796e1][url=thriveopedia:chemoSynthesizingProteins]Proteínas Quimiossintéticas[/url][/color] — produzem [thrive:compound type=\"atp\"][/thrive:compound].\\n\\n[color=#3796e1][url=thriveopedia:chemoSynthesizingProteins]Proteínas Quimiossintéticas[/url][/color] produzem [thrive:compound type=\"glucose\"][/thrive:compound].\\n\\n[color=#3796e1][url=thriveopedia:chromatophore]Tilacoides[/url][/color] produzem [thrive:compound type=\"glucose\"][/thrive:compound] gratuitamente, desde que haja luz solar e [thrive:compound type=\"carbondioxide\"][/thrive:compound].\\n\\n[color=#3796e1][url=thriveopedia:nitrogenase]Nitrogenase[/url][/color] produz [thrive:compound type=\"ammonia\"][/thrive:compound] adicional.\\n\\n[color=#3796e1][url=thriveopedia:oxytoxyProteins]Toxissomos[/url][/color] produzem toxinas capazes de causar dano ou incapacitar outras células.\\n\\n[b][u]Organelas Externas[/u][/b]\\n\\n[color=#3796e1][url=thriveopedia:flagellum]Flagelos[/url][/color] aumentam sua velocidade em uma direção.\\n\\n[color=#3796e1][url=thriveopedia:pilus]Pili[/url][/color] podem perfurar outras células ou ajudar na defesa.\\n\\n[color=#3796e1][url=thriveopedia:chemoreceptor]Quimiorreceptores[/url][/color] permitem detectar compostos e células a distâncias maiores.\\n\\n[color=#3796e1][url=thriveopedia:slimeJet]Jatos de Muco[/url][/color] fornecem uma breve aceleração em uma direção.\\n\\n[color=#3796e1][url=thriveopedia:cilia]Cílios[/url][/color] aumentam a velocidade de rotação das células e podem receber melhorias para puxar objetos em sua direção.\\n\\n[b][u]Organelas Delimitadas por Membrana[/u][/b]\\n\\nO [color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color] dobra o tamanho da célula, reduz em 50% todo o dano recebido e desbloqueia as demais organelas delimitadas por membrana.\\n\\n[color=#3796e1][url=thriveopedia:mitochondrion]Mitocôndrias[/url][/color] e [color=#3796e1][url=thriveopedia:ferroplast]Ferroplastos[/url][/color] produzem [thrive:compound type=\"atp\"][/thrive:compound].\\n\\n[color=#3796e1][url=thriveopedia:chemoplast]Quimioplastos[/url][/color] produzem [thrive:compound type=\"glucose\"][/thrive:compound].\\n\\n[color=#3796e1][url=thriveopedia:chloroplast]Cloroplastos[/url][/color] produzem [thrive:compound type=\"glucose\"][/thrive:compound] gratuitamente, desde que haja luz solar e [thrive:compound type=\"carbondioxide\"][/thrive:compound].\\n\\n[color=#3796e1][url=thriveopedia:nitrogenfixingplastid]Nitroplastos[/url][/color] produzem [thrive:compound type=\"ammonia\"][/thrive:compound] adicional.\\n\\n[color=#3796e1][url=thriveopedia:vacuole]Vacúolos[/url][/color] fornecem bastante armazenamento adicional de compostos.\\n\\n[color=#3796e1][url=thriveopedia:oxytoxy]Vacúolos de Toxina[/url][/color] produzem toxinas capazes de causar dano ou incapacitar outras células.\\n\\n[color=#3796e1][url=thriveopedia:lysosome]Lisossomos[/url][/color] permitem alimentar-se de outras células com mais eficiência e engolfar células com membranas de quitina ou celulose.\\n\\n[color=#3796e1][url=thriveopedia:signalingAgent]Agentes de Sinalização[/url][/color] permitem enviar sinais aos quais células aliadas podem reagir.\\n\\n[color=#3796e1][url=thriveopedia:bindingAgent]Agentes de Ligação[/url][/color] permitem ligar-se a outras células e são necessários para avançar ao Estágio Multicelular.\\n\\n[b][u]Partes não LAWK[/u][/b]\\n\\nEssas partes só ficam disponíveis se você desmarcar 'Somente LAWK' nas configurações de Novo Jogo.\\n\\n[color=#3796e1][url=thriveopedia:thermosynthase]Termossintase[/url][/color] e [color=#3796e1][url=thriveopedia:thermoplast]Termoplastos[/url][/color] produzem [thrive:compound type=\"atp\"][/thrive:compound] gratuitamente, desde que o ambiente esteja quente o suficiente."
 
-#, fuzzy
 msgid "WIKI_HELP_AND_TIPS_MICROBE_STAGE_TIPS"
-msgstr "Processos"
+msgstr "Esta seção reúne todas as dicas do Estágio Microbiano exibidas nas telas de carregamento.\\n\\n\\nCada hexágono de citoplasma custa 1 [thrive:compound type=\"atp\"][/thrive:compound] por segundo para ser mantido, mas gera 3 [thrive:compound type=\"atp\"][/thrive:compound]. Se estiver com pouco [thrive:compound type=\"atp\"][/thrive:compound], tente adicionar alguns hexágonos ou remover organelas.\\n\\nSua célula usa [thrive:compound type=\"atp\"][/thrive:compound] como fonte de energia. Se ele acabar, você morrerá.\\n\\nPara desbloquear o editor e se reproduzir, você precisa sobreviver por tempo suficiente. Coletar [thrive:compound type=\"ammonia\"][/thrive:compound] — nuvem laranja — e [thrive:compound type=\"phosphates\"][/thrive:compound] — nuvem roxa — acelera o crescimento.\\n\\nVocê pode engolfar coisas menores que sua célula para se alimentar pressionando [b]G[/b]. Isso custa [thrive:compound type=\"atp\"][/thrive:compound] adicional e reduz sua velocidade. Não se esqueça de pressionar [b]G[/b] novamente para parar de engolfar.\\n\\nQuanto maior sua célula, mais partes produtoras de [thrive:compound type=\"atp\"][/thrive:compound] serão necessárias apenas para mantê-la viva. Metabolossomos, rusticianina, hidrogenase e até o citoplasma produzem [thrive:compound type=\"atp\"][/thrive:compound].\\n\\nExistem muitas organelas disponíveis para evoluir no editor, permitindo uma ampla variedade de estilos de jogo.\\n\\nCada espécie possui recursos disponíveis limitados, portanto aumentar o tamanho das células também reduz sua população máxima.\\n\\nUse as teclas [b]W[/b], [b]A[/b], [b]S[/b] e [b]D[/b] para se mover e o mouse para girar. Use [b]E[/b] para disparar [b]toxinas[/b] se possuir um vacúolo de toxina. Pressione [b]G[/b] para alternar o modo de engolfamento. Você pode aproximar ou afastar a visão usando a roda do mouse.\\n\\nPara se reproduzir, é preciso dividir cada organela em duas. As organelas precisam de [thrive:compound type=\"ammonia\"][/thrive:compound], [thrive:compound type=\"phosphates\"][/thrive:compound] e tempo para se dividir.\\n\\nFique atento: seus concorrentes evoluem junto com você. Sempre que você entra no editor, eles também evoluem.\\n\\nAgentes de ligação permitem formar uma colônia celular com outros indivíduos da sua espécie. Todas as células compartilham compostos, agem como uma unidade e permitem evoluir para um organismo multicelular.\\n\\nQuanto mais flagelos você tiver — ou quanto mais longos forem —, mais rápido irá. Vrum, vrum! Porém, eles consomem mais ATP.\\n\\nCélulas com membranas de celulose ou quitina não podem ser digeridas por procariontes. Um eucarionte com lisossomos pode se alimentar delas produzindo enzimas capazes de decompor essas paredes celulares.\\n\\n[thrive:compound type=\"hydrogensulfide\"][/thrive:compound] pode ser convertido em [thrive:compound type=\"glucose\"][/thrive:compound] por quimioplastos e proteínas quimiossintéticas. [thrive:compound type=\"iron\"][/thrive:compound] pode ser convertido em [thrive:compound type=\"atp\"][/thrive:compound] por rusticianina ou ferroplastos.\\n\\nCada visita ao editor no Estágio Microbiano representa 50 milhões de anos de evolução.\\n\\nVocê pode engolfar pedaços de matéria flutuante, sejam restos de células mortas ou minerais.\\n\\nPrepare-se antes de adicionar um núcleo. Eles são caros tanto no custo inicial quanto na manutenção!\\n\\nToxinas podem ser usadas para desviar outras toxinas se você agir rápido o suficiente.\\n\\nQuando uma célula tem aproximadamente metade do seu tamanho, você já consegue engolfá-la.\\n\\nBiomas não são apenas fundos diferentes: compostos e pedaços flutuantes aparecem em frequências diferentes em cada bioma.\\n\\nPosicione flagelos ou jatos de muco simetricamente na parte traseira da célula. Caso contrário, você desperdiçará energia.\\n\\nA posição das partes importa. O formato da célula afeta sua velocidade de movimento e rotação."
 
 msgid "WIKI_HELP_AND_TIPS_MORE_GAME_INFO"
-msgstr ""
+msgstr "A cada geração, você tem 100 pontos de mutação (PM) para gastar, e cada alteração — ou mutação — consome uma determinada quantidade desses pontos. Adicionar e remover organelas custa PM. Porém, remover organelas que foram colocadas durante a sessão atual do Editor devolve os PM gastos naquela organela. Você pode mover, girar ou remover uma organela clicando nela com o botão direito e escolhendo uma opção no menu exibido.\\n\\nAs principais formas pelas quais as células obtêm energia são alimentar-se do ambiente ao redor — chamado de [b]autotrofia[/b] — e alimentar-se de outras células ou de partes de células mortas — chamado de [b]heterotrofia[/b]. Ambas são partes importantes da [b]cadeia alimentar[/b].\\n\\nParedes celulares de [b]celulose[/b] e [b]quitina[/b] não podem ser digeridas sem enzimas capazes de quebrá-las. Essas enzimas são produzidas pelos [color=#3796e1][url=thriveopedia:lysosome]Lisossomos[/url][/color], exclusivos dos eucariontes. Procariontes não possuem essas organelas e digerem alimento com menor eficiência. Para células pequenas isso não é um grande problema, mas, em células maiores, não ter [color=#3796e1][url=thriveopedia:lysosome]Lisossomos[/url][/color] pode ser uma grande desvantagem.\\n\\nO [color=#3796e1][url=thriveopedia:bindingAgent]Agente de Ligação[/url][/color] permite que sua célula e outras da mesma espécie formem uma [b]colônia[/b], na qual compartilham os compostos absorvidos e produzidos. Enquanto estiver em uma colônia, você não pode entrar no editor. Para isso, é preciso sair da colônia pressionando a tecla [b]Desligar todos[/b]. Grandes colônias celulares são o caminho para a [b]Multicelularidade[/b] e para o fim do Estágio Unicelular.\\n\\nSe você sobreviver por vinte e cinco gerações com uma população de 300 e tiver posicionado 10 células no estágio multicelular, será considerado como tendo \\\"vencido\\\" a partida atual. Mesmo assim, poderá continuar jogando como quiser."
 
-#, fuzzy
 msgid "WIKI_HYDROGENASE_EFFECTS"
-msgstr "Sem efeitos."
+msgstr "Reduz em 4% a [b]Resistência[/b] ao [thrive:compound type=\"oxygen\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_HYDROGENASE_INTRO"
-msgstr "Nitrogenase é uma enzima que consegue usar nitrogênio gasoso e energia celular na forma de ATP para sintetizar amônia, um nutriente essencial para o crescimento das células. Esse processo é chamado de Fixação de Nitrogênio. Como a nitrogenase é suspensa diretamente no citoplasma, os fluidos em volta realizam a Fermentação."
+msgstr "A [b]Hidrogenase[/b] realiza [b]Fermentação Clostridial[/b], uma forma de [b]Respiração Anaeróbica[/b]. Esse processo converte [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound]. É a primeira parte capaz de processar glicose disponível ao jogador e, atualmente, é a única parte que consome glicose anaerobicamente."
 
 msgid "WIKI_HYDROGENASE_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_HYDROGENASE_PROCESSES"
-msgstr "Transforma [thrive:compound type=\"atp\"][/thrive:compound] em [thrive:compound type=\"ammonia\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+msgstr "[b]Fermentação Clostridial[/b]: [thrive:compound type=\"glucose\"][/thrive:compound] → [thrive:compound type=\"atp\"][/thrive:compound]\\n\\nUm método de produção de energia que não exige [thrive:compound type=\"oxygen\"][/thrive:compound]. Quando há oxigênio disponível, ele é inferior aos [b][color=#3796e1][url=thriveopedia:metabolosome]Metabolossomos[/url][/color][/b]. Exige um fluxo constante de [thrive:compound type=\"glucose\"][/thrive:compound]."
 
 msgid "WIKI_HYDROGENASE_REQUIREMENTS"
 msgstr "Parte inicial, sem requisitos."
