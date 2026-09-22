@@ -7956,67 +7956,53 @@ msgstr "[b]Fermentação Clostridial[/b]: [thrive:compound type=\"glucose\"][/th
 msgid "WIKI_HYDROGENASE_REQUIREMENTS"
 msgstr "Parte inicial, sem requisitos."
 
-#, fuzzy
 msgid "WIKI_HYDROGENASE_SCIENTIFIC_BACKGROUND"
-msgstr "Nitrogenase é uma enzima que consegue usar nitrogênio gasoso e energia celular na forma de ATP para sintetizar amônia, um nutriente essencial para o crescimento das células. Esse processo é chamado de Fixação de Nitrogênio. Como a nitrogenase é suspensa diretamente no citoplasma, os fluidos em volta realizam a Fermentação."
+msgstr "As [color=#3796e1][url=https://en.wikipedia.org/wiki/Hydrogenase]hidrogenases[/url][/color] são uma classe de enzimas que catalisam a oxidação reversível do hidrogênio molecular (H<sub>2</sub>). Esse processo participa da fermentação do piruvato, um processo anaeróbico que produz ATP — em contraste com a respiração celular, que exige oxigênio e, portanto, é [i]aeróbica[/i].\\n\\nA fermentação clostridial ocorre nos Clostridia, um grupo diverso e de definição ampla de procariontes caracterizados por esse processo metabólico. Ela é frequentemente utilizada em aplicações bioquímicas, na produção de alimentos e biocombustíveis, no tratamento de águas residuais e em iniciativas de recuperação do solo. Embora a fermentação clostridial varie entre diferentes grupos de bactérias, sua fórmula geral pode ser representada como:\\n\\nC6​H12​O6​→2C2​H5​OH+2CO2​+2H2​\\n\\nOu seja, a glicose é convertida em duas moléculas de etanol, duas de dióxido de carbono e duas de hidrogênio. A glicose é degradada por fosforilação em nível de substrato e, assim como em outros métodos de fermentação, etapas importantes da glicólise podem ser mantidas mesmo em condições anaeróbicas. A fermentação provavelmente é uma estratégia metabólica muito antiga na Terra. Embora a hidrogenase participe da fermentação clostridial, contribuindo para o gerenciamento de resíduos e a produção de hidrogênio, tecnicamente ela não é a enzima fundamental do processo. Outras enzimas, como a piruvato:ferredoxina oxidorredutase (POR), exercem um papel mais específico e central na fermentação anaeróbica; porém, por serem mais difíceis de representar no jogo, foi escolhida uma enzima mais familiar e com um nome mais simples."
 
-#, fuzzy
 msgid "WIKI_HYDROGENASE_STRATEGY"
-msgstr "Nitrogenase é uma enzima que consegue usar nitrogênio gasoso e energia celular na forma de ATP para sintetizar amônia, um nutriente essencial para o crescimento das células. Esse processo é chamado de Fixação de Nitrogênio. Como a nitrogenase é suspensa diretamente no citoplasma, os fluidos em volta realizam a Fermentação."
+msgstr "Como parte inicial, a Hidrogenase é fundamental para processar glicose em uma atmosfera sem oxigênio, permitindo aproveitar as nuvens de glicose inicialmente abundantes. Sua produção constante de energia, sem depender de qualquer composto atmosférico, torna-a uma parte versátil e importante para procariontes de baixo consumo energético. Jogadores que pretendem utilizar glicose geralmente devem se adaptar à fermentação clostridial.\\n\\nCom o tempo, provavelmente é melhor começar a substituir a Hidrogenase por Metabolossomos. Por serem aeróbicos, os Metabolossomos são muito mais eficientes que a Hidrogenase, e aproveitar o oxigênio é uma etapa importante no caminho para se tornar eucarionte e, posteriormente, multicelular.\\n\\nÉ importante lembrar que você provavelmente substituirá as Hidrogenases quando o mundo se tornar rico em oxigênio. Colocar muitas Hidrogenases pode resultar em várias gerações removendo e substituindo partes depois que o planeta for oxigenado. Por isso, combinar algumas Hidrogenases com outro processo metabólico, como a quimiossíntese, ou manter um organismo de baixo consumo energético pode ser uma estratégia vantajosa. À medida que o mundo fica mais oxigenado, a Hidrogenase provavelmente funciona melhor em regiões mais profundas e pobres em oxigênio."
 
 msgid "WIKI_HYDROGENASE_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_HYDROGENOSOME_EFFECTS"
-msgstr "Sem efeitos."
+msgstr "Reduz em 7% a [b]Resistência[/b] ao [thrive:compound type=\"oxygen\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_HYDROGENOSOME_INTRO"
-msgstr "Nitrogenase é uma enzima que consegue usar nitrogênio gasoso e energia celular na forma de ATP para sintetizar amônia, um nutriente essencial para o crescimento das células. Esse processo é chamado de Fixação de Nitrogênio. Como a nitrogenase é suspensa diretamente no citoplasma, os fluidos em volta realizam a Fermentação."
+msgstr "Um verdadeiro [i]motor da célula[/i], encontrado em muitas espécies. Os [b]Hidrogenossomos[/b] realizam [b]Fermentação Clostridial[/b], uma forma de [b]Respiração Anaeróbica[/b]. Nesse processo, [thrive:compound type=\"glucose\"][/thrive:compound] é convertida em [thrive:compound type=\"atp\"][/thrive:compound]. Trata-se do equivalente da [b]Hidrogenase[/b] delimitado por membrana e, atualmente, é a única parte [i]eucariótica[/i] capaz de consumir glicose anaerobicamente."
 
-#, fuzzy
 msgid "WIKI_HYDROGENOSOME_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_HYDROGENOSOME_PROCESSES"
-msgstr "Transforma [thrive:compound type=\"atp\"][/thrive:compound] em [thrive:compound type=\"ammonia\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+msgstr "[b]Fermentação Clostridial[/b]: [thrive:compound type=\"glucose\"][/thrive:compound] → [thrive:compound type=\"atp\"][/thrive:compound]\\n\\nUm método de produção de energia que não exige [thrive:compound type=\"oxygen\"][/thrive:compound]. É mais eficiente nesse processo que a [b][color=#3796e1][url=thriveopedia:hydrogenase]Hidrogenase[/url][/color][/b], mas, quando há uma quantidade razoável de [thrive:compound type=\"oxygen\"][/thrive:compound], é inferior à [b][color=#3796e1][url=thriveopedia:mitochondrion]Mitocôndria[/url][/color][/b]. Exige um fluxo constante de [thrive:compound type=\"glucose\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_HYDROGENOSOME_REQUIREMENTS"
-msgstr "Parte inicial, sem requisitos."
+msgstr "Uma célula precisa ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Hidrogenossomos[/b].\\n\\nSe o [i]desbloqueio de organelas[/i] estiver ativado nas configurações do jogo, a organela pode ser desbloqueada sem [i]endossimbiose[/i] quando as seguintes condições forem atendidas [i]pela célula do jogador[/i]:\\n\\n[ul]Conter pelo menos [b]4[/b] [b][color=#3796e1][url=thriveopedia:hydrogenase]Hidrogenases[/url][/color][/b] por pelo menos [b]5[/b] gerações consecutivas.\\nProduzir pelo menos [b]+10[/b] [thrive:compound type=\"atp\"][/thrive:compound].[/ul]"
 
-#, fuzzy
 msgid "WIKI_HYDROGENOSOME_SCIENTIFIC_BACKGROUND"
-msgstr "Nitrogenase é uma enzima que consegue usar nitrogênio gasoso e energia celular na forma de ATP para sintetizar amônia, um nutriente essencial para o crescimento das células. Esse processo é chamado de Fixação de Nitrogênio. Como a nitrogenase é suspensa diretamente no citoplasma, os fluidos em volta realizam a Fermentação."
+msgstr "Acredita-se que os hidrogenossomos tenham evoluído a partir de mitocôndrias, adaptando-se a ambientes com pouco oxigênio. Assim como as mitocôndrias, eles podem apresentar formatos variados, incluindo formas esféricas ou semelhantes a halteres."
 
-#, fuzzy
 msgid "WIKI_HYDROGENOSOME_STRATEGY"
-msgstr "Nitrogenase é uma enzima que consegue usar nitrogênio gasoso e energia celular na forma de ATP para sintetizar amônia, um nutriente essencial para o crescimento das células. Esse processo é chamado de Fixação de Nitrogênio. Como a nitrogenase é suspensa diretamente no citoplasma, os fluidos em volta realizam a Fermentação."
+msgstr "Em ambientes com bastante [thrive:compound type=\"glucose\"][/thrive:compound], os [b]Hidrogenossomos[/b] fornecem um fluxo constante de energia. Porém, a concentração de [thrive:compound type=\"glucose\"][/thrive:compound] diminui à medida que o jogo avança, então recomendamos adicionar outras fontes de energia sempre que possível.\\n\\nTambém recomendamos substituir as [b][color=#3796e1][url=thriveopedia:hydrogenase]Hidrogenases[/url][/color][/b] por [b]Hidrogenossomos[/b] após evoluir um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b], pois os Hidrogenossomos são muito mais eficientes."
 
-#, fuzzy
 msgid "WIKI_HYDROGENOSOME_UPGRADES"
-msgstr "Sem melhoras."
+msgstr "Sem melhorias."
 
-#, fuzzy
 msgid "WIKI_INDUSTRIAL_STAGE_CURRENT_DEVELOPMENT"
-msgstr "Permite a ligação com outras células. Este é o primeiro passo até a multicelularidade. Quando sua célula é parte de uma colônia, os compostos são compartilhados entre as células. Você não pode entrar no editor enquanto faz parte de uma colônia, por isso precisa se desconectar após coletar compostos suficientes para dividir sua célula."
+msgstr "O desenvolvimento deste estágio ainda não começou. O projeto de jogabilidade e a teoria deste estágio se tornarão relevantes quando o trabalho no [color=#3796e1][url=thriveopedia:society_stage]Estágio de Sociedade[/url][/color] estiver em andamento."
 
 msgid "WIKI_INDUSTRIAL_STAGE_FEATURES"
 msgstr "Em breve."
 
-#, fuzzy
 msgid "WIKI_INDUSTRIAL_STAGE_INTRO"
-msgstr "Agente de Ligação"
+msgstr "O Estágio Industrial é o sétimo dos nove estágios de jogabilidade do Thrive e vem após o [color=#3796e1][url=thriveopedia:society_stage]Estágio de Sociedade[/url][/color], com a invenção das máquinas industriais. A tecnologia e a cultura agora estão muito mais avançadas, e a civilização depende em grande parte de máquinas para se sustentar. O planeta inteiro já está quase todo explorado e povoado, permitindo comunicar-se ou travar guerras praticamente em qualquer lugar. Habilidades diplomáticas e de liderança são mais necessárias do que nunca.\\n\\nO avanço tecnológico acelera rapidamente: máquinas complexas passam a ser inventadas em décadas, em vez de séculos. Novos veículos motorizados, métodos médicos e máquinas industriais surgem, assim como novas armas, incluindo armas de destruição em massa, que precisam ser levadas em consideração.\\n\\nO Estágio Industrial termina com a invenção das viagens espaciais e é seguido pelo [color=#3796e1][url=thriveopedia:space_stage]Estágio Espacial[/url][/color]. O primeiro foguete a alcançar o espaço marca o fim do estágio, embora o início do [color=#3796e1][url=thriveopedia:space_stage]Estágio Espacial[/url][/color] ainda seja muito semelhante ao Estágio Industrial."
 
-#, fuzzy
 msgid "WIKI_INDUSTRIAL_STAGE_OVERVIEW"
-msgstr "Estágio Industrial"
+msgstr "O Estágio Industrial gira principalmente em torno da população. A população dispara, a economia cresce rapidamente, as guerras se tornam maiores e mais sangrentas, e o consumo e a poluição aumentam. Tudo isso decorre do crescimento do número de membros da espécie do jogador no mundo. Esse crescimento é possibilitado por avanços na medicina, agricultura, saneamento, logística, refrigeração e transporte. O aumento populacional, por sua vez, impulsiona a Revolução Industrial, que provoca novas reformas militares, científicas, econômicas e políticas."
 
-#, fuzzy
 msgid "WIKI_INDUSTRIAL_STAGE_TRANSITIONS"
-msgstr "Estágio Industrial"
+msgstr "O Estágio Industrial começa oficialmente quando a nação do jogador descobre a tecnologia Energia a Vapor e constrói a primeira máquina industrial. Depois disso, Linha de Montagem melhora muito a produção e a manufatura, Ferrovias aumentam a velocidade do comércio e do transporte, e Engenharia Agrícola aprimora o crescimento e a produtividade das lavouras. Novas tecnologias militares levam a uma revolução na guerra.\\n\\nO Estágio Industrial é marcado justamente por esse processo: revolução. Ela ocorre em todas as escalas da sociedade e, com o tempo, pode alterar drasticamente a competição entre as nações emergentes.\\n\\nO estágio termina quando o jogador alcança o espaço pela primeira vez."
 
 msgid "WIKI_INDUSTRIAL_STAGE_UI"
 msgstr "Em breve."
@@ -8024,43 +8010,26 @@ msgstr "Em breve."
 msgid "WIKI_INJECTISOME_PILUS"
 msgstr "Pilus Injectissômico"
 
-#, fuzzy
 msgid "WIKI_LYSOSOME_EFFECTS"
-msgstr ""
-"Equipar um [b]Lisossomo[/b] com [b]Quitinase[/b] ou [b]Celulase[/b] permite que a célula possa digerir outras células com [b]Membranas de Quitina[/b] ou [b]Celulose[/b], respectivamente. Células indigeríveis – aquelas para quais uma célula não possui a enzima necessária– são ejetadas imediatamente.\n"
-"\n"
-"Além de suas estatísticas gerais, cada [b]Lisossomo[/b] contribui:\n"
-"\n"
-"[indent]—   [b]+0.05[/b] de velocidade de digestão. A matéria ingerida será digerida mais rapidamente. [/indent]\n"
-"[indent]—   [b]+4.5%[/b] de eficiência de digestão para a enzima escolhida. Células fagocitadas com a membrana alvo da enzima produzirão mais compostos quando digeridas.[/indent]"
+msgstr "Equipar um [b]Lisossomo[/b] com [b]Quitinase[/b] ou [b]Celulase[/b] permite que a célula digira outras células com [b]Membranas de Quitina[/b] ou [b]Membranas de Celulose[/b], respectivamente. Células indigeríveis — aquelas para as quais a célula não possui a enzima necessária — são ejetadas imediatamente.\\n\\nAlém de suas estatísticas gerais, cada [b]Lisossomo[/b] fornece:\\n\\n[ul][b]+0,05[/b] de velocidade de digestão. A matéria engolfada será digerida mais rapidamente.\\n[b]+4,5%[/b] de eficiência de digestão para a enzima escolhida. Células engolfadas cuja membrana seja alvo da enzima fornecerão mais compostos ao serem digeridas.[/ul]"
 
-#, fuzzy
 msgid "WIKI_LYSOSOME_INTRO"
-msgstr "O lisossomo é uma organela ligada à membrana que contém enzimas hidrolíticas que podem quebrar vários tipos de biomoléculas. Os lisossomos permitem a digestão de materiais ingeridos por meio da endocitose e limpar seus resíduos usando um processo chamado autofagia."
+msgstr "Contém enzimas digestivas. Pode ser modificado para alterar o tipo de enzima que contém. Apenas uma enzima pode ser utilizada por [b]Lisossomo[/b] de cada vez. As enzimas aceleram a digestão e aumentam sua eficiência.\\n\\nO [b]Lisossomo[/b] é uma organela delimitada por membrana que contém enzimas hidrolíticas capazes de decompor diversas biomoléculas. Os [b]Lisossomos[/b] permitem que a célula digira materiais ingeridos por endocitose e elimine resíduos celulares por meio de um processo chamado autofagia."
 
-#, fuzzy
 msgid "WIKI_LYSOSOME_MODIFICATIONS"
-msgstr "O lisossomo é uma organela ligada à membrana que contém enzimas hidrolíticas que podem quebrar vários tipos de biomoléculas. Os lisossomos permitem a digestão de materiais ingeridos por meio da endocitose e limpar seus resíduos usando um processo chamado autofagia."
+msgstr "Modifique o [b]Lisossomo[/b] para selecionar a enzima que ele contém. Por padrão, ele contém [b]Lipase[/b], que atua sobre [b]Membranas Normais[/b] e [b]Membranas Duplas[/b].\\n\\nUm [b]Lisossomo[/b] também pode conter uma das seguintes enzimas:\\n\\n[ul][b]Quitinase[/b], que atua sobre [b]Membranas de Quitina[/b].\\n[b]Celulase[/b], que atua sobre [b]Membranas de Celulose[/b].[/ul]"
 
 msgid "WIKI_LYSOSOME_PROCESSES"
 msgstr "Sem processos."
 
-#, fuzzy
 msgid "WIKI_LYSOSOME_REQUIREMENTS"
-msgstr ""
-"Uma célula precisa ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Lisossomos[/b].\n"
-"\n"
-"Se melhorias de organela estiverem ativadas nas configurações do jogo, [i]pelo menos uma[/i] das condições seguintes também deve ser verdadeira [i]para a célula do jogador[/i]:\n"
-"\n"
-"[indent]—   Fagocitou no mínimo [b]20[/b] células ao longo do jogo até agora.[/indent]\n"
-"[indent]—   Digeriu no mínimo [b]10[/b] células ao longo do jogo até agora.[/indent]"
+msgstr "Uma célula precisa ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Lisossomos[/b].\\n\\nSe as melhorias de organelas estiverem ativadas nas configurações do jogo, [i]pelo menos uma[/i] das seguintes condições também deve ser verdadeira [i]para a célula do jogador[/i]:\\n\\n[ul]Ter engolfado pelo menos [b]20[/b] células ao longo da partida até agora.\\nTer digerido pelo menos [b]10[/b] células ao longo da partida até agora.[/ul]"
 
-#, fuzzy
 msgid "WIKI_LYSOSOME_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "Os [color=#3796e1][url=https://en.wikipedia.org/wiki/Lysosome]lisossomos[/url][/color] são encontrados em praticamente todas as células animais reais. Sua principal função é decompor proteínas, lipídios e polissacarídeos em seus componentes básicos. Eles podem receber material vindo de fora da célula por um processo chamado endocitose e também material do interior da própria célula por um processo chamado autofagia."
 
 msgid "WIKI_LYSOSOME_STRATEGY"
-msgstr ""
+msgstr "Para células que engolfam presas, geralmente é recomendável evoluir pelo menos dois [b]Lisossomos[/b], configurando um com [b]Quitinase[/b] e outro com [b]Celulase[/b]. Dessa forma, a célula consegue digerir muito mais tipos de presa que, de outra maneira, permaneceriam imunes ao engolfamento.\\n\\nAdicionar ainda mais [b]Lisossomos[/b] e distribuir a escolha de enzimas também é uma boa ideia. Uma velocidade de digestão maior pode evitar problemas de armazenamento insuficiente para todo o material ingerido, enquanto uma eficiência digestiva maior torna a predação uma estratégia significativamente mais viável."
 
 msgid "WIKI_LYSOSOME_UPGRADES"
 msgstr "Sem melhoras."
@@ -8251,62 +8220,39 @@ msgstr ""
 "\n"
 "Para sobreviver neste mundo hostil, você precisará coletar compostos e evoluir por gerações para competir contra outras espécies de micróbios."
 
-#, fuzzy
 msgid "WIKI_MITOCHONDRION_EFFECTS"
-msgstr "Sem efeitos."
+msgstr "Aumenta em 8% a [b]Resistência[/b] ao [thrive:compound type=\"oxygen\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_MITOCHONDRION_INTRO"
-msgstr "Mitocôndria"
+msgstr "A usina de energia da célula. As [b]Mitocôndrias[/b] realizam [b]Respiração Aeróbica[/b], isto é, a conversão de [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound] usando [thrive:compound type=\"oxygen\"][/thrive:compound]. As [b]Mitocôndrias[/b] realizam essa função com maior eficiência do que outras organelas, como os [b][color=#3796e1][url=thriveopedia:metabolosome]Metabolossomos[/url][/color][/b]."
 
 msgid "WIKI_MITOCHONDRION_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_MITOCHONDRION_PROCESSES"
-msgstr "Transforma [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound]. Quantidade aumenta com concentração de [thrive:compound type=\"oxygen\"][/thrive:compound]."
+msgstr "[b]Respiração Aeróbica[/b]: [thrive:compound type=\"glucose\"][/thrive:compound] + [thrive:compound type=\"oxygen\"][/thrive:compound] → [thrive:compound type=\"atp\"][/thrive:compound] + [thrive:compound type=\"carbondioxide\"][/thrive:compound]\\n\\nUm dos principais métodos de produção de energia, superior ao realizado pelos [b][color=#3796e1][url=thriveopedia:metabolosome]Metabolossomos[/url][/color][/b]. Exige um fluxo constante de [thrive:compound type=\"glucose\"][/thrive:compound]. A taxa aumenta conforme a concentração ambiental de [thrive:compound type=\"oxygen\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_MITOCHONDRION_REQUIREMENTS"
-msgstr ""
-"Uma célula precisa ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Mitocôndrias[/b].\n"
-"\n"
-"Se melhorias de organela estiverem ativadas nas configurações do jogo, [i]ambas[/i] as condições seguintes também devem ser verdadeiras [i]para a célula do jogador[/i]:\n"
-"\n"
-"[indent]—   Contém no mínimo [b]4[/b]  [b][color=#3796e1][url=thriveopedia:metabolosome]Metabolossomos[/url][/color][/b] há pelo menos [b]5[/b] gerações seguidas.[/indent]\n"
-"[indent]—   Produz no mínimo [b]+20[/b] [thrive:compound type=\"atp\"][/thrive:compound].[/indent]"
+msgstr "Uma célula precisa ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Mitocôndrias[/b].\\n\\nSe as melhorias de organelas estiverem ativadas nas configurações do jogo, [i]ambas[/i] as seguintes condições também devem ser verdadeiras [i]para a célula do jogador[/i]:\\n\\n[ul]Conter pelo menos [b]4[/b] [b][color=#3796e1][url=thriveopedia:metabolosome]Metabolossomos[/url][/color][/b] por pelo menos [b]5[/b] gerações consecutivas.\\nProduzir pelo menos [b]+20[/b] [thrive:compound type=\"atp\"][/thrive:compound].[/ul]"
 
-#, fuzzy
 msgid "WIKI_MITOCHONDRION_SCIENTIFIC_BACKGROUND"
-msgstr "A usina de energia da célula. A mitocôndria é uma estrutura de membrana dupla cheia de proteínas e enzimas. É um procarionte que foi assimilado pelo seu hospedeiro eucariótico para seu uso. É capaz de converter Glicose em ATP com maior eficiência do que feito no citoplasma em um processo chamado Respiração Aeróbica. No entanto, precisa de oxigênio para funcionar, e níveis menores de oxigênio no ambiente irá diminuir a taxa da produção de ATP."
+msgstr "As mitocôndrias são organelas com duas membranas — uma interna e outra externa — que geram ATP por um processo chamado Fosforilação Oxidativa. Nesse processo, a energia obtida da decomposição de nutrientes, como glicose e lipídios, é usada para criar um gradiente de prótons através da membrana interna, que então pode ser utilizado para converter ADP em ATP.\\n\\nEmbora no jogo as mitocôndrias sejam representadas como organelas em forma de salsicha, seu formato e tamanho reais são bastante flexíveis. Elas constantemente se fundem e se dividem conforme as necessidades da célula e podem até formar grandes redes com outras mitocôndrias. Essa dinâmica é importante, entre outras coisas, para regular o metabolismo e o controle de qualidade mitocondrial, já que a forma da mitocôndria influencia fortemente sua função.\\n\\nUm aspecto marcante que diferencia a mitocôndria da maioria das organelas é que ela possui seu próprio DNA. Como originalmente era um organismo independente incorporado por uma célula hospedeira, a mitocôndria contém DNA em sua matriz, dentro da membrana interna. Com o tempo, tornou-se cada vez mais dependente da célula hospedeira e perdeu a capacidade de viver de forma independente.\\n\\nEmbora seja mais conhecida como a usina de energia da célula, a mitocôndria faz muito mais do que fornecer energia. Ela participa de forma essencial da morte celular programada, da sinalização celular e da síntese de várias moléculas, como fosfolipídios. Atualmente, pesquisas buscam compreender melhor esses processos e descobrir novas funções desempenhadas pelas mitocôndrias."
 
-#, fuzzy
 msgid "WIKI_MITOCHONDRION_STRATEGY"
-msgstr "A usina de energia da célula. A mitocôndria é uma estrutura de membrana dupla cheia de proteínas e enzimas. É um procarionte que foi assimilado pelo seu hospedeiro eucariótico para seu uso. É capaz de converter Glicose em ATP com maior eficiência do que feito no citoplasma em um processo chamado Respiração Aeróbica. No entanto, precisa de oxigênio para funcionar, e níveis menores de oxigênio no ambiente irá diminuir a taxa da produção de ATP."
+msgstr "Em ambientes com bastante [thrive:compound type=\"glucose\"][/thrive:compound], as [b]Mitocôndrias[/b] realmente são as usinas de energia da célula. Porém, a concentração de [thrive:compound type=\"glucose\"][/thrive:compound] diminui à medida que o jogo avança, então recomendamos mudar para fontes alternativas de energia quando possível.\\n\\nTambém recomendamos substituir [b][color=#3796e1][url=thriveopedia:metabolosome]Metabolossomos[/url][/color][/b] por [b]Mitocôndrias[/b] após evoluir um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b], pois as mitocôndrias são muito mais eficientes."
 
 msgid "WIKI_MITOCHONDRION_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_MUCOCYST"
-msgstr "Mecânicas"
+msgstr "Mucocisto"
 
 #, fuzzy
 msgid "WIKI_MULTICELLULAR_STAGE_CONCEPT_ART"
 msgstr "Estágio Multicelular"
 
-#, fuzzy
 msgid "WIKI_MULTICELLULAR_STAGE_CURRENT_DEVELOPMENT"
-msgstr ""
-"Bem-vindo ao Estágio Multicelular Inicial!\n"
-"\n"
-"Você conseguiu guiar sua espécie pela fase unicelular.\n"
-"\n"
-"O jogo continuará tendo as mecânicas do Estágio Microbial. Ainda será necessário alimentar seu organismo para reproduzir e ir ao editor.\n"
-"\n"
-"Todavia, você poderá projetar sua colônia e especializar suas células para a realização de diferentes funções. Lembre-se de que os membros da colônia não compartilharão [thrive:compound type=\"atp\"][/thrive:compound].\n"
-"\n"
-"Se estiver usando o processo de reprodução gemulação (selecionado por padrão), você começará com uma parte de seu organismo e será preciso crescer o resto das células."
+msgstr "O desenvolvimento do Estágio Multicelular é atualmente o principal foco do desenvolvimento do Thrive."
 
 #, fuzzy
 msgid "WIKI_MULTICELLULAR_STAGE_FEATURES"
