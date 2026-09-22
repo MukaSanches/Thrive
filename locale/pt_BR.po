@@ -8756,13 +8756,11 @@ msgstr "As [b]Regiões[/b] representam biomas distintos com ambientes diferentes
 msgid "WIKI_THE_PATCH_MAP_THE_PATCH_MAP"
 msgstr "O [b]Mapa de Regiões[/b] é uma representação do seu planeta. Ele é composto por [b]Regiões[/b] e por agrupamentos de regiões (explicados abaixo). Cada agrupamento contém várias regiões conectadas, ou adjacentes, e também se conecta a outros agrupamentos."
 
-#, fuzzy
 msgid "WIKI_THYLAKOIDS_EFFECTS"
-msgstr "Sem efeitos especiais."
+msgstr "Aumenta [thrive:compound type=\"sunlight\"][/thrive:compound] em 3% e [thrive:compound type=\"oxygen\"][/thrive:compound] em 1,5%."
 
-#, fuzzy
 msgid "WIKI_THYLAKOIDS_INTRO"
-msgstr "Tilacóides são aglomerações de proteínas e pigmentos fotossensíveis. Os pigmentos conseguem usar a energia da luz para produzir glicose da água e gás carbônico em um processo chamado Fotossíntese. Esses pigmentos também são o que os dá uma cor característica. A taxa da sua produção de glicose aumenta com a concentração de dióxido de carbono e intensidade da luz. Como os tilacóides estão suspensos diretamente no citoplasma, o fluido em volta realiza fermentação."
+msgstr "[b]Tilacoides[/b] são [color=#3796e1][url=thriveopedia:OrganellesRoot]organelas[/url][/color] que contêm proteínas e pigmentos verdes capazes de usar a energia da [thrive:compound type=\"sunlight\"][/thrive:compound] para produzir [thrive:compound type=\"glucose\"][/thrive:compound] a partir de água e [thrive:compound type=\"carbondioxide\"][/thrive:compound] gasoso em um processo chamado [b]Fotossíntese de Cromatóforo[/b]. Como a taxa de produção de [thrive:compound type=\"glucose\"][/thrive:compound] aumenta conforme a intensidade da [thrive:compound type=\"sunlight\"][/thrive:compound], os [b]Tilacoides[/b] só são eficientes em regiões próximas à superfície.\n\nSão a forma procariótica do [b][color=#3796e1][url=thriveopedia:chloroplast]Cloroplasto[/url][/color][/b], que realiza a versão completa da [b]Fotossíntese[/b]."
 
 msgid "WIKI_THYLAKOIDS_MODIFICATIONS"
 msgstr "Sem modificações"
@@ -8777,73 +8775,50 @@ msgstr ""
 "\n"
 "Já que [b]Tilacóides[/b] estão suspensos diretamente no [b][color=#3796e1][url=thriveopedia:cytoplasm]Citoplasma[/url][/color][/b], o fluido ao seu redor realiza [b]Glicólise[/b]."
 
-#, fuzzy
 msgid "WIKI_THYLAKOIDS_REQUIREMENTS"
-msgstr ""
-"Se melhorias de organela estiverem ativadas nas configurações do jogo, a condição seguinte deve ser verdadeira [i]para a célula do jogador[/i]:\n"
-"\n"
-"[indent]—   Está em uma região com no mínimo [b]%20[/b] [thrive:compound type=\"sunlight\"][/thrive:compound].[/indent]"
+msgstr "Se as melhorias de organelas estiverem ativadas nas configurações do jogo, a seguinte condição deve ser cumprida [i]pela célula do jogador[/i]:\n\n[ul]Estar em uma região com pelo menos [b]20%[/b] de [thrive:compound type=\"sunlight\"][/thrive:compound].[/ul]"
 
-#, fuzzy
 msgid "WIKI_THYLAKOIDS_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "Os [color=#3796e1][url=https://en.wikipedia.org/wiki/Thylakoid]tilacoides[/url][/color] são organelas delimitadas por membrana encontradas em cianobactérias e cloroplastos reais. Em geral, possuem formato de disco e aparecem em \"pilhas\" conhecidas como [i]grana[/i] (singular: [i]granum[/i]).\n\nOs tilacoides contêm pelo menos 335 tipos diferentes de proteínas, e cerca de 42% delas estão envolvidas na fotossíntese. Três complexos proteicos fundamentais dos tilacoides são os fotossistemas I e II, que absorvem luz e utilizam essa energia para catalisar reações químicas como parte da cadeia de transporte de elétrons dos tilacoides; o complexo citocromo b6f, que catalisa a transferência de elétrons da plastoquinol para a plastocianina nessa mesma cadeia; e a ATP sintase, que produz ATP utilizando um gradiente de prótons através de uma membrana."
 
-#, fuzzy
 msgid "WIKI_THYLAKOIDS_STRATEGY"
-msgstr "Tilacóides são aglomerações de proteínas e pigmentos fotossensíveis. Os pigmentos conseguem usar a energia da luz para produzir glicose da água e gás carbônico em um processo chamado Fotossíntese. Esses pigmentos também são o que os dá uma cor característica. A taxa da sua produção de glicose aumenta com a concentração de dióxido de carbono e intensidade da luz. Como os tilacóides estão suspensos diretamente no citoplasma, o fluido em volta realiza fermentação."
+msgstr "Em regiões com altos níveis de [thrive:compound type=\"sunlight\"][/thrive:compound], um único hexágono de [b]Tilacoides[/b] funciona como uma fábrica de energia autossustentável. Por meio da [b]Fotossíntese de Cromatóforo[/b] e depois da [b]Glicólise[/b], eles essencialmente geram energia sem exigir uma fonte alimentar externa.\n\nEntretanto, eles só são viáveis em regiões próximas à superfície, como a epipelágica ou as poças de maré. É fundamental verificar se você vive atualmente em uma região adequada antes de migrar para esse método de obtenção de energia. Depois de estabelecido, criar um fotossintetizante eficiente é basicamente uma questão de garantir produção líquida positiva de [thrive:compound type=\"glucose\"][/thrive:compound] na célula e energia suficiente para sustentá-la. Além disso, grande parte do consumo energético de uma célula vem do movimento; permanecer imóvel pode aumentar bastante a produção líquida de [thrive:compound type=\"glucose\"][/thrive:compound].\n\nSe o ciclo de dia e noite estiver ativado nas configurações do jogo, criar uma célula fotossintética eficiente pode ser desafiador. Coloque tantas estruturas fotossintéticas quanto puder para maximizar a produção de [thrive:compound type=\"glucose\"][/thrive:compound] e adicione estruturas com boa capacidade de armazenamento, como [b][color=#3796e1][url=thriveopedia:vacuole]Vacúolos[/url][/color][/b], para acumular reservas suficientes para atravessar a noite. Recomendamos permanecer imóvel durante a noite para consumir menos energia ou, caso tenha uma estratégia mixotrófica, caçar presas. Também recomendamos se reproduzir perto do amanhecer, quando os níveis de lux começam a subir, pois a reprodução reduz pela metade suas reservas de [thrive:compound type=\"glucose\"][/thrive:compound]."
 
 msgid "WIKI_THYLAKOIDS_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_TOXIN_VACUOLE_EFFECTS"
-msgstr "O vacúolo de toxinas é um vacúolo que foi modificado para a produção, armazenamento, e secreção de oxitoxinas. Mais vacúolos de toxinas vão aumentar a taxa na qual toxinas serão liberadas."
+msgstr "Se uma célula possuir pelo menos um [b][color=#3796e1][url=thriveopedia:oxytoxyProteins]Oxitoxissoma[/url][/color][/b] ou [b]Vacúolo de Toxinas[/b], ela poderá disparar projéteis tóxicos, consumindo a [thrive:compound type=\"oxytoxy\"][/thrive:compound] armazenada. Esses projéteis causam dano a células de outras espécies, mas não ferem integrantes da espécie que os disparou.\n\nO dano aumenta conforme a quantidade de [thrive:compound type=\"oxytoxy\"][/thrive:compound] disparada.\n\nAumenta a [b]Resistência[/b] a [thrive:compound type=\"oxygen\"][/thrive:compound] em 2%."
 
-#, fuzzy
 msgid "WIKI_TOXIN_VACUOLE_INTRO"
-msgstr ""
-"Vacúolo de\n"
-"Toxinas"
+msgstr "[b][color=#3796e1][url=thriveopedia:vacuole]Vacúolo[/url][/color][/b] modificado que produz [thrive:compound type=\"oxytoxy\"][/thrive:compound], um agente que pode ser disparado como projétil tóxico. É uma versão superior do [b][color=#3796e1][url=thriveopedia:oxytoxyProteins]Oxitoxissoma[/url][/color][/b]."
 
-#, fuzzy
 msgid "WIKI_TOXIN_VACUOLE_MODIFICATIONS"
-msgstr "Sem modificações."
+msgstr "[b]Tipo de Toxina[/b]\n\nSelecione o tipo de toxina disparada por este [b]Vacúolo de Toxinas[/b]. Células capazes de disparar vários tipos de toxina alternam entre eles a cada disparo.\n\n[ul][b]OxyToxyNT:[/b] Uma toxina baseada em oxigênio que causa forte dano celular. Torna-se menos eficiente contra espécies quanto mais estruturas consumidoras de oxigênio elas possuem.\n[b]Citotoxina:[/b] (padrão) Uma toxina simples que causa uma quantidade constante de dano.\n[b]Macrolídeo:[/b] Uma toxina que reduz a velocidade dos alvos atingidos.\n[b]Inibidor de Canais:[/b] Uma toxina que inibe a produção de ATP das células atingidas, podendo desacelerá-las ou até causar dano.\n[b]Cianeto:[/b] Uma toxina de alto dano que ataca o metabolismo do oxigênio. Torna-se mais eficiente contra espécies quanto mais estruturas consumidoras de oxigênio elas possuem.[/ul]\n\n[b]Cadência de Tiro e Toxicidade[/b]\n\nDefina o equilíbrio entre a cadência de tiro e a eficiência de cada disparo."
 
-#, fuzzy
 msgid "WIKI_TOXIN_VACUOLE_PROCESSES"
-msgstr "Transforma [thrive:compound type=\"atp\"][/thrive:compound] em [thrive:compound type=\"oxytoxy\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"oxygen\"][/thrive:compound]. Pode disparar toxinas apertando [thrive:input]g_fire_toxin[/thrive:input]. Quando a quantidade de [thrive:compound type=\"oxytoxy\"][/thrive:compound] ficar baixa, será possível disparar, mas o dano irá ser reduzido."
+msgstr "[b]Síntese de OxyToxy[/b]: [thrive:compound type=\"atp\"][/thrive:compound] + [thrive:compound type=\"oxygen\"][/thrive:compound] → [thrive:compound type=\"oxytoxy\"][/thrive:compound]\n\nProduz [thrive:compound type=\"oxytoxy\"][/thrive:compound] com eficiência muito maior que os [b][color=#3796e1][url=thriveopedia:oxytoxyProteins]Oxitoxissomas[/url][/color][/b]. A taxa aumenta conforme a quantidade de [thrive:compound type=\"oxygen\"][/thrive:compound] presente no ambiente."
 
-#, fuzzy
 msgid "WIKI_TOXIN_VACUOLE_REQUIREMENTS"
-msgstr ""
-"Uma célula precisa ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Vacúolos de Toxinas[/b].\n"
-"\n"
-"Se melhorias de organela estiverem ativadas nas configurações do jogo, [i]pelo menos uma[/i] das condições seguintes também deve ser verdadeira [i]para a célula do jogador[/i]:\n"
-"\n"
-"[indent]—   Fagocitou no mínimo [b]10[/b] células ao longo do jogo até agora.[/indent]\n"
-"[indent]—   Contém no mínimo [b]1[/b] [b][color=#3796e1][url=thriveopedia:oxytoxyProteins]Oxitoxissoma[/url][/color][/b] há no mínimo [b]5[/b] gerações seguidas.[/indent]"
+msgstr "Uma célula precisa possuir um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Vacúolos de Toxinas[/b].\n\nSe as melhorias de organelas estiverem ativadas nas configurações do jogo, [i]ambas[/i] as condições a seguir devem ser cumpridas [i]pela célula do jogador[/i]:\n\n[ul]Ter fagocitado pelo menos [b]10[/b] células ao longo da partida até o momento.\nConter pelo menos [b]1[/b] [b][color=#3796e1][url=thriveopedia:oxytoxyProteins]Oxitoxissoma[/url][/color][/b] por pelo menos [b]5[/b] gerações consecutivas.[/ul]"
 
 msgid "WIKI_TOXIN_VACUOLE_SCIENTIFIC_BACKGROUND"
 msgstr "A ser adicionado"
 
-#, fuzzy
 msgid "WIKI_TOXIN_VACUOLE_STRATEGY"
-msgstr "O vacúolo de toxinas é um vacúolo que foi modificado para a produção, armazenamento, e secreção de oxitoxinas. Mais vacúolos de toxinas vão aumentar a taxa na qual toxinas serão liberadas."
+msgstr "A estratégia é semelhante à do [b][color=#3796e1][url=thriveopedia:oxytoxyProteins]Oxitoxissoma[/url][/color][/b], mas com produção de [thrive:compound type=\"oxytoxy\"][/thrive:compound] mais eficiente e sem o benefício adicional da [b]Glicólise[/b] para produzir compostos metabólicos."
 
 msgid "WIKI_TOXIN_VACUOLE_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_VACUOLE_EFFECTS"
-msgstr "Sem efeitos."
+msgstr "Aumenta a [b]Tolerância Máxima à Pressão[/b] em 400 kPa."
 
-#, fuzzy
 msgid "WIKI_VACUOLE_INTRO"
-msgstr "O vacúolo de toxinas é um vacúolo que foi modificado para a produção, armazenamento, e secreção de oxitoxinas. Mais vacúolos de toxinas vão aumentar a taxa na qual toxinas serão liberadas."
+msgstr "Organela eucariótica que armazena compostos com densidade muito maior que o [b][color=#3796e1][url=thriveopedia:cytoplasm]Citoplasma[/url][/color][/b]. Pode ser especializada para aumentar ainda mais a capacidade de armazenamento."
 
-#, fuzzy
 msgid "WIKI_VACUOLE_MODIFICATIONS"
-msgstr "O vacúolo de toxinas é um vacúolo que foi modificado para a produção, armazenamento, e secreção de oxitoxinas. Mais vacúolos de toxinas vão aumentar a taxa na qual toxinas serão liberadas."
+msgstr "Opcionalmente, modifique o [b]Vacúolo[/b] para especializá-lo no armazenamento de um composto específico, exceto [thrive:compound type=\"oxytoxy\"][/thrive:compound].\n\nPor padrão, o [b]Vacúolo[/b] armazena [b]8[/b] unidades de todos os compostos. Quando especializado, passa a armazenar [b]16[/b] unidades de um único composto e [b]0[/b] unidades de todos os demais."
 
 msgid "WIKI_VACUOLE_PROCESSES"
 msgstr "Sem processos"
@@ -8851,12 +8826,11 @@ msgstr "Sem processos"
 msgid "WIKI_VACUOLE_REQUIREMENTS"
 msgstr "Uma célula precisa ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Vacúolos[/b]."
 
-#, fuzzy
 msgid "WIKI_VACUOLE_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "Um [color=#3796e1][url=https://en.wikipedia.org/wiki/Vacuole][b]Vacúolo[/b][/url][/color] é uma organela envolvida por uma membrana resistente, geralmente contendo uma solução aquosa usada para armazenar compostos inorgânicos ou orgânicos e, em alguns casos, até sólidos inteiros. Na vida real, os [b]Vacúolos[/b] podem assumir inúmeras formas e tamanhos, dependendo das necessidades da célula em que se encontram, e também podem desempenhar funções específicas conforme o tipo celular. Em células vegetais, por exemplo, o [b]Vacúolo[/b] costuma ser a maior organela e atua tanto no armazenamento quanto na regulação da pressão, mantendo a dinâmica da água dentro da célula vegetal para que ela consiga preservar sua forma."
 
 msgid "WIKI_VACUOLE_STRATEGY"
-msgstr ""
+msgstr "Embora armazenamento adicional seja útil em qualquer situação, um [b]Vacúolo[/b] é especialmente importante para organismos que utilizam [b]Fotossíntese[/b], como células com [b][color=#3796e1][url=thriveopedia:chromatophore]Tilacoides[/url][/color][/b] ou [b][color=#3796e1][url=thriveopedia:chloroplast]Cloroplastos[/url][/color][/b]. Se o ciclo de dia e noite estiver ativado nas configurações do jogo, células fotossintéticas precisam ter espaço suficiente para armazenar a [thrive:compound type=\"glucose\"][/thrive:compound] necessária para sobreviver durante a noite."
 
 msgid "WIKI_VACUOLE_UPGRADES"
 msgstr "Sem melhoras."
@@ -8873,9 +8847,8 @@ msgstr "Janela"
 msgid "WIN_BOX_TITLE"
 msgstr "VOCÊ PROSPEROU!"
 
-#, fuzzy
 msgid "WIN_TEXT_2"
-msgstr "Parabéns! Você terminou esta versão de Thrive! Poderá continuar jogando após esta mensagem desaparecer, ou pode começar um novo jogo em um novo mundo. Também é possível jogar os protótipos dos estágios seguintes adicionando um agente de ligação na sua célula."
+msgstr "Parabéns, você venceu esta versão de Thrive! Se quiser, pode continuar jogando depois que esta mensagem desaparecer ou iniciar uma nova partida em um novo mundo. Também é possível desenvolver o plano corporal da sua célula e depois experimentar os protótipos dos estágios posteriores."
 
 msgid "WORKSHOP_ITEM_CHANGE_NOTES"
 msgstr "Notas de Atualização do Item"
@@ -8921,11 +8894,8 @@ msgstr ""
 "Incluir os protótipos de estágios posteriores: {0}\n"
 "Incluir easter eggs: {1}"
 
-#, fuzzy
 msgid "WORLD_MISC_DETAILS_STRING_2"
-msgstr ""
-"Incluir os protótipos de estágios posteriores: {0}\n"
-"Incluir easter eggs: {1}"
+msgstr "Incluir easter eggs: {0}"
 
 msgid "WORLD_OCEANIC_COVERAGE"
 msgstr "Cobertura oceânica"
@@ -8981,13 +8951,11 @@ msgstr "Quente"
 msgid "WORST_PATCH_COLON"
 msgstr "Pior Região:"
 
-#, fuzzy
 msgid "WRONG_GROWTH_ORDER"
-msgstr "Ordem de Crescimento"
+msgstr "Ordem de crescimento incorreta"
 
-#, fuzzy
 msgid "WRONG_GROWTH_ORDER_TEXT"
-msgstr "Esta aba permite definir a ordem em que as organelas crescem. Isso pode ser importante para células que têm produção instável de ATP enquanto crescem. A ordem das organelas também impacta a ordem de execução dos bio processos. Recomenda-se editar essa aba apenas após terminar de editar a estrutura, já que a edição de estruturas pode reverter mudanças feitas aqui."
+msgstr "A ordem de crescimento da colônia faz com que algumas células fiquem separadas. Isso acontece quando uma célula aparece na ordem antes das células que a conectam à raiz. Verifique, na aba Ordem de Crescimento, as células marcadas em vermelho e corrija a ordem."
 
 msgid "XBOX360"
 msgstr "Xbox 360"
