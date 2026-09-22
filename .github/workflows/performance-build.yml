@@ -1,0 +1,61 @@
+name: Performance build validation
+
+on:
+  push:
+    branches:
+      - performance_scalability
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    container:
+      image: thrive/godot-ci:v37
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+          submodules: recursive
+
+      - name: Restore dependencies
+        run: dotnet restore Thrive.sln
+
+      - name: Compile with project checks
+        run: dotnet run --project Scripts -- check compile
+
+      - name: Run repository consistency checks
+        run: dotnet run --project Scripts -- check files localization steam-build rewrite
+
+      - name: Install native libraries for tests
+        run: dotnet run --project Scripts -- native Fetch Install --debug true
+
+      - name: Run code-only tests
+        run: dotnet run --project Scripts -- test --godot false
+
+      - name: Import Godot resources for tests
+        run: dotnet run --project Scripts -- godot-test-import
+
+      - name: Run Godot tests
+        run: dotnet run --project Scripts -- test --godot true --godot-reruns 1
+
+      - name: Install release native libraries
+        run: dotnet run --project Scripts -- native Fetch Install --debug false
+
+      - name: Package Windows build
+        env:
+          CI_BRANCH: performance_scalability
+        run: dotnet run --project Scripts -- package Windows
+
+      - name: Upload Windows build
+        uses: actions/upload-artifact@v4
+        with:
+          name: Thrive-performance-Windows
+          path: builds/**
+          if-no-files-found: error
+          compression-level: 0
