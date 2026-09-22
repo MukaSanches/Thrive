@@ -8229,18 +8229,17 @@ msgstr "No Estágio Multicelular, sua colônia celular se torna cada vez mais co
 msgid "WIKI_MULTICELLULAR_STAGE_OVERVIEW"
 msgstr "A vida floresce nos oceanos e haverá grande diversidade. De repente, o mundo parece muito menor para o jogador, pois sua espécie passa a ser uma das maiores coisas do ambiente microscópico.\\n\\nO jogador agora controla uma colônia de células que forma um organismo maior. O tamanho da colônia aumenta gradualmente, com tipos celulares cada vez mais especializados preparando a transição para o estágio macroscópico."
 
-#, fuzzy
 msgid "WIKI_MULTICELLULAR_STAGE_TRANSITIONS"
-msgstr "Estágio Multicelular"
+msgstr "O estágio começa quando as células se ligam usando Agentes de Ligação (Proteínas de Adesão) e deixam de poder se separar, tornando-se de fato um único organismo.\\n\\nEle termina quando a espécie do jogador evolui para um agrupamento de células grande o suficiente para fazer a transição à escala macroscópica."
 
 msgid "WIKI_MULTICELLULAR_STAGE_UI"
 msgstr "Nada foi discutido."
 
 msgid "WIKI_MYOFIBRIL_EFFECTS"
-msgstr ""
+msgstr "Para cada célula de um organismo multicelular que contenha uma [b]Miofibrila[/b], a velocidade de movimento do organismo aumenta proporcionalmente ao volume dessa célula. Células com [b]Miofibrilas[/b] são classificadas como tecido muscular."
 
 msgid "WIKI_MYOFIBRIL_INTRO"
-msgstr ""
+msgstr "Organela formada por fibras longas que, em conjunto, formam tecido muscular nos organismos, disponível a partir do [color=#3796e1][url=thriveopedia:macroscopic_stage]Estágio Macroscópico[/url][/color]. Aumenta a velocidade do organismo."
 
 msgid "WIKI_MYOFIBRIL_MODIFICATIONS"
 msgstr "Sem modificações."
@@ -8248,81 +8247,65 @@ msgstr "Sem modificações."
 msgid "WIKI_MYOFIBRIL_PROCESSES"
 msgstr "Sem processos."
 
-#, fuzzy
 msgid "WIKI_MYOFIBRIL_REQUIREMENTS"
-msgstr "Disponível apenas a partir do Estágio Multicelular."
+msgstr "Disponível apenas a partir do [color=#3796e1][url=thriveopedia:macroscopic_stage]Estágio Macroscópico[/url][/color]."
 
-#, fuzzy
 msgid "WIKI_MYOFIBRIL_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "As [color=#3796e1][url=https://en.wikipedia.org/wiki/Myofibril][b]miofibrilas[/b][/url][/color] são organelas longas em forma de bastão, encontradas sempre dentro de \\\"células musculares\\\". Elas são usadas principalmente na contração e no relaxamento dos músculos, permitindo que uma criatura mova partes do corpo, como pernas, braços ou a boca."
 
 msgid "WIKI_MYOFIBRIL_STRATEGY"
-msgstr ""
+msgstr "Recomendamos adicionar uma [b]Miofibrila[/b] a vários tipos celulares do seu organismo multicelular, mas adicionar mais de uma à mesma célula é redundante. No momento, [b]Miofibrilas[/b] adicionais não fornecem benefício extra."
 
 msgid "WIKI_MYOFIBRIL_UPGRADES"
-msgstr ""
+msgstr "Sem melhorias."
 
 msgid "WIKI_NATION_EDITOR"
 msgstr "Editor de Nação"
 
-#, fuzzy
 msgid "WIKI_NITROGENASE_EFFECTS"
-msgstr "Sem efeitos."
+msgstr "Reduz em 1% a [b]Resistência[/b] ao [thrive:compound type=\"oxygen\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_NITROGENASE_INTRO"
-msgstr "Nitrogenase é uma enzima que consegue usar nitrogênio gasoso e energia celular na forma de ATP para sintetizar amônia, um nutriente essencial para o crescimento das células. Esse processo é chamado de Fixação de Nitrogênio. Como a nitrogenase é suspensa diretamente no citoplasma, os fluidos em volta realizam a Fermentação."
+msgstr "Realiza [b]Fixação de Nitrogênio[/b] para produzir [thrive:compound type=\"ammonia\"][/thrive:compound] a partir de [thrive:compound type=\"nitrogen\"][/thrive:compound] gasoso e [thrive:compound type=\"atp\"][/thrive:compound], produzindo um dos recursos necessários para o crescimento durante a reprodução celular. É menos eficiente que o [b][color=#3796e1][url=thriveopedia:nitrogenfixingplastid]Nitroplasto[/url][/color][/b] eucariótico.\\n\\nTambém realiza alguma [b]Glicólise[/b], produzindo [thrive:compound type=\"atp\"][/thrive:compound] a partir de [thrive:compound type=\"glucose\"][/thrive:compound]."
 
 msgid "WIKI_NITROGENASE_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_NITROGENASE_PROCESSES"
-msgstr "Transforma [thrive:compound type=\"atp\"][/thrive:compound] em [thrive:compound type=\"ammonia\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+msgstr "[b]Fixação de Nitrogênio[/b]: [thrive:compound type=\"atp\"][/thrive:compound] + [thrive:compound type=\"nitrogen\"][/thrive:compound] → [thrive:compound type=\"ammonia\"][/thrive:compound]\\n\\nFixa [thrive:compound type=\"nitrogen\"][/thrive:compound] atmosférico em [thrive:compound type=\"ammonia\"][/thrive:compound] consumindo energia. A taxa aumenta conforme a quantidade de [thrive:compound type=\"nitrogen\"][/thrive:compound] no ambiente. É menos eficiente que o processo equivalente no [b][color=#3796e1][url=thriveopedia:nitrogenfixingplastid]Nitroplasto[/url][/color][/b].\\n\\n[b]Glicólise[/b]\\n\\nComo ocorre com muitas organelas procarióticas, o [b][color=#3796e1][url=thriveopedia:cytoplasm]Citoplasma[/url][/color][/b] ao redor da [b]Nitrogenase[/b] realiza uma forma menos eficiente de [b]Glicólise[/b], transformando [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_NITROGENASE_REQUIREMENTS"
-msgstr ""
-"Se melhorias de organela estiverem ativadas nas configurações do jogo, a condição seguinte também deve ser verdadeira [i]para a célula do jogador[/i]:\n"
-"\n"
-"[indent]—   Está em uma região com no máximo [b]13[/b] [thrive:compound type=\"ammonia\"][/thrive:compound].[/indent]"
+msgstr "Se as melhorias de organelas estiverem ativadas nas configurações do jogo, a seguinte condição deve ser verdadeira [i]para a célula do jogador[/i]:\\n\\n[ul]Estar em uma região com no máximo [b]13[/b] [thrive:compound type=\"ammonia\"][/thrive:compound].[/ul]"
 
-#, fuzzy
 msgid "WIKI_NITROGENASE_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "As [color=#3796e1][url=https://en.wikipedia.org/wiki/Nitrogenase]nitrogenases[/url][/color] são enzimas encontradas em determinadas bactérias reais que fixam nitrogênio gasoso (N<sub>2</sub>) em amônia (NH<sub>3</sub>). Esses microrganismos fixadores de nitrogênio desempenham um papel essencial na sustentação de toda a vida na Terra, pois o nitrogênio é um componente fundamental do DNA e das proteínas, mas a maioria dos organismos não consegue utilizá-lo facilmente em sua forma gasosa."
 
-#, fuzzy
 msgid "WIKI_NITROGENASE_STRATEGY"
-msgstr "Nitrogenase é uma enzima que consegue usar nitrogênio gasoso e energia celular na forma de ATP para sintetizar amônia, um nutriente essencial para o crescimento das células. Esse processo é chamado de Fixação de Nitrogênio. Como a nitrogenase é suspensa diretamente no citoplasma, os fluidos em volta realizam a Fermentação."
+msgstr "A [thrive:compound type=\"ammonia\"][/thrive:compound] produzida pela [b]Nitrogenase[/b] contribui para os recursos armazenados necessários à reprodução. Portanto, células com [b]Nitrogenase[/b] precisam encontrar apenas [thrive:compound type=\"phosphates\"][/thrive:compound] no ambiente para se reproduzir mais rapidamente que a taxa básica — que é zero caso o progresso passivo de reprodução esteja desativado nas opções da partida atual. Uma boa estratégia é procurar pedaços de [thrive:compound type=\"phosphates\"][/thrive:compound] para engolfar ou permanecer próximo deles.\\n\\nComo a [b]Fixação de Nitrogênio[/b] consome [thrive:compound type=\"atp\"][/thrive:compound], você deve ter ATP excedente antes de adicionar esta organela à célula. A pequena quantidade de [b]Glicólise[/b] realizada pela [b]Nitrogenase[/b] não é suficiente para compensar seu próprio custo de osmorregulação."
 
 msgid "WIKI_NITROGENASE_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_NITROPLAST_EFFECTS"
-msgstr "Sem efeitos."
+msgstr "Reduz em 2% a [b]Resistência[/b] ao [thrive:compound type=\"oxygen\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_NITROPLAST_INTRO"
-msgstr "Nitroplasto"
+msgstr "O Nitroplasto é uma organela delimitada por membrana usada para produzir [thrive:compound type=\"ammonia\"][/thrive:compound], um dos recursos necessários ao crescimento durante a reprodução celular. Realiza [b]Fixação de Nitrogênio[/b], convertendo [thrive:compound type=\"nitrogen\"][/thrive:compound] gasoso e [thrive:compound type=\"atp\"][/thrive:compound] em [thrive:compound type=\"ammonia\"][/thrive:compound]. É mais eficiente que a [b][color=#3796e1][url=thriveopedia:nitrogenase]Nitrogenase[/url][/color][/b] procariótica."
 
 msgid "WIKI_NITROPLAST_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_NITROPLAST_PROCESSES"
-msgstr "Transforma [thrive:compound type=\"atp\"][/thrive:compound] em [thrive:compound type=\"ammonia\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"nitrogen\"][/thrive:compound] e [thrive:compound type=\"oxygen\"][/thrive:compound]."
+msgstr "[b]Fixação de Nitrogênio[/b]\\n\\nFixa [thrive:compound type=\"nitrogen\"][/thrive:compound] atmosférico em [thrive:compound type=\"ammonia\"][/thrive:compound] consumindo energia. A taxa aumenta conforme a quantidade de [thrive:compound type=\"nitrogen\"][/thrive:compound] no ambiente. É mais eficiente que o processo equivalente realizado pela [b][color=#3796e1][url=thriveopedia:nitrogenase]Nitrogenase[/url][/color][/b]."
 
 msgid "WIKI_NITROPLAST_REQUIREMENTS"
 msgstr "Uma célula precisa ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Nitroplastos[/b]."
 
-#, fuzzy
 msgid "WIKI_NITROPLAST_SCIENTIFIC_BACKGROUND"
-msgstr "O Plastídeo de Fixação de Nitrogênio é uma proteína capaz de usar nitrogênio gasoso, oxigênio e energia celular em forma de ATP para produzir amônia, um nutriente essencial para o crescimento das células. Este é um processo chamado Fixação de Nitrogênio."
+msgstr "Foi demonstrado que os nitroplastos evoluíram a partir de endossimbiontes em células eucarióticas.\\n\\n[color=#3796e1][url=https://en.wikipedia.org/wiki/Nitroplast]https://en.wikipedia.org/wiki/Nitroplast[/url][/color]\\n\\nhttps://www.science.org/doi/10.1126/science.ado8571"
 
-#, fuzzy
 msgid "WIKI_NITROPLAST_STRATEGY"
-msgstr "Nitroplasto"
+msgstr "Recomendamos substituir a [b][color=#3796e1][url=thriveopedia:nitrogenase]Nitrogenase[/url][/color][/b] por [b]Nitroplastos[/b] quando sua célula desenvolver um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b], pois os Nitroplastos conseguem gerar os recursos necessários à reprodução com maior eficiência.\\n\\nAssim como a [b][color=#3796e1][url=thriveopedia:nitrogenase]Nitrogenase[/url][/color][/b], os [b]Nitroplastos[/b] são uma escolha sensata quando há [thrive:compound type=\"atp\"][/thrive:compound] excedente. Produzir os próprios recursos de reprodução elimina um fator limitante e permite avançar pelas gerações mais rapidamente. Ainda será necessário obter [thrive:compound type=\"phosphates\"][/thrive:compound] adicional, encontrado em pedaços de cristais flutuantes ou em nuvens roxas."
 
 msgid "WIKI_NITROPLAST_UPGRADES"
 msgstr "Sem melhoras."
@@ -8334,10 +8317,10 @@ msgid "WIKI_NONE_COMMA_THIS_IS_THE_LAST_STAGE"
 msgstr "Nenhum, Este é o último estágio"
 
 msgid "WIKI_NUCLEUS_EFFECTS"
-msgstr ""
+msgstr "Quando uma célula evolui um [b]Núcleo[/b], passa a poder evoluir muitas outras [b]organelas[/b] que antes estavam bloqueadas.\\n\\nCélulas com [b]Núcleo[/b] recebem [b]50%[/b] menos dano de qualquer fonte, exceto [i]inanição[/i] — dano causado por não possuir [thrive:compound type=\"atp\"][/thrive:compound].\\n\\nCélulas com núcleo recebem o dobro dos efeitos da Especialização Celular.\\n\\nUma célula pode ter no máximo um [b]Núcleo[/b], e ele não pode ser removido depois de evoluído."
 
 msgid "WIKI_NUCLEUS_INTRO"
-msgstr ""
+msgstr "A maior [b]organela[/b] e a característica que define as células [i]eucarióticas[/i]. Permite que a célula evolua [b]organelas[/b] avançadas delimitadas por membrana, com efeitos mais poderosos, como [b][color=#3796e1][url=thriveopedia:mitochondrion]Mitocôndrias[/url][/color][/b] e [b][color=#3796e1][url=thriveopedia:lysosome]Lisossomos[/url][/color][/b].\\n\\nCusta muito [thrive:compound type=\"atp\"][/thrive:compound] para ser mantido devido ao seu enorme tamanho e custo de osmorregulação. Depois que uma célula obtém um núcleo, ele não pode ser removido em gerações futuras.\\n\\nTambém reduz em [b]50%[/b] o dano recebido de qualquer fonte, exceto [i]inanição[/i]."
 
 msgid "WIKI_NUCLEUS_MODIFICATIONS"
 msgstr "Sem modificações."
@@ -8348,49 +8331,38 @@ msgstr "Sem processos."
 msgid "WIKI_NUCLEUS_REQUIREMENTS"
 msgstr "Sem requisitos, exceto por bastante espaço em que ele caiba."
 
-#, fuzzy
 msgid "WIKI_NUCLEUS_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "Os [color=#3796e1][url=https://en.wikipedia.org/wiki/Cell_nucleus]núcleos celulares[/url][/color] são encontrados em praticamente todas as células eucarióticas reais, onde exercem um papel essencial na proteção do material genético do organismo e na regulação da expressão gênica.\\n\\nAinda não está claro como os núcleos evoluíram originalmente. Alguns pesquisadores sugerem que possam ter surgido por endossimbiose, talvez a partir de uma célula arqueana que invadiu uma célula bacteriana. Outros propõem uma origem viral ou, ainda, que tenham surgido quando uma única célula formou uma segunda membrana ao redor de si própria, com a célula original tornando-se o núcleo."
 
 msgid "WIKI_NUCLEUS_STRATEGY"
-msgstr ""
+msgstr "Pense com bastante cuidado antes de adicionar um [b]Núcleo[/b] à sua célula. Ele é caro de manter e reduz consideravelmente a velocidade, portanto certifique-se de ter um balanço de [thrive:compound type=\"atp\"][/thrive:compound] significativamente positivo e de conseguir sustentar um estilo de vida mais lento por uma ou duas gerações. Recomendamos adicionar [b][color=#3796e1][url=thriveopedia:cilia]Cílios[/url][/color][/b] e [b][color=#3796e1][url=thriveopedia:flagellum]Flagelos[/url][/color][/b] nas gerações seguintes para recuperar parte da agilidade.\\n\\nOs benefícios, porém, são claros. [i]Eucariontes[/i] — células com [b]Núcleo[/b] — têm acesso a melhorias futuras mais versáteis que procariontes — células sem núcleo. O efeito dobrado da especialização celular também torna todas as partes de processos mais poderosas, especialmente se sua espécie for bastante especializada.\\n\\nAs [b]Organelas[/b] desbloqueadas pelo [b]Núcleo[/b] oferecem novas capacidades poderosas, como o [b][color=#3796e1][url=thriveopedia:signalingAgent]Agente de Sinalização[/url][/color][/b] e o [b][color=#3796e1][url=thriveopedia:bindingAgent]Agente de Ligação[/url][/color][/b], ou melhorias significativas de capacidades já existentes, como [b][color=#3796e1][url=thriveopedia:mitochondrion]Mitocôndrias[/url][/color][/b] e [b][color=#3796e1][url=thriveopedia:thermoplast]Termoplastos[/url][/color][/b]. Depois de adicionar um [b]Núcleo[/b], recomendamos substituir [b]organelas[/b] [i]procarióticas[/i] por suas equivalentes [i]eucarióticas[/i], mais eficientes, para melhorar a produção de [thrive:compound type=\"atp\"][/thrive:compound] e sustentar melhor sua célula."
 
 msgid "WIKI_NUCLEUS_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_ORGANELLES_ROOT_INTRO"
-msgstr "Axônio"
+msgstr "Organelas são os \\\"órgãos\\\" dos organismos unicelulares. No Thrive, elas são os blocos de construção da sua célula e controlam seus processos internos e suas capacidades.\\n\\nA cada reprodução, você pode adicionar, mover, modificar ou remover organelas da célula usando o editor de micróbios. Quase todas essas ações custam pontos de mutação. As organelas são organizadas em uma grade hexagonal, formando uma estrutura contínua envolvida pela membrana celular, e cada organela ocupa um formato característico de hexágonos. Organelas externas ficam presas ao lado de fora da membrana, portanto a orientação do posicionamento é importante para muitas delas.\\n\\nEnquanto você edita sua célula, outras espécies também alteram a disposição de suas organelas. Elas têm acesso aos mesmos poderes e capacidades.\\n\\nSelecione uma organela na lista abaixo para saber mais."
 
-#, fuzzy
 msgid "WIKI_OXYTOXISOME_EFFECTS"
-msgstr "Um metabolossomo modificado responsável pela produção de uma forma primitiva do agente tóxico Oxitoxina."
+msgstr "Se uma célula possuir pelo menos um [b]Toxissomo[/b] ou um [b][color=#3796e1][url=thriveopedia:oxytoxy]Vacúolo de Toxina[/url][/color][/b], ela pode disparar projéteis tóxicos, consumindo [thrive:compound type=\"oxytoxy\"][/thrive:compound] armazenada. Esses projéteis causam dano a células de outras espécies, mas não prejudicam membros da espécie que os disparou.\\n\\nO dano aumenta conforme a quantidade de [thrive:compound type=\"oxytoxy\"][/thrive:compound] disparada.\\n\\nAumenta em 0,5% a [b]Resistência[/b] ao [thrive:compound type=\"oxygen\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_OXYTOXISOME_INTRO"
-msgstr "Oxitoxissoma"
+msgstr "[b][color=#3796e1][url=thriveopedia:metabolosome]Metabolossomo[/url][/color][/b] modificado que produz [thrive:compound type=\"oxytoxy\"][/thrive:compound], um agente que pode ser disparado como projétil tóxico. É uma versão inferior do [b][color=#3796e1][url=thriveopedia:oxytoxy]Vacúolo de Toxina[/url][/color][/b]."
 
-#, fuzzy
 msgid "WIKI_OXYTOXISOME_MODIFICATIONS"
-msgstr "Sem modificações."
+msgstr "[b]Tipo de Toxina[/b]\\n\\nSelecione o tipo de toxina que este [b]Oxitoxissomo[/b] dispara. Células capazes de disparar vários tipos de toxina alternarão entre eles a cada disparo.\\n\\n[ul][b]OxiToxiNT:[/b] toxina altamente danosa baseada em oxigênio que causa dano celular. Torna-se menos eficaz quanto mais partes consumidoras de oxigênio a espécie possuir.\\n[b]Citotoxina:[/b] (padrão) toxina simples que causa uma quantidade consistente de dano.\\n[b]Macrolídeo:[/b] toxina que reduz a velocidade dos alvos afetados.\\n[b]Inibidor de Canal:[/b] toxina que inibe a produção de ATP das células afetadas, podendo deixá-las mais lentas ou até causar dano.\\n[b]Cianeto:[/b] toxina altamente danosa que ataca o metabolismo do oxigênio. Torna-se mais eficaz quanto mais partes consumidoras de oxigênio a espécie possuir.[/ul]\\n\\n[b]Cadência de Tiro e Toxicidade[/b]\\n\\nDefina o equilíbrio entre a cadência de tiro e a eficácia de cada disparo."
 
-#, fuzzy
 msgid "WIKI_OXYTOXISOME_PROCESSES"
-msgstr "Transforma [thrive:compound type=\"atp\"][/thrive:compound] em [thrive:compound type=\"oxytoxy\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"oxygen\"][/thrive:compound]. Pode disparar toxinas apertando [thrive:input]g_fire_toxin[/thrive:input]. Quando a quantidade de [thrive:compound type=\"oxytoxy\"][/thrive:compound] ficar baixa, será possível disparar, mas o dano irá ser reduzido."
+msgstr "[b]Síntese de OxiToxi[/b]: [thrive:compound type=\"atp\"][/thrive:compound] + [thrive:compound type=\"oxygen\"][/thrive:compound] → [thrive:compound type=\"oxytoxy\"][/thrive:compound]\\n\\nProduz [thrive:compound type=\"oxytoxy\"][/thrive:compound], mas com eficiência muito menor que os [b][color=#3796e1][url=thriveopedia:oxytoxy]Vacúolos de Toxina[/url][/color][/b]. A taxa aumenta conforme a quantidade de [thrive:compound type=\"oxygen\"][/thrive:compound] no ambiente.\\n\\n[b]Glicólise[/b]: [thrive:compound type=\"glucose\"][/thrive:compound] → [thrive:compound type=\"atp\"][/thrive:compound]\\n\\nComo ocorre com muitas organelas procarióticas, o [b][color=#3796e1][url=thriveopedia:cytoplasm]Citoplasma[/url][/color][/b] ao redor de um [b]Toxissomo[/b] realiza uma forma menos eficiente de [b]Glicólise[/b], transformando [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_OXYTOXISOME_REQUIREMENTS"
-msgstr ""
-"Se melhorias de organela estiverem ativadas nas configurações do jogo, a condição seguinte também deve ser verdadeira [i]para a célula do jogador[/i]:\n"
-"\n"
-"[indent]—   Fagocitou no mínimo [b]5[/b] células ao longo do jogo até agora.[/indent]"
+msgstr "Se as melhorias de organelas estiverem ativadas nas configurações do jogo, a seguinte condição deve ser verdadeira [i]para a célula do jogador[/i]:\\n\\n[ul]Ter engolfado pelo menos [b]5[/b] células ao longo da partida até agora.[/ul]"
 
 msgid "WIKI_OXYTOXISOME_SCIENTIFIC_BACKGROUND"
 msgstr "A ser adicionado"
 
-#, fuzzy
 msgid "WIKI_OXYTOXISOME_STRATEGY"
-msgstr "Um metabolossomo modificado responsável pela produção de uma forma primitiva do agente tóxico Oxitoxina."
+msgstr "Toxinas são armas valiosas no combate celular. Atualmente, são o único método de ataque à distância no jogo, enquanto o engolfamento e os [b][color=#3796e1][url=thriveopedia:pilus]Pili Perfuradores[/url][/color][/b] funcionam mais como armas corpo a corpo.\\n\\nO [b]Toxissomo[/b] e sua contraparte eucariótica, o [b][color=#3796e1][url=thriveopedia:oxytoxy]Vacúolo de Toxina[/url][/color][/b], também são úteis para defesa. Uma célula que engole outra contendo uma dessas organelas recebe dano durante a digestão da presa, o que pode desencorajar predadores maiores."
 
 msgid "WIKI_OXYTOXISOME_UPGRADES"
 msgstr "Sem melhoras."
@@ -8398,9 +8370,8 @@ msgstr "Sem melhoras."
 msgid "WIKI_OXYTOXY_SYNTHESIS_COMMA_GLYCOLYSIS"
 msgstr "Síntese de Oxitoxina, Glicólise"
 
-#, fuzzy
 msgid "WIKI_PAGE_ACTOMYOSIN"
-msgstr "Ascensão"
+msgstr "Actomiosina"
 
 msgid "WIKI_PAGE_ASCENSION"
 msgstr "Ascensão"
