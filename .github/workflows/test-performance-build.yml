@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - test/graphics-performance-pass
+      - test/performance-pt-br-complete
   pull_request:
     branches:
       - master
@@ -65,7 +66,7 @@ jobs:
       - name: Upload Windows package
         uses: actions/upload-artifact@v4
         with:
-          name: Thrive-performance-test-windows
+          name: Thrive-performance-pt-br-100-windows
           path: builds/*.7z
           if-no-files-found: error
           retention-days: 7
