@@ -6945,19 +6945,11 @@ msgstr "Você pode pausar a qualquer momento, por exemplo para se concentrar em 
 msgid "TUTORIAL_MICROBE_STAGE_PROCESS_PANEL"
 msgstr "Aqui no [b]painel de processos[/b], você pode acompanhar os processos celulares em tempo real. Os indicadores giratórios mostram a velocidade de cada processo, e os números mostram uma média recente de consumo ou produção.\\n\\nVocê é uma pequena [b]fábrica celular[/b] que precisa produzir [thrive:compound type=\\\"atp\\\"][/thrive:compound] constantemente para continuar viva.\\n\\nSe um número ficar [color=#ff4d4d]vermelho[/color], isso significa que ele é [u]o fator limitante[/u]. Por exemplo, se uma [i]entrada[/i] de um processo que produz [thrive:compound type=\\\"atp\\\"][/thrive:compound] ficar vermelha, você estará em sérios problemas e precisará encontrar [b]mais desse composto[/b] antes de começar a morrer!\\n\\nOs cartões de processo podem ser clicados para ativá-los ou desativá-los. Isso permite táticas avançadas, como desligar a produção de toxinas quando ela não for necessária.\\nPara experimentar o que acontece quando os compostos acabam, tente desligar um dos processos e então [b]ligá-lo novamente imediatamente[/b] para evitar morrer. Observe que o jogo precisa estar despausado."
 
-#, fuzzy
 msgid "TUTORIAL_MICROBE_STAGE_REPRODUCE_TEXT"
-msgstr ""
-"Para se reproduzir você precisa duplicar todas as suas organelas. Isso ocorre gradualmente enquanto você sobrevive, mas você pode acelerar o processo coletando [thrive:compound type=\"ammonia\"][/thrive:compound] e [thrive:compound type=\"phosphates\"][/thrive:compound].\n"
-"\n"
-"As barras no canto inferior direito mostram o seu progresso. Elas tornam-se brancas ao ficarem completas."
+msgstr "A vida precisa de mais moléculas do que apenas açúcar. Veja quais outros tipos de nuvens o seu micróbio consegue coletar!\\n\\nAs barras laranja ([thrive:compound type=\\\"ammonia\\\"][/thrive:compound]) e roxa ([thrive:compound type=\\\"phosphates\\\"][/thrive:compound]) no canto inferior direito mostram o seu [b]progresso[/b]. Elas ficam brancas quando você está pronto para se reproduzir."
 
-#, fuzzy
 msgid "TUTORIAL_MICROBE_STAGE_RESOURCE_SPLIT"
-msgstr ""
-"Para se reproduzir você precisa duplicar todas as suas organelas. Isso ocorre gradualmente enquanto você sobrevive, mas você pode acelerar o processo coletando [thrive:compound type=\"ammonia\"][/thrive:compound] e [thrive:compound type=\"phosphates\"][/thrive:compound].\n"
-"\n"
-"As barras no canto inferior direito mostram o seu progresso. Elas tornam-se brancas ao ficarem completas."
+msgstr "Depois de voltar do editor, sua [b]célula-irmã[/b] aparecerá ao seu lado.\\n\\nOs compostos que você armazenou foram [u]divididos com a célula-irmã[/u] para que ela também consiga sobreviver.\\n\\nDependendo da dificuldade escolhida, você poderá receber [b]recursos gratuitos[/b] adicionais para reabastecer sua célula após sair do editor. Na [b]dificuldade normal[/b], esses recursos extras só são concedidos se você acabou de passar a viver em [u]outra região[/u].\\n\\nComo os recursos são divididos após a reprodução, torna-se uma [b]decisão estratégica[/b] reproduzir-se imediatamente assim que possível [i]ou[/i] continuar jogando por mais algum tempo para acumular recursos e facilitar sua próxima vida."
 
 msgid "TUTORIAL_MICROBE_STAGE_UNBIND_TEXT"
 msgstr ""
@@ -6977,9 +6969,8 @@ msgstr ""
 "\n"
 "Se estiver usando reprodução por gemulação (o método padrão), você começará com uma parte de seu organismo e será preciso crescer o resto das células."
 
-#, fuzzy
 msgid "TUTORIAL_REPLAY_ALL_EXPLANATION"
-msgstr "Apenas tutoriais que ainda não foram vistos em nenhum jogo serão mostrados. Tutoriais podem ser completamente desativados a partir do menu de opções, mas é ALTAMENTE RECOMENDADO que ao menos os novos tutoriais estejam ativados."
+msgstr "Todos os tutoriais serão exibidos novamente. Quando esta opção estiver desativada, apenas os tutoriais que ainda não foram mostrados serão exibidos. É seguro desativar esta opção mesmo em uma primeira partida."
 
 msgid "TUTORIAL_VIEW_NOW"
 msgstr "Ver Agora"
@@ -7032,13 +7023,11 @@ msgstr "Desfazer a ultima ação"
 msgid "UNHANDLED_ERROR_COUNT"
 msgstr "Erros não tratados: {0}"
 
-#, fuzzy
 msgid "UNHANDLED_ERROR_DESCRIPTION"
-msgstr "Axônios são fibras nervosas que os neurônios utilizam para conectar e comunicar com outros neurônios. Essa organela transforma o tipo da célula em um tecido cerebral."
+msgstr "O jogo encontrou um erro não tratado. Talvez seja possível continuar, mas os erros podem piorar. A opção mais segura é reiniciar completamente o jogo e carregar o salvamento mais recente. Talvez seja possível criar um salvamento agora.\\nSe você relatar este erro, use o botão para copiá-lo e inclua essas informações no relatório."
 
-#, fuzzy
 msgid "UNHANDLED_ERROR_TITLE"
-msgstr "Obrigado(a)"
+msgstr "Ocorreu um Erro Não Tratado"
 
 msgid "UNIT_ACTION_CONSTRUCT"
 msgstr "Construir"
@@ -7190,7 +7179,7 @@ msgid "UPSCALE_SHARPENING_FSR"
 msgstr "Nitidez FSR"
 
 msgid "UPWELLING_EVENT"
-msgstr ""
+msgstr "Evento de Ressurgência"
 
 msgid "USED_LIBRARIES_LICENSES"
 msgstr "Licenças e Bibliotecas Usadas"
@@ -7210,9 +7199,8 @@ msgstr "Usar cache do disco"
 msgid "USE_MANUAL_THREAD_COUNT"
 msgstr "Definir número de tarefas de fundo manualmente"
 
-#, fuzzy
 msgid "USE_MANUAL_THREAD_COUNT_NATIVE"
-msgstr "Definir número de tarefas de fundo manualmente"
+msgstr "Definir manualmente o número de threads do executor nativo"
 
 msgid "USE_VIRTUAL_WINDOW_SIZE"
 msgstr "Usar tamanho da janela virtual"
@@ -7241,27 +7229,23 @@ msgstr "Aumenta o espaço de armazenamento da célula."
 msgid "VACUOLE_SPECIALIZED_DESCRIPTION"
 msgstr "O vacúolo armazenará {0} unidades do composto selecionado"
 
-#, fuzzy
 msgid "VALUE_MODIFIER"
-msgstr "Modificador de Saúde"
+msgstr "Modificador"
 
 msgid "VALUE_OFFSET"
-msgstr ""
+msgstr "Deslocamento"
 
-#, fuzzy
 msgid "VALUE_TOTAL"
-msgstr "Bruto:"
+msgstr "Total"
 
 msgid "VALUE_WITH_UNIT"
 msgstr "{0} {1}"
 
-#, fuzzy
 msgid "VALUE_WITH_UNIT_PLUS"
-msgstr "{0} {1}"
+msgstr "+{0} {1}"
 
-#, fuzzy
 msgid "VALUE_WITH_UNIT_PLUS_MINUS"
-msgstr "{0} {1}"
+msgstr "±{0} {1}"
 
 msgid "VENTS_ARE_HOME"
 msgstr "Fissuras são meu Lar"
@@ -7284,13 +7268,11 @@ msgstr "{0} MiB"
 msgid "VIEWER"
 msgstr "Visualizador"
 
-#, fuzzy
 msgid "VIEW_CELL_PROCESSES"
-msgstr "Ver Processos Celulares"
+msgstr "Ver Processos do Organismo"
 
-#, fuzzy
 msgid "VIEW_CELL_PROCESSES_MICROBE"
-msgstr "Ver Processos Celulares"
+msgstr "Ver Processos da Célula"
 
 msgid "VIEW_ONLINE"
 msgstr "Ver Online"
@@ -7388,40 +7370,29 @@ msgstr "3D, Estratégia, Espaço"
 msgid "WIKI_8_BRACKET_16"
 msgstr "8 (16)"
 
-#, fuzzy
 msgid "WIKI_ACTOMYOSIN_EFFECTS"
-msgstr ""
-"Para cada célula em um organismo multicelular que contenha um [b]Axônio[/b], a capacidade cerebral desse organismo aumenta proporcionalmente ao volume da célula. Células com [b]Axônios[/b] são classificadas como tendo tipo de tecido cerebral.\n"
-"\n"
-"Quando a capacidade cerebral for maior que [b]+0,5[/b], o jogador entra no Estágio Consciente. Quando a capacidade cerebral for maior que [b]+5,0[/b], o jogador entra no Estágio Desperto."
+msgstr "Cada célula com [b]Actomiosina[/b] aumenta em 25% a velocidade da colônia e também melhora em 25% a velocidade de rotação. Enquanto a colônia se move, cada actomiosina consome [thrive:compound type=\\\"atp\\\"][/thrive:compound].\\n\\nAumenta a Tolerância Máxima à Pressão em 1 kPa."
 
-#, fuzzy
 msgid "WIKI_ACTOMYOSIN_INTRO"
-msgstr "Basicamente: Este é o final do jogo onde você pode viajar a galáxia como um ser metafísico, moldando e observando o que você quiser. Foi uma longa jornada e você merece."
+msgstr "A [b]Actomiosina[/b] é um complexo formado pelas proteínas actina e miosina que usa [thrive:compound type=\\\"atp\\\"][/thrive:compound] para aumentar bastante a velocidade de movimento e de rotação. Apenas uma pode ser colocada em cada célula."
 
-#, fuzzy
 msgid "WIKI_ACTOMYOSIN_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_ACTOMYOSIN_PROCESSES"
 msgstr "Sem processos."
 
-#, fuzzy
 msgid "WIKI_ACTOMYOSIN_REQUIREMENTS"
-msgstr "Disponível apenas a partir do Estágio Multicelular."
+msgstr "Se o desbloqueio de organelas estiver ativado nas configurações do jogo, [i]pelo menos uma[/i] das condições a seguir deve ser verdadeira [i]para a célula do jogador[/i]:\\n\\n[ul]Ter velocidade inferior a [b]15[/b].[/ul]"
 
-#, fuzzy
 msgid "WIKI_ACTOMYOSIN_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "[color=#3796e1][url=https://en.wikipedia.org/wiki/Actin]Actina[/url][/color] e [color=#3796e1][url=https://en.wikipedia.org/wiki/Myosin]Miosina[/url][/color] são proteínas encontradas em células eucarióticas que se contraem para produzir força. Isso acontece quando moléculas de actina \\\"caminham\\\" ao longo das moléculas de miosina, consumindo energia na forma de ATP. Esse princípio é o que movimenta todos os músculos.\\n\\nO arranjo específico das proteínas actina e miosina representado pela parte celular [b]Actomiosina[/b] é encontrado em células musculares simples, como as de [color=#3796e1][url=https://en.wikipedia.org/wiki/Smooth_muscle]músculo liso[/url][/color]. Feixes de actina e miosina se cruzam pela célula e são ligados por estruturas chamadas corpos densos. Como essa rede está presa à membrana celular, sua contração provoca a contração de toda a célula e também puxa as estruturas externas a ela."
 
-#, fuzzy
 msgid "WIKI_ACTOMYOSIN_STRATEGY"
-msgstr "Adicionar [b]Axônios[/b] é essencial para alcançar estágios futuros. Recomendamos adicionar um [b]Axônio[/b] a diversos tipos de células em seu organismo multicelular, mas adicionar mais de um é redundante. No momento, mais [b]Axônios[/b] não geram nenhum benefício."
+msgstr "A Actomiosina pode melhorar bastante a mobilidade de Espécies Multicelulares maiores. Como apenas uma pode ser colocada por célula, aumentar a especialização celular e os bônus de adjacência é a única forma de melhorar a velocidade obtida por célula."
 
-#, fuzzy
 msgid "WIKI_ACTOMYOSIN_UPGRADES"
-msgstr "Sem melhoras."
+msgstr "Sem melhorias."
 
 msgid "WIKI_ASCENSION"
 msgstr "Ascensão"
@@ -7456,13 +7427,11 @@ msgstr "Em breve."
 msgid "WIKI_AWAKENING_STAGE_INTRO"
 msgstr "Basicamente: Você começa com uma criatura começando a descobrir o uso de ferramentas e deve rapidamente melhorá-las para sobreviver e superar a competição. Termina com a construção do seu primeiro Centro de Sociedade."
 
-#, fuzzy
 msgid "WIKI_AWAKENING_STAGE_OVERVIEW"
-msgstr "Em breve."
+msgstr "O Estágio Desperto é o quinto dos nove estágios de Thrive."
 
-#, fuzzy
 msgid "WIKI_AWAKENING_STAGE_TRANSITIONS"
-msgstr "Estágio Desperto"
+msgstr "O Estágio Desperto começa quando a espécie do jogador alcança a sapiência. Porém, pouca coisa muda imediatamente, além do encerramento efetivo da evolução biológica da espécie do jogador. Como as escalas de tempo diminuíram drasticamente, daqui em diante apenas pequenas mudanças evolutivas podem ocorrer. O Modo Estratégia ainda está bloqueado, o Editor de Nação permanece bloqueado e Centros de Sociedade ainda não existem. A transição inicial é principalmente simbólica — além da capacidade bastante reduzida de editar a espécie — e a mudança substancial acontece de forma gradual.\\n\\nO que passa a estar disponível, embora não seja visível de imediato, é a Rede de Pesquisa. Ela só pode ser visualizada depois que Registro de Informações for descoberto. Interação também é descoberta automaticamente. Neste ponto, tecnologias pesquisáveis ainda não podem ser pesquisadas diretamente. Em vez disso, ações realizadas pelo jogador, como comunicar-se ou interagir com o ambiente, passam a gerar progresso para descobrir novas tecnologias ou Invenções, efetivamente desenvolvendo sua tecnologia. Esse é o efeito de ter descoberto Interação. Por exemplo, usar objetos do ambiente como ferramentas — depois de fabricar itens a partir de matérias-primas encontradas pelo mundo — pode levar à descoberta da invenção Ferramentas; o progresso deve ser garantido para que a experiência não dependa totalmente do acaso. O Editor de Tecnologia é desbloqueado quando Fabricação se torna disponível. Ferramentas permite que Objetos Tecnológicos criados pelo jogador no Editor de Tecnologia e marcados como \\\"Ferramentas\\\" sejam equipados por membros da espécie.\\n\\nA invenção Linguagem permite atribuir tarefas mais específicas a outros membros da espécie. Esse recurso amplia os comandos de grupo dos estágios anteriores — representados pelos agentes de sinalização no Estágio Microbiano. Sempre que uma tarefa é atribuída ou executada, Cooperação progride em direção à descoberta; o progresso não deve depender de puro acaso, embora possa haver a possibilidade de um desbloqueio antecipado por sorte. Cooperação amplia Linguagem ao permitir que outros membros da espécie, agora avançados o suficiente para serem chamados de membros da tribo, descubram tecnologias como resultado das próprias ações. Antes disso, apenas o organismo do jogador podia descobrir novas tecnologias. Isso libera o jogador para assumir um papel mais gerencial na tribo que está surgindo.\\n\\nNeste ponto, o Modo Estratégia ainda está bloqueado, mas o jogador pode usar comandos de grupo para atribuir diferentes tarefas aos membros da espécie, principalmente coleta de recursos e alimento, graças à descoberta da invenção Cooperação. Depois que o jogador designar alguns coletores de recursos e construir estruturas, Residência Coletiva será descoberta, permitindo construir um Centro de Sociedade e estabelecer um assentamento.\\n\\nO estágio termina quando o jogador constrói seu primeiro Centro de Sociedade. Nesse momento, a visão do jogador passa para o Modo Estratégia, destacando a mudança entre os estágios e a transição para os estágios estratégicos do jogo."
 
 msgid "WIKI_AWAKENING_STAGE_UI"
 msgstr "Em breve."
@@ -7473,31 +7442,23 @@ msgstr "Começamos o desenvolvimento de protótipos dos estágios Desperto e fut
 msgid "WIKI_AWARE_STAGE_FEATURES"
 msgstr "Em breve."
 
-#, fuzzy
 msgid "WIKI_AWARE_STAGE_INTRO"
-msgstr "Nitrogenase é uma enzima que consegue usar nitrogênio gasoso e energia celular na forma de ATP para sintetizar amônia, um nutriente essencial para o crescimento das células. Esse processo é chamado de Fixação de Nitrogênio. Como a nitrogenase é suspensa diretamente no citoplasma, os fluidos em volta realizam a Fermentação."
+msgstr "O Estágio Ciente começa com o jogador controlando uma espécie que acabou de desenvolver um sistema nervoso e adquirir senciência. Ela passará por gerações de evolução até desenvolver inteligência plena, ou sapiência."
 
-#, fuzzy
 msgid "WIKI_AWARE_STAGE_OVERVIEW"
-msgstr "Estágio Ciente"
+msgstr "O Estágio Ciente é o maior e mais importante estágio \\\"animal\\\" do jogo. Para alcançá-lo, sua espécie multicelular precisa atingir um nível moderado de inteligência. É nesse estágio que a evolução poderá ser vista em toda a sua força e que o bioma terá importância fundamental. O Estágio Desperto vem depois do Estágio Ciente, quando o jogador começa a usar ferramentas."
 
-#, fuzzy
 msgid "WIKI_AWARE_STAGE_TRANSITIONS"
-msgstr "Nitrogenase"
+msgstr "O estágio começa quando o jogador desenvolve um sistema nervoso central juntamente com um cérebro e sua espécie passa a ter consciência do ambiente ao redor.\\n\\nO estágio termina quando o jogador aumenta suficientemente a capacidade cerebral da espécie para que ela alcance a sapiência e adquira a capacidade de desenvolver e usar ferramentas."
 
 msgid "WIKI_AWARE_STAGE_UI"
 msgstr "Em breve."
 
-#, fuzzy
 msgid "WIKI_AXON_EFFECTS"
-msgstr ""
-"Para cada célula em um organismo multicelular que contenha um [b]Axônio[/b], a capacidade cerebral desse organismo aumenta proporcionalmente ao volume da célula. Células com [b]Axônios[/b] são classificadas como tendo tipo de tecido cerebral.\n"
-"\n"
-"Quando a capacidade cerebral for maior que [b]+0,5[/b], o jogador entra no Estágio Consciente. Quando a capacidade cerebral for maior que [b]+5,0[/b], o jogador entra no Estágio Desperto."
+msgstr "Para cada célula de um organismo multicelular que contenha um [b]Axônio[/b], a capacidade cerebral desse organismo aumenta proporcionalmente ao volume da célula. Células com [b]Axônios[/b] são classificadas como tecido cerebral.\\n\\nQuando a capacidade cerebral ultrapassa [b]+0,5[/b], o jogador entra no Estágio Ciente. Quando ultrapassa [b]+5,0[/b], o jogador entra no Estágio Desperto.\\n\\nReduz em 10% a [b]Resistência[/b] à [thrive:compound type=\\\"sunlight\\\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_AXON_INTRO"
-msgstr "Fibras nervosas entre neurônios, disponíveis a partir do Estágio Multicelular. Necessários para aumentar a capacidade cerebral de um organismo e progredir para estágios futuros."
+msgstr "Fibras nervosas entre neurônios, disponíveis a partir do [color=#3796e1][url=thriveopedia:macroscopic_stage]Estágio Macroscópico[/url][/color]. São necessárias para aumentar a capacidade cerebral de um organismo e avançar para estágios futuros."
 
 msgid "WIKI_AXON_MODIFICATIONS"
 msgstr "Sem modificações."
@@ -7505,13 +7466,11 @@ msgstr "Sem modificações."
 msgid "WIKI_AXON_PROCESSES"
 msgstr "Sem processos."
 
-#, fuzzy
 msgid "WIKI_AXON_REQUIREMENTS"
-msgstr "Disponível apenas a partir do Estágio Multicelular."
+msgstr "Disponível apenas a partir do [color=#3796e1][url=thriveopedia:macroscopic_stage]Estágio Macroscópico[/url][/color]."
 
-#, fuzzy
 msgid "WIKI_AXON_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "O axônio é uma projeção longa e fina que parte de uma \\\"célula neuronal\\\" em direção a outra célula, que pode ser outro neurônio, uma célula muscular ou diversos outros tipos celulares. Ele permite a passagem de informações na forma de sinais elétricos entre duas ou mais células. Isso, por sua vez, permite que uma criatura responda a estímulos externos, como um aumento repentino de temperatura, um arranhão ou até mesmo um odor desagradável percebido por células sensoriais."
 
 msgid "WIKI_AXON_STRATEGY"
 msgstr "Adicionar [b]Axônios[/b] é essencial para alcançar estágios futuros. Recomendamos adicionar um [b]Axônio[/b] a diversos tipos de células em seu organismo multicelular, mas adicionar mais de um é redundante. No momento, mais [b]Axônios[/b] não geram nenhum benefício."
@@ -7522,13 +7481,11 @@ msgstr "Sem melhoras."
 msgid "WIKI_BACTERIAL_CHEMOSYNTHESIS_COMMA_GLYCOLYSIS"
 msgstr "Quimiossíntese Bacterial, Glicólise"
 
-#, fuzzy
 msgid "WIKI_BINDING_AGENT_EFFECTS"
-msgstr "Permite a ligação com outras células. Este é o primeiro passo até a multicelularidade. Quando sua célula é parte de uma colônia, os compostos são compartilhados entre as células. Você não pode entrar no editor enquanto faz parte de uma colônia, por isso precisa se desconectar após coletar compostos suficientes para dividir sua célula."
+msgstr "Células com [b]Agentes de Ligação[/b] — ou colônias que contenham células com [b]Agentes de Ligação[/b] — podem entrar no modo de ligação. Enquanto esse modo estiver ativo, cada célula consome [b]+2[/b] [thrive:compound type=\\\"atp\\\"][/thrive:compound] adicionais. O modo de ligação é desativado ao entrar em contato com uma célula da mesma espécie, unindo as células em uma colônia. Também é possível desativá-lo manualmente.\\n\\nCélulas de uma colônia compartilham recursos, dividindo-os igualmente entre todas as células. As colônias também se beneficiam de um custo reduzido de osmorregulação: o custo de osmorregulação de cada célula diminui de forma inversamente proporcional ao número total de membros da colônia.\\n\\nAlém disso, as células de uma colônia compartilham a carga de toxinas recebida, fazendo com que o dano seja distribuído entre todos os membros e tornando cada célula muito mais difícil de matar com toxinas."
 
-#, fuzzy
 msgid "WIKI_BINDING_AGENT_INTRO"
-msgstr "Agente de Ligação"
+msgstr "Permite que uma célula se una a outras da mesma espécie para formar uma colônia celular. Depois de ligadas em uma colônia, as células se movem como uma só e compartilham compostos. As células precisam se desligar da colônia antes de entrar no editor e se dividir.\\n\\nColônias celulares são o primeiro passo rumo à multicelularidade, portanto os [b]Agentes de Ligação[/b] são essenciais para avançar ao próximo estágio."
 
 msgid "WIKI_BINDING_AGENT_MODIFICATIONS"
 msgstr "Sem modificações."
@@ -7536,58 +7493,41 @@ msgstr "Sem modificações."
 msgid "WIKI_BINDING_AGENT_PROCESSES"
 msgstr "Sem processos."
 
-#, fuzzy
 msgid "WIKI_BINDING_AGENT_REQUIREMENTS"
-msgstr ""
-"Uma célula precisa ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Agentes de Ligação[/b].\n"
-"\n"
-"Se melhorias de organela estiverem ativadas nas configurações do jogo, [i]ambas[/i] as condições seguintes também devem ser verdadeiras [i]para a célula do jogador[/i]:\n"
-"\n"
-"[indent]—   Contém um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] em pelo menos [b]5[/b] gerações.[/indent]\n"
-"[indent]—   Tem um equilíbrio de [thrive:compound type=\"atp\"][/thrive:compound] de pelo menos [b]+15[/b].[/indent]"
+msgstr "Uma célula precisa ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Agentes de Ligação[/b].\\n\\nSe as melhorias de organelas estiverem ativadas nas configurações do jogo, [i]ambas[/i] as condições a seguir também devem ser verdadeiras [i]para a célula do jogador[/i]:\\n\\n[ul]Conter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] por pelo menos [b]5[/b] gerações.\\nTer um balanço de [thrive:compound type=\\\"atp\\\"][/thrive:compound] de pelo menos [b]+15[/b].[/ul]"
 
-#, fuzzy
 msgid "WIKI_BINDING_AGENT_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "Em organismos eucarióticos multicelulares, células individuais são ligadas umas às outras por diversas moléculas de adesão celular (CAMs) localizadas nas superfícies externas de suas membranas. Uma categoria importante de CAMs é formada por proteínas transmembrana — proteínas incorporadas à membrana celular que se estendem tanto para o interior quanto para o exterior da célula — como as caderinas. Elas possuem extensões extracelulares capazes de se conectar às caderinas de outras células e, assim, unir as respectivas células."
 
-#, fuzzy
 msgid "WIKI_BINDING_AGENT_STRATEGY"
-msgstr "Permite a ligação com outras células. Este é o primeiro passo até a multicelularidade. Quando sua célula é parte de uma colônia, os compostos são compartilhados entre as células. Você não pode entrar no editor enquanto faz parte de uma colônia, por isso precisa se desconectar após coletar compostos suficientes para dividir sua célula."
+msgstr "A capacidade de formar colônias é poderosa, especialmente para organismos que usam [b]Fotossíntese[/b]. Cada célula adicional em uma colônia reduz o custo total de osmorregulação, aumentando a eficiência energética. Assim, espécies fotossintéticas produzem [thrive:compound type=\\\"glucose\\\"][/thrive:compound] mais rapidamente, enquanto colônias predadoras conseguem sobreviver por mais tempo entre refeições.\\n\\nAlcançar células aliadas para se ligar a elas pode ser difícil; portanto, pode ser útil usar um [b][color=#3796e1][url=thriveopedia:signalingAgent]Agente de Sinalização[/url][/color][/b] para chamar aliados até sua posição.\\n\\nAs células não podem se dividir enquanto fazem parte de uma colônia, então é preciso desligá-las antes de entrar no editor.\\n\\nEmbora uma colônia possa crescer indefinidamente, são necessárias apenas cinco células para entrar no próximo estágio. Fique atento ao botão para se tornar multicelular acima do botão do editor na interface do ambiente."
 
 msgid "WIKI_BINDING_AGENT_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_BIOLUMINESCENT_VACUOLE_EFFECTS"
-msgstr "Sem efeitos. A ser implementado."
+msgstr "Aumenta em 15% a [b]Resistência[/b] ao [thrive:compound type=\\\"oxygen\\\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_BIOLUMINESCENT_VACUOLE_INTRO"
-msgstr "Gera luz. Ainda não implementado em Thrive."
+msgstr "Produz [thrive:compound type=\\\"sunlight\\\"][/thrive:compound] e aumenta a resistência ao [thrive:compound type=\\\"oxygen\\\"][/thrive:compound] da célula que o possui."
 
-#, fuzzy
 msgid "WIKI_BIOLUMINESCENT_VACUOLE_MODIFICATIONS"
-msgstr "Sem modificações. A ser implementado."
+msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_BIOLUMINESCENT_VACUOLE_PROCESSES"
-msgstr "Sem processos. A ser implementado."
+msgstr "[b]Síntese de Luciferase[/b]: [thrive:compound type=\\\"atp\\\"][/thrive:compound] + [thrive:compound type=\\\"oxygen\\\"][/thrive:compound] → [thrive:compound type=\\\"sunlight\\\"][/thrive:compound]"
 
-#, fuzzy
 msgid "WIKI_BIOLUMINESCENT_VACUOLE_REQUIREMENTS"
-msgstr "Não pode ser adicionado a células. A ser implementado."
+msgstr "Uma célula precisa ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir um [b]Vacúolo Bioluminescente[/b]."
 
-#, fuzzy
 msgid "WIKI_BIOLUMINESCENT_VACUOLE_SCIENTIFIC_BACKGROUND"
-msgstr "Vacúolo Bioluminescente"
+msgstr "Muitos organismos reais são bioluminescentes, incluindo algumas bactérias e protistas. A produção química de luz dentro do corpo de um organismo pode ter muitas funções, como atrair parceiros, comunicar-se com membros da mesma espécie e atrair ou repelir outras espécies. A bioluminescência em algas microscópicas pode produzir florações de algas que iluminam enormes regiões do oceano com um brilho azul-esverdeado.\\n\\nAtualmente, ainda não foi definida uma função de jogabilidade para a bioluminescência. Embora ela possa ser um bom efeito visual e até ajudar o jogador em ambientes escuros, tem sido difícil formular mecânicas úteis baseadas especificamente em bioluminescência. A comunicação dentro da espécie já é coberta pelo [b][color=#3796e1][url=thriveopedia:signalingAgent]Agente de Sinalização[/url][/color][/b], e outros usos são difíceis de justificar quando inevitavelmente exigiriam um custo de [thrive:compound type=\\\"atp\\\"][/thrive:compound].\\n\\nEla pode assumir a forma de um [b]Vacúolo Bioluminescente[/b] ou de uma organela mais específica. Um exemplo do mundo real é o [color=#3796e1][url=https://en.wikipedia.org/wiki/Scintillon]cintilão[/url][/color].\\n\\nSe você considera importante a inclusão de [b]Vacúolos Bioluminescentes[/b] ou tem sugestões de funções úteis para eles no jogo, visite nosso [color=#3796e1][url=https://suggestions.revolutionarygamesstudio.com/]quadro de sugestões[/url][/color]."
 
-#, fuzzy
 msgid "WIKI_BIOLUMINESCENT_VACUOLE_STRATEGY"
-msgstr "Não disponível no jogo. A ser implementado."
+msgstr "Como possui efeitos limitados na jogabilidade, o Vacúolo Bioluminescente serve principalmente como um elemento visual. No entanto, ele fornece resistência adicional ao oxigênio, o que pode ser necessário quando é preciso ultrapassar o limite oferecido pelo controle de resistência, por exemplo quando outras organelas causam uma grande penalidade de tolerância."
 
-#, fuzzy
 msgid "WIKI_BIOLUMINESCENT_VACUOLE_UPGRADES"
-msgstr "Sem melhoras. A ser implementado."
+msgstr "Sem melhorias."
 
 msgid "WIKI_BODY_PLAN_EDITOR_COMMA_CELL_EDITOR"
 msgstr "Editor do Plano Corporal, Editor de Célula"
@@ -7595,38 +7535,32 @@ msgstr "Editor do Plano Corporal, Editor de Célula"
 msgid "WIKI_CHEMOPLAST_EFFECTS"
 msgstr "Sem efeitos."
 
-#, fuzzy
 msgid "WIKI_CHEMOPLAST_INTRO"
-msgstr "O quimioplasto é uma estrutura de membrana dupla contendo proteínas capazes de converter sulfeto de hidrogênio, água, e gás carbônico em glicose em um processo chamado Quimiossíntese de Sulfeto de Hidrogênio. A proporção de sua produção de glicose aumenta com a concentração de dióxido de carbono."
+msgstr "Uma organela eucariótica usada para realizar [b]Quimiossíntese[/b], processo que converte [thrive:compound type=\\\"hydrogensulfide\\\"][/thrive:compound] em [thrive:compound type=\\\"glucose\\\"][/thrive:compound] usando [thrive:compound type=\\\"carbondioxide\\\"][/thrive:compound] do ambiente. Ela realiza esse processo com mais eficiência que sua contraparte procariótica, as [b][color=#3796e1][url=thriveopedia:chemoSynthesizingProteins]Proteínas Quimiossintéticas[/url][/color][/b]."
 
 msgid "WIKI_CHEMOPLAST_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_CHEMOPLAST_PROCESSES"
-msgstr "Transforma [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] em [thrive:compound type=\"glucose\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+msgstr "[b]Quimiossíntese[/b]: [thrive:compound type=\\\"hydrogensulfide\\\"][/thrive:compound] + [thrive:compound type=\\\"carbondioxide\\\"][/thrive:compound] → [thrive:compound type=\\\"glucose\\\"][/thrive:compound]\\n\\nUm método de síntese de [thrive:compound type=\\\"glucose\\\"][/thrive:compound]. Requer [thrive:compound type=\\\"hydrogensulfide\\\"][/thrive:compound], e a velocidade da reação aumenta com a quantidade de [thrive:compound type=\\\"carbondioxide\\\"][/thrive:compound] no ambiente. É superior ao processo semelhante realizado pelas [b][color=#3796e1][url=thriveopedia:chemoSynthesizingProteins]Proteínas Quimiossintéticas[/url][/color][/b]."
 
 msgid "WIKI_CHEMOPLAST_REQUIREMENTS"
 msgstr "Uma célula deve ter um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b] para evoluir [b]Quimioplastos[/b]."
 
-#, fuzzy
 msgid "WIKI_CHEMOPLAST_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "Embora não existam micróbios reais com organelas chamadas \\\"quimioplastos\\\", a [color=#3796e1][url=https://en.wikipedia.org/wiki/Chemosynthesis]quimiossíntese[/url][/color] é um processo metabólico encontrado em muitos grupos microbianos. Considerando a existência de mitocôndrias e cloroplastos, ambas organelas delimitadas por membrana que surgiram por endossimbiose, é bastante plausível que uma organela semelhante a um quimioplasto também pudesse evoluir a partir de um micróbio quimiossintético engolfado por uma célula maior."
 
-#, fuzzy
 msgid "WIKI_CHEMOPLAST_STRATEGY"
-msgstr "O quimioplasto é uma estrutura de membrana dupla contendo proteínas capazes de converter sulfeto de hidrogênio, água, e gás carbônico em glicose em um processo chamado Quimiossíntese de Sulfeto de Hidrogênio. A proporção de sua produção de glicose aumenta com a concentração de dióxido de carbono."
+msgstr "Assim como as [b][color=#3796e1][url=thriveopedia:chemoSynthesizingProteins]Proteínas Quimiossintéticas[/url][/color][/b], esta organela dá à célula acesso ao abundante [thrive:compound type=\\\"hydrogensulfide\\\"][/thrive:compound] existente em algumas regiões. Como as concentrações ambientais de [thrive:compound type=\\\"glucose\\\"][/thrive:compound] diminuem ao longo do jogo, é recomendável encontrar outras fontes de energia, e o [thrive:compound type=\\\"hydrogensulfide\\\"][/thrive:compound] pode ser uma boa opção se sua célula permanecer nas fontes hidrotermais.\\n\\nRecomendamos substituir as [b][color=#3796e1][url=thriveopedia:chemoSynthesizingProteins]Proteínas Quimiossintéticas[/url][/color][/b] por [b]Quimioplastos[/b] após evoluir um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b], pois os quimioplastos são mais eficientes."
 
 msgid "WIKI_CHEMOPLAST_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_CHEMORECEPTOR_EFFECTS"
-msgstr "A “visão” das células é, na verdade, a quimiorrecepção. É assim que elas obtêm informações do ambiente. Adicionar essa organela representa evoluir uma quimiorrecepção melhor. Como o jogador já consegue ver o que está ao redor da célula, a quimiorrecepção é representada por uma linha apontando para compostos fora da tela."
+msgstr "Para cada [b]Quimiorreceptor[/b] ligado à célula do jogador:\\n\\n[ul]Se estiver configurado para detectar um composto específico, o jogador verá um indicador visual apontando para a nuvem mais próxima desse composto. A nuvem precisa estar dentro do raio de busca e ter densidade maior que a densidade mínima.\\nSe estiver configurado para detectar uma espécie específica, o jogador verá um indicador visual apontando para a célula mais próxima dessa espécie. A célula precisa estar dentro do raio de busca.[/ul]\\n\\nEnquanto isso, células não controladas pelo jogador terão maior probabilidade de se mover em direção aos compostos e/ou espécies definidos em seus [b]Quimiorreceptores[/b]."
 
-#, fuzzy
 msgid "WIKI_CHEMORECEPTOR_INTRO"
-msgstr "Organela externa que representa a habilidade da célula de detectar compostos no ambiente. [b]Quimiorreceptores[/b] podem ser customizados para detectar um composto específico, ou mesmo células de uma espécie específica."
+msgstr "[color=#3796e1][url=thriveopedia:OrganellesRoot]Organela[/url][/color] externa que representa a capacidade de uma célula detectar compostos no ambiente. Os [b]Quimiorreceptores[/b] podem ser personalizados para detectar um composto específico ou até mesmo células de uma espécie específica."
 
 #, fuzzy
 msgid "WIKI_CHEMORECEPTOR_MODIFICATIONS"
