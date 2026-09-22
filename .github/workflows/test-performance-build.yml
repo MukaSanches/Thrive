@@ -60,12 +60,12 @@ jobs:
         run: dotnet run --project Scripts -- godot-templates
 
       - name: Build Windows package
-        run: dotnet run --project Scripts -- package Windows
+        run: dotnet run --project Scripts -- package --source false Windows
 
       - name: Upload Windows package
         uses: actions/upload-artifact@v4
         with:
           name: Thrive-performance-test-windows
-          path: builds/*
+          path: builds/*.7z
           if-no-files-found: error
           retention-days: 7
