@@ -1,0 +1,44 @@
+name: Validate PT-BR translation
+
+on:
+  push:
+    branches:
+      - test/pt-br-validation
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          lfs: false
+          submodules: recursive
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Install gettext
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gettext
+
+      - name: Restore .NET dependencies
+        run: dotnet restore Thrive.sln
+
+      - name: Validate Brazilian Portuguese PO file
+        run: msgfmt --check --check-format locale/pt_BR.po -o /dev/null
+
+      - name: Recalculate translation progress
+        run: dotnet run --project Scripts -- translation-progress
+
+      - name: Verify translation progress is current
+        run: git diff --exit-code -- simulation_parameters/common/translations_info.json
+
+      - name: Run compile check
+        run: dotnet run --project Scripts -- check compile
