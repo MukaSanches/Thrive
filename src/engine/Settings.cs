@@ -127,6 +127,18 @@ public class Settings
         new(Viewport.AnisotropicFiltering.Anisotropy8X);
 
     /// <summary>
+    ///   Controls how aggressively automatically generated mesh LODs are selected
+    /// </summary>
+    [JsonProperty]
+    public SettingValue<float> MeshLodThreshold { get; private set; } = new(1.0f);
+
+    /// <summary>
+    ///   Sets the resolution of the positional light shadow atlas. Zero disables positional shadows
+    /// </summary>
+    [JsonProperty]
+    public SettingValue<int> PositionalShadowAtlasSize { get; private set; } = new(2048);
+
+    /// <summary>
     ///   Game rendering scale. Lower values enable upscaling from a lower resolution image
     /// </summary>
     [JsonProperty]
@@ -938,6 +950,24 @@ public class Settings
         var viewport = GUICommon.Instance.GetTree().Root.GetViewport();
         viewport.AnisotropicFilteringLevel = AnisotropicFilterLevel;
 
+        var meshLodThreshold = MeshLodThreshold.Value;
+        if (meshLodThreshold < 0)
+        {
+            GD.Print("Setting minimum mesh LOD threshold of 0, was: ", meshLodThreshold);
+            meshLodThreshold = 0;
+        }
+
+        viewport.MeshLodThreshold = meshLodThreshold;
+
+        var positionalShadowAtlasSize = PositionalShadowAtlasSize.Value;
+        if (positionalShadowAtlasSize < 0)
+        {
+            GD.Print("Setting minimum positional shadow atlas size of 0, was: ", positionalShadowAtlasSize);
+            positionalShadowAtlasSize = 0;
+        }
+
+        viewport.PositionalShadowAtlasSize = positionalShadowAtlasSize;
+
         // Values less than 0 are undefined behaviour
         int max = MaxFramesPerSecond;
         Engine.MaxFps = max >= 0 ? max : 0;
@@ -1473,24 +1503,28 @@ public class Settings
 
         var preset = GraphicsPresets.Preset.High;
 
+        var videoAdapterType = RenderingServer.GetVideoAdapterType();
+        GD.Print("Detected video adapter type as: ", videoAdapterType);
+
         // Automatic preset adjustment based on some conditions
-        if (FeatureInformation.GetVideoDriver() == OS.RenderingDriver.Opengl3 ||
+        if (videoAdapterType is RenderingDevice.DeviceType.Cpu or RenderingDevice.DeviceType.VirtualGpu ||
             availableRam < (long)GlobalConstants.GIBIBYTE * 3)
         {
+            preset = GraphicsPresets.Preset.VeryLow;
+        }
+        else if (FeatureInformation.GetVideoDriver() == OS.RenderingDriver.Opengl3)
+        {
             preset = GraphicsPresets.Preset.Low;
-
-            // Apparently on Linux with a dedicated GPU this detection is not correct, so we have some safety
-            // handling here
-            bool hasDedicatedGpu = RenderingServer.GetVideoAdapterType() is RenderingDevice.DeviceType.DiscreteGpu
-                or RenderingDevice.DeviceType.Other;
-
-            // Additionally, if integrated graphics and system memory is not very high set to very low
-
-            if ((!hasDedicatedGpu && availableRam < (long)GlobalConstants.GIBIBYTE * 11) ||
-                (availableRam < (long)GlobalConstants.GIBIBYTE * 3))
+        }
+        else if (videoAdapterType == RenderingDevice.DeviceType.IntegratedGpu && !FeatureInformation.IsMac())
+        {
+            if (availableRam < (long)GlobalConstants.GIBIBYTE * 8)
             {
-                GD.Print("Detected integrated graphics and low system memory (or very low memory)");
                 preset = GraphicsPresets.Preset.VeryLow;
+            }
+            else
+            {
+                preset = GraphicsPresets.Preset.Medium;
             }
         }
         else if (Environment.ProcessorCount <= 4 || availableRam < (long)GlobalConstants.GIBIBYTE * 6)
