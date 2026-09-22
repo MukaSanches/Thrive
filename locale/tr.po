@@ -1655,13 +1655,11 @@ msgstr "Nesne büyüklüğünü azalt"
 msgid "DEFAULT_AUDIO_OUTPUT_DEVICE"
 msgstr "Varsayılan çıkış aygıtı"
 
-#, fuzzy
 msgid "DEFAULT_GAMETE_B_CELL_TYPE_NAME"
-msgstr "Spor"
+msgstr "Gamet B"
 
-#, fuzzy
 msgid "DEFAULT_GAMETE_CELL_TYPE_NAME"
-msgstr "Spor"
+msgstr "Gamet"
 
 msgid "DEFAULT_SPORE_CELL_TYPE_NAME"
 msgstr "Spor"
@@ -4683,13 +4681,11 @@ msgstr "Hiçbir olay meydana gelmedi"
 msgid "NO_FOSSIL_DIRECTORY"
 msgstr "Fosiller dizini bulunamadı"
 
-#, fuzzy
 msgid "NO_GAMETE_CELL_TYPE_SET"
-msgstr "Gamet türü A"
+msgstr "Eşeyli üreme kullanan bir organizmada bir gamet hücre türü ayarlanmış olmalıdır."
 
-#, fuzzy
 msgid "NO_GAMETE_CELL_TYPE_SET_TITLE"
-msgstr "Spor hücresi türü seçili değil"
+msgstr "Gamet hücre türü ayarlanmadı"
 
 msgid "NO_LONGER_ELIGIBLE_FOR_ACHIEVEMENTS"
 msgstr "Mevcut oyun, artık başarımlar için uygun değil"
@@ -6075,9 +6071,8 @@ msgstr "Fosfat oluştur"
 msgid "SPECIALIZATION_COLON"
 msgstr "Özelleşme:"
 
-#, fuzzy
 msgid "SPECIAL_CELL_TYPE_ORIGIN_CELL_TYPE_SELECTION_POPUP_TITLE"
-msgstr "Kopyasını oluşturmak için bir hücre türü seçin"
+msgstr "Çoğaltılacak hücre türünü seçin"
 
 msgid "SPECIAL_MOUSE_1"
 msgstr "Özel Fare Tuşu 1"
@@ -11057,3 +11052,4 @@ msgstr "Uzaklaştır"
 #, fuzzy
 #~ msgid "DOT_RATE_SCALES"
 #~ msgstr ". Oran doğru orantılı"
+
