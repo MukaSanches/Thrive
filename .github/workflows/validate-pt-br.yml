@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - test/pt-br-validation
+  pull_request:
+    branches:
+      - translation/pt-br-100-clean
   workflow_dispatch:
 
 jobs:
