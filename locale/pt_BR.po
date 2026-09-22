@@ -8034,36 +8034,23 @@ msgstr "Para células que engolfam presas, geralmente é recomendável evoluir p
 msgid "WIKI_LYSOSOME_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_MACROSCOPIC_STAGE_CONCEPT_ART"
-msgstr "Estágio Multicelular"
+msgstr "[ul]\\t\\t\\t<img alt=\"Conceito do editor\" src=\"/images/thumb/9/9f/Multieditorconcept.jpeg/120px-Multieditorconcept.jpeg\" decoding=\"async\" width=\"120\" height=\"108\" class=\"mw-file-element\" srcset=\"/images/thumb/9/9f/Multieditorconcept.jpeg/180px-Multieditorconcept.jpeg 1.5x, /images/thumb/9/9f/Multieditorconcept.jpeg/240px-Multieditorconcept.jpeg 2x\">\\t\\t\\t\\t\\t\\n\\t\\t\\t<img alt=\"Conceito de cores do terreno\" src=\"/images/thumb/9/92/Multicolorconcept.png/120px-Multicolorconcept.png\" decoding=\"async\" width=\"120\" height=\"68\" class=\"mw-file-element\" srcset=\"/images/thumb/9/92/Multicolorconcept.png/180px-Multicolorconcept.png 1.5x, /images/thumb/9/92/Multicolorconcept.png/240px-Multicolorconcept.png 2x\">\\t\\t\\t\\t\\t[/ul]"
 
-#, fuzzy
 msgid "WIKI_MACROSCOPIC_STAGE_CURRENT_DEVELOPMENT"
-msgstr "Permite a ligação com outras células. Este é o primeiro passo até a multicelularidade. Quando sua célula é parte de uma colônia, os compostos são compartilhados entre as células. Você não pode entrar no editor enquanto faz parte de uma colônia, por isso precisa se desconectar após coletar compostos suficientes para dividir sua célula."
+msgstr "O desenvolvimento do Estágio Macroscópico já começou em nível de protótipo."
 
-#, fuzzy
 msgid "WIKI_MACROSCOPIC_STAGE_FEATURES"
-msgstr "Jato de Slime"
+msgstr "Neste estágio, o jogador continua podendo editar tipos celulares, mas, em vez de posicioná-los em um plano corporal de células, esses tipos passam a ser usados como massas de tecido, posicionadas em um editor de plano corporal macroscópico totalmente 3D. O editor é baseado no posicionamento e na edição de metaballs que representam a estrutura da espécie.\\n\\nO jogador se torna uma criatura macroscópica. Isso altera a escala do jogo: micróbios deixam de ser visíveis e o jogador passa a modelar tecidos em vez de posicionar células individuais.\\n\\nHá uma página separada do GDD do Estágio Macroscópico que descreve as mecânicas do estágio em mais detalhes."
 
-#, fuzzy
 msgid "WIKI_MACROSCOPIC_STAGE_INTRO"
-msgstr ""
-"Em um planeta distante, éons de atividades vulcânicas e impactos de meteoros causaram o desenvolvimento de um novo fenômeno no universo.\n"
-"\n"
-"A vida.\n"
-"\n"
-"Micróbios simples moram nas regiões mais profundas do oceano. Você é o Último Ancestral Comum Universal (LUCA) no planeta.\n"
-"\n"
-"Para sobreviver neste mundo hostil, você precisará coletar compostos e evoluir por gerações para competir contra outras espécies de micróbios."
+msgstr "No Estágio Macroscópico, sua colônia de células se transformará em uma massa formada por diferentes tipos de tecido que existe em um ambiente 3D. O estágio termina quando sua criatura desenvolve, pela primeira vez, um determinado nível de senciência."
 
-#, fuzzy
 msgid "WIKI_MACROSCOPIC_STAGE_OVERVIEW"
-msgstr "Estágio Espacial"
+msgstr "A vida floresce nos oceanos e haverá grande diversidade. De repente, o mundo se torna muito maior para o jogador.\\n\\nO jogador passa a controlar uma criatura propriamente dita, formada por tecidos. A escala começa na ordem dos centímetros e aumenta a partir daí. Células individuais deixam de ser visíveis ou simuladas neste estágio."
 
-#, fuzzy
 msgid "WIKI_MACROSCOPIC_STAGE_TRANSITIONS"
-msgstr "Nitrogenase"
+msgstr "O estágio começa quando uma colônia multicelular cresce o suficiente para fazer a transição para uma estrutura formada por tecidos. Atualmente, está planejado que isso aconteça por volta de 20 células.\\n\\nO estágio termina quando a espécie do jogador evolui um sistema nervoso suficientemente complexo."
 
 msgid "WIKI_MACROSCOPIC_STAGE_UI"
 msgstr "Nada foi discutido."
@@ -8071,65 +8058,53 @@ msgstr "Nada foi discutido."
 msgid "WIKI_MECHANICS"
 msgstr "Mecânicas"
 
-#, fuzzy
 msgid "WIKI_MECHANICS_ROOT_INTRO"
-msgstr "Axônio"
+msgstr "Estes são vários conceitos compartilhados entre diferentes estágios ou editores.\\n\\nAs páginas abaixo explicam diversas mecânicas. Sinta-se à vontade para explorá-las em busca de dicas e ajuda sobre o jogo."
 
-#, fuzzy
 msgid "WIKI_MELANOSOME_EFFECTS"
-msgstr "Sem efeitos."
+msgstr "Aumenta em 2% a [b]Resistência[/b] à [thrive:compound type=\"sunlight\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_MELANOSOME_INTRO"
-msgstr "[b]Melanossomas[/b] fazem [b]Radiossíntese[/b], que captura energia de radiação, a capturando em melanina."
+msgstr "Os [b]Melanossomos[/b] são [color=#3796e1][url=thriveopedia:OrganellesRoot]organelas[/url][/color] que realizam [b]Radiossíntese[/b], capturando energia da radiação por meio da absorção realizada pela melanina."
 
 msgid "WIKI_MELANOSOME_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_MELANOSOME_PROCESSES"
-msgstr "Contém enzimas digestivas. Pode ser modificado para mudar o tipo de enzima que contém. Só uma enzima pode ser utilizada ao mesmo tempo."
+msgstr "[b]Radiossíntese[/b]: [b]Radiação[/b] → [thrive:compound type=\"atp\"][/thrive:compound]\\n\\nUm método de produção de energia que utiliza materiais radioativos."
 
-#, fuzzy
 msgid "WIKI_MELANOSOME_REQUIREMENTS"
-msgstr "Precisa receber dano por radiação estando próxima a um pedaço radioativo"
+msgstr "É necessário receber dano por radiação ao permanecer próximo de um pedaço radioativo."
 
-#, fuzzy
 msgid "WIKI_MELANOSOME_SCIENTIFIC_BACKGROUND"
-msgstr "A ser adicionado"
+msgstr "Os [color=#3796e1][url=https://en.wikipedia.org/wiki/Melanosome]melanossomos[/url][/color] são organelas encontradas em algumas células animais reais, onde sua principal função é absorver luz usando o pigmento melanina.\\n\\nA melanina também foi encontrada em fungos aparentemente radiotróficos descobertos nas instalações desativadas da Usina Nuclear de Chernobyl, assim como em fungos que vivem em grandes altitudes e ficam mais expostos à luz ultravioleta. Pesquisas posteriores sugerem que a melanina pode permitir que esses organismos realizem radiossíntese ao capturar energia da radiação ionizante."
 
-#, fuzzy
 msgid "WIKI_MELANOSOME_STRATEGY"
-msgstr "Metabolossomos são aglomerados envoltos com cascas de proteínas. Eles conseguem converter glicose em ATP a uma taxa muito maior do que pode ser feita no citoplasma em um processo chamado Respiração Aeróbica. No entanto, necessita de oxigênio para funcionar, e níveis menores de oxigênio no ambiente vão desacelerar a taxa da produção de ATP. Como os metabolossomos são suspensos diretamente no citoplasma, os fluidos em volta realizarão a fermentação."
+msgstr "Rochas radioativas são raras, mas fornecem muita energia quando encontradas. Para usar radiossíntese, recomenda-se ter bastante armazenamento ou outras formas de sobreviver enquanto procura a próxima rocha radioativa. Ao encontrá-la, haverá temporariamente uma grande disponibilidade de energia para reprodução e outras necessidades."
 
 msgid "WIKI_MELANOSOME_UPGRADES"
 msgstr "Sem melhoras."
 
-#, fuzzy
 msgid "WIKI_METABOLOSOMES_EFFECTS"
-msgstr "Sem efeitos."
+msgstr "Aumenta em 3,5% a [b]Resistência[/b] ao [thrive:compound type=\"oxygen\"][/thrive:compound]."
 
-#, fuzzy
 msgid "WIKI_METABOLOSOMES_INTRO"
-msgstr "Metabolossomo"
+msgstr "Os [b]Metabolossomos[/b] realizam [b]Respiração Proteica[/b], uma forma de [b]Respiração Aeróbica[/b] menos eficiente que a realizada pelas [b][color=#3796e1][url=thriveopedia:mitochondrion]Mitocôndrias[/url][/color][/b]. Esse processo converte [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound] usando [thrive:compound type=\"oxygen\"][/thrive:compound]."
 
 msgid "WIKI_METABOLOSOMES_MODIFICATIONS"
 msgstr "Sem modificações."
 
-#, fuzzy
 msgid "WIKI_METABOLOSOMES_PROCESSES"
-msgstr "Transforma [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"oxygen\"][/thrive:compound]."
+msgstr "[b]Respiração Proteica[/b]: [thrive:compound type=\"glucose\"][/thrive:compound] + [thrive:compound type=\"oxygen\"][/thrive:compound] → [thrive:compound type=\"atp\"][/thrive:compound] + [thrive:compound type=\"carbondioxide\"][/thrive:compound]\\n\\nUm método de produção de energia mais eficiente que o realizado no [b][color=#3796e1][url=thriveopedia:cytoplasm]Citoplasma[/url][/color][/b], mas menos eficiente que o das [b][color=#3796e1][url=thriveopedia:mitochondrion]Mitocôndrias[/url][/color][/b]. Exige um fluxo constante de [thrive:compound type=\"glucose\"][/thrive:compound]. A taxa aumenta conforme a concentração ambiental de [thrive:compound type=\"oxygen\"][/thrive:compound]."
 
 msgid "WIKI_METABOLOSOMES_REQUIREMENTS"
 msgstr "Sem requisitos"
 
-#, fuzzy
 msgid "WIKI_METABOLOSOMES_SCIENTIFIC_BACKGROUND"
-msgstr "Metabolossomos são aglomerados envoltos com cascas de proteínas. Eles conseguem converter glicose em ATP a uma taxa muito maior do que pode ser feita no citoplasma em um processo chamado Respiração Aeróbica. No entanto, necessita de oxigênio para funcionar, e níveis menores de oxigênio no ambiente vão desacelerar a taxa da produção de ATP. Como os metabolossomos são suspensos diretamente no citoplasma, os fluidos em volta realizarão a fermentação."
+msgstr "Ao contrário dos eucariontes, as organelas dos procariontes não possuem membranas. Em vez disso, procariontes como bactérias constroem compartimentos a partir de proteínas. Um [b]Metabolossomo[/b] é um exemplo desse tipo de compartimento, oficialmente chamado de Microcompartimento Bacteriano (BMC). Os BMCs consistem em uma cápsula proteica poliédrica de aproximadamente 100 a 200 nm, com aparência semelhante ao capsídeo de um vírus. As proteínas que formam essa cápsula normalmente possuem poros semipermeáveis que permitem a entrada e saída de diferentes compostos, como substratos e produtos. Esses compartimentos concentram enzimas e proteínas envolvidas em processos metabólicos específicos em um único local, aumentando sua eficiência. A cápsula proteica também funciona como uma barreira física, permitindo que os BMCs realizem reações metabólicas que produzem compostos intermediários tóxicos ou instáveis.\\n\\nOs [b]Metabolossomos[/b] são um tipo catabólico de BMC e participam da degradação de diferentes fontes de carbono, como glicerol e aminoácidos. Não há evidências claras de que a degradação de [thrive:compound type=\"glucose\"][/thrive:compound] ocorra em metabolossomos, mas não é absurdo supor que isso seja possível. O processo real de decomposição da glicose para obtenção de energia ocorre em várias etapas tanto em procariontes quanto em eucariontes; a principal diferença está em onde algumas enzimas ficam localizadas e organizadas.\\n\\nLeia mais na [color=#3796e1][url=https://en.wikipedia.org/wiki/Bacterial_microcompartment#Metabolosomes%3A_aldehyde_oxidation]página da Wikipédia[/url][/color] sobre essa organela."
 
-#, fuzzy
 msgid "WIKI_METABOLOSOMES_STRATEGY"
-msgstr "Metabolossomos são aglomerados envoltos com cascas de proteínas. Eles conseguem converter glicose em ATP a uma taxa muito maior do que pode ser feita no citoplasma em um processo chamado Respiração Aeróbica. No entanto, necessita de oxigênio para funcionar, e níveis menores de oxigênio no ambiente vão desacelerar a taxa da produção de ATP. Como os metabolossomos são suspensos diretamente no citoplasma, os fluidos em volta realizarão a fermentação."
+msgstr "Em muitos aspectos, os [b]Metabolossomos[/b] são uma extensão do [b][color=#3796e1][url=thriveopedia:cytoplasm]Citoplasma[/url][/color][/b]. Um estilo de jogo que funciona para a célula inicial, LUCA, provavelmente também funcionará para uma célula composta por [b]Metabolossomos[/b]: basta coletar [thrive:compound type=\"glucose\"][/thrive:compound] do ambiente. A diferença é a maior eficiência, capaz de sustentar mais organelas com funções variadas, como [b][color=#3796e1][url=thriveopedia:pilus]Pili Perfuradores[/url][/color][/b] ou [b][color=#3796e1][url=thriveopedia:flagellum]Flagelos[/url][/color][/b].\\n\\nEntretanto, a concentração natural de [thrive:compound type=\"glucose\"][/thrive:compound] no ambiente diminui ao longo do jogo, então pode ser recomendável mudar para novas fontes de alimento mais tarde.\\n\\nDepois que uma célula evolui um [b][color=#3796e1][url=thriveopedia:nucleus]Núcleo[/url][/color][/b], recomenda-se substituir os [b]Metabolossomos[/b] por seu equivalente eucariótico, as [b][color=#3796e1][url=thriveopedia:mitochondrion]Mitocôndrias[/url][/color][/b], que são muito mais eficientes."
 
 msgid "WIKI_METABOLOSOMES_UPGRADES"
 msgstr "Sem melhoras."
@@ -8209,16 +8184,8 @@ msgstr ""
 msgid "WIKI_MICROBE_STAGE_GDD"
 msgstr "Existe um documento de game design separado para o estágio microbial que entra em mais detalhes: DGD do Estágio Microbial"
 
-#, fuzzy
 msgid "WIKI_MICROBE_STAGE_INTRO"
-msgstr ""
-"Em um planeta distante, éons de atividades vulcânicas e impactos de meteoros causaram o desenvolvimento de um novo fenômeno no universo.\n"
-"\n"
-"A vida.\n"
-"\n"
-"Micróbios simples moram nas regiões mais profundas do oceano. Você é o Último Ancestral Comum Universal (LUCA) no planeta.\n"
-"\n"
-"Para sobreviver neste mundo hostil, você precisará coletar compostos e evoluir por gerações para competir contra outras espécies de micróbios."
+msgstr "Estágio anterior: não há estágios anteriores.\\n\\nPróximo estágio: [color=#3796e1][url=thriveopedia:multicellular_stage]Estágio Multicelular[/url][/color]\\n\\nO Estágio Microbiano é o primeiro estágio do jogo. Ele começa com a primeira espécie existente no mundo, recém-surgida das origens primordiais da vida e explorando as Fontes Pangonianas ricas em nutrientes. É nesse momento que o jogador assume o papel de uma pequena massa procariótica de citoplasma, um dos poucos indivíduos da própria espécie. No início, o jogador precisa depender inteiramente de [thrive:compound type=\"glucose\"][/thrive:compound] dispersa para sobreviver, pois ainda não possui formas de processar outros nutrientes, e deve procurar [thrive:compound type=\"phosphates\"][/thrive:compound] e [thrive:compound type=\"ammonia\"][/thrive:compound] para crescer e se preparar para a reprodução. Quando alcançar tamanho suficiente, poderá se reproduzir e, se desejar, entrar no editor de micróbios. Conforme o jogo avança, o jogador adapta gradualmente sua célula para sobreviver melhor em um mundo que se torna mais hostil a cada geração e competir com novas espécies que surgiram a partir da sua própria."
 
 msgid "WIKI_MITOCHONDRION_EFFECTS"
 msgstr "Aumenta em 8% a [b]Resistência[/b] ao [thrive:compound type=\"oxygen\"][/thrive:compound]."
@@ -8247,24 +8214,20 @@ msgstr "Sem melhoras."
 msgid "WIKI_MUCOCYST"
 msgstr "Mucocisto"
 
-#, fuzzy
 msgid "WIKI_MULTICELLULAR_STAGE_CONCEPT_ART"
-msgstr "Estágio Multicelular"
+msgstr "[ul]\\t\\t\\t<img alt=\"Conceito de percepção\" src=\"/images/thumb/7/75/Multiperceptionconcept.jpg/120px-Multiperceptionconcept.jpg\" decoding=\"async\" width=\"120\" height=\"90\" class=\"mw-file-element\" srcset=\"/images/thumb/7/75/Multiperceptionconcept.jpg/180px-Multiperceptionconcept.jpg 1.5x, /images/thumb/7/75/Multiperceptionconcept.jpg/240px-Multiperceptionconcept.jpg 2x\">\\t\\t\\t\\t\\t\\n\\t\\t\\t<img alt=\"Conceito do editor\" src=\"/images/thumb/9/9f/Multieditorconcept.jpeg/120px-Multieditorconcept.jpeg\" decoding=\"async\" width=\"120\" height=\"108\" class=\"mw-file-element\" srcset=\"/images/thumb/9/9f/Multieditorconcept.jpeg/180px-Multieditorconcept.jpeg 1.5x, /images/thumb/9/9f/Multieditorconcept.jpeg/240px-Multieditorconcept.jpeg 2x\">\\t\\t\\t\\t\\t[/ul]"
 
 msgid "WIKI_MULTICELLULAR_STAGE_CURRENT_DEVELOPMENT"
 msgstr "O desenvolvimento do Estágio Multicelular é atualmente o principal foco do desenvolvimento do Thrive."
 
-#, fuzzy
 msgid "WIKI_MULTICELLULAR_STAGE_FEATURES"
-msgstr "Estágio Multicelular"
+msgstr "A jogabilidade do Estágio Multicelular se parece bastante com a do Estágio Microbiano. O jogo continua ocorrendo em um plano 2D com outras células, mas agora o jogador controla uma colônia em crescimento. A diferença em relação ao final do Estágio Microbiano é que a colônia não pode mais ser desfeita: ela funciona como um único organismo cujas células permanecem permanentemente unidas. O ambiente microbiano continua sendo usado, e o jogador ainda pode interagir com micróbios.\\n\\nNo editor, o jogador pode criar e editar tipos celulares, além de alterar a estrutura e as organelas dessas células. Qualquer mudança feita em um tipo celular é aplicada automaticamente a todas as células desse tipo. Usando diferentes tipos celulares, o jogador poderá especializar células distintas da colônia para funções diferentes. Como células especializadas recebem bônus de eficiência, ampliados ainda mais quando células do mesmo tipo ficam adjacentes, isso proporciona uma grande vantagem sobre organismos unicelulares.\\n\\nNo fim do estágio, o jogador controla uma grande colônia de células capaz de dominar o mundo microscópico e então dá o salto para crescer ainda mais e se tornar uma criatura macroscópica.\\n\\nHá uma página separada do GDD do Estágio Multicelular que descreve suas mecânicas em mais detalhes."
 
-#, fuzzy
 msgid "WIKI_MULTICELLULAR_STAGE_INTRO"
-msgstr "Estágio Multicelular"
+msgstr "No Estágio Multicelular, sua colônia celular se torna cada vez mais complexa e especializada até virar um organismo macroscópico. O estágio termina quando sua espécie cresce o suficiente para se tornar macroscópica e avançar para o [color=#3796e1][url=thriveopedia:macroscopic_stage]Estágio Macroscópico[/url][/color]."
 
-#, fuzzy
 msgid "WIKI_MULTICELLULAR_STAGE_OVERVIEW"
-msgstr "Estágio Multicelular"
+msgstr "A vida floresce nos oceanos e haverá grande diversidade. De repente, o mundo parece muito menor para o jogador, pois sua espécie passa a ser uma das maiores coisas do ambiente microscópico.\\n\\nO jogador agora controla uma colônia de células que forma um organismo maior. O tamanho da colônia aumenta gradualmente, com tipos celulares cada vez mais especializados preparando a transição para o estágio macroscópico."
 
 #, fuzzy
 msgid "WIKI_MULTICELLULAR_STAGE_TRANSITIONS"
